@@ -76,8 +76,88 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "purescript/arrays",
+              "path": "/purescript/arrays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/bindings",
+              "path": "/purescript/bindings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/conditionals",
+              "path": "/purescript/conditionals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/custom-types",
+              "path": "/purescript/custom-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/folds",
+              "path": "/purescript/folds",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "purescript/functions",
               "path": "/purescript/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/getting-started",
+              "path": "/purescript/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/IO",
+              "path": "/purescript/IO",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/js-interaction",
+              "path": "/purescript/js-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/lists",
+              "path": "/purescript/lists",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/map-reduce-filter",
+              "path": "/purescript/map-reduce-filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/modules",
+              "path": "/purescript/modules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/patttern-matching",
+              "path": "/purescript/patttern-matching",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/records",
+              "path": "/purescript/records",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/standard-lib",
+              "path": "/purescript/standard-lib",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/typeclasses",
+              "path": "/purescript/typeclasses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/types",
+              "path": "/purescript/types",
               "sidebar": "tutorialSidebar"
             },
             {

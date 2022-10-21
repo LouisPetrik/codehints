@@ -95,9 +95,105 @@
         "items": [
           {
             "type": "link",
+            "label": "Using the console",
+            "href": "/purescript/IO",
+            "docId": "purescript/IO"
+          },
+          {
+            "type": "link",
+            "label": "Arrays",
+            "href": "/purescript/arrays",
+            "docId": "purescript/arrays"
+          },
+          {
+            "type": "link",
+            "label": "Bindings",
+            "href": "/purescript/bindings",
+            "docId": "purescript/bindings"
+          },
+          {
+            "type": "link",
+            "label": "Conditionals",
+            "href": "/purescript/conditionals",
+            "docId": "purescript/conditionals"
+          },
+          {
+            "type": "link",
+            "label": "Custom Types",
+            "href": "/purescript/custom-types",
+            "docId": "purescript/custom-types"
+          },
+          {
+            "type": "link",
+            "label": "Folds",
+            "href": "/purescript/folds",
+            "docId": "purescript/folds"
+          },
+          {
+            "type": "link",
             "label": "Functions",
             "href": "/purescript/functions",
             "docId": "purescript/functions"
+          },
+          {
+            "type": "link",
+            "label": "Getting started",
+            "href": "/purescript/getting-started",
+            "docId": "purescript/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "JavaScript Interaction",
+            "href": "/purescript/js-interaction",
+            "docId": "purescript/js-interaction"
+          },
+          {
+            "type": "link",
+            "label": "Lists",
+            "href": "/purescript/lists",
+            "docId": "purescript/lists"
+          },
+          {
+            "type": "link",
+            "label": "Map, Reduce and Filter",
+            "href": "/purescript/map-reduce-filter",
+            "docId": "purescript/map-reduce-filter"
+          },
+          {
+            "type": "link",
+            "label": "Modules",
+            "href": "/purescript/modules",
+            "docId": "purescript/modules"
+          },
+          {
+            "type": "link",
+            "label": "Pattern matching",
+            "href": "/purescript/patttern-matching",
+            "docId": "purescript/patttern-matching"
+          },
+          {
+            "type": "link",
+            "label": "Records",
+            "href": "/purescript/records",
+            "docId": "purescript/records"
+          },
+          {
+            "type": "link",
+            "label": "Standard Library",
+            "href": "/purescript/standard-lib",
+            "docId": "purescript/standard-lib"
+          },
+          {
+            "type": "link",
+            "label": "Typeclasses",
+            "href": "/purescript/typeclasses",
+            "docId": "purescript/typeclasses"
+          },
+          {
+            "type": "link",
+            "label": "Types",
+            "href": "/purescript/types",
+            "docId": "purescript/types"
           }
         ],
         "href": "/category/purescript"
@@ -210,10 +306,106 @@
       "description": "Hey there! Welcome to my cheatsheets",
       "sidebar": "tutorialSidebar"
     },
+    "purescript/arrays": {
+      "id": "purescript/arrays",
+      "title": "Arrays",
+      "description": "Generating Array in Range:",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/bindings": {
+      "id": "purescript/bindings",
+      "title": "Bindings",
+      "description": "Many ask, whether it's in the style of functional programming to declare and mutate variables within the scope of a function. If you have a couple hours left, go ahead and Google the discussion yourself. Meanwhile, in PureScript we can assign constants within the scope of a function. This can be done with bindings.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/conditionals": {
+      "id": "purescript/conditionals",
+      "title": "Conditionals",
+      "description": "There are a couple ways to execute code conditionally in PureScript: If-then-else, case expressions, pattern matching (there is a whole section below on this topic) and guards.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/custom-types": {
+      "id": "purescript/custom-types",
+      "title": "Custom Types",
+      "description": "Creating data types and re-naming types is powerful. To achieve both things, PureScript offers two keywords:",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/folds": {
+      "id": "purescript/folds",
+      "title": "Folds",
+      "description": "Make sure to import:",
+      "sidebar": "tutorialSidebar"
+    },
     "purescript/functions": {
       "id": "purescript/functions",
       "title": "Functions",
       "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/getting-started": {
+      "id": "purescript/getting-started",
+      "title": "Getting started",
+      "description": "Installing PureScript on your machine:",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/IO": {
+      "id": "purescript/IO",
+      "title": "Using the console",
+      "description": "To log something in the console, make sure to import the proper package.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/js-interaction": {
+      "id": "purescript/js-interaction",
+      "title": "JavaScript Interaction",
+      "description": "This part resolves around using PureScript functions in JavaScript, and the other way around - using JavaScript functions in",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/lists": {
+      "id": "purescript/lists",
+      "title": "Lists",
+      "description": "In PureScript it is important to differentiate Lists and Arrays.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/map-reduce-filter": {
+      "id": "purescript/map-reduce-filter",
+      "title": "Map, Reduce and Filter",
+      "description": "Map",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/modules": {
+      "id": "purescript/modules",
+      "title": "Modules",
+      "description": "Modules are the way to split up our code into multiple files. Here is an example of writing a function in",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/patttern-matching": {
+      "id": "purescript/patttern-matching",
+      "title": "Pattern matching",
+      "description": "Before, we just covered a little bit of pattern matching in functions - let's go into more detail, and learn about pattern matching for different data types.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/records": {
+      "id": "purescript/records",
+      "title": "Records",
+      "description": "Records are basically like Objects in JS. Yet, immutable, of course.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/standard-lib": {
+      "id": "purescript/standard-lib",
+      "title": "Standard Library",
+      "description": "This section is going to cover some useful functions, available by default, like const, apply, flip and more.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/typeclasses": {
+      "id": "purescript/typeclasses",
+      "title": "Typeclasses",
+      "description": "No, typeclasses are not related to classes in object oriented programming. Rather, typeclasses can be imagined as interfaces in functional programming. Typeclasses serve to overload functions for different data types, for example. First, we define the class itself and the signature of the functions it holds. Then, we can create as many instances as we like to - these instances are usually created for different data types. Nevertheless, all instances must define the functions which are declared in the related typeclass. Let's look at an example.",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/types": {
+      "id": "purescript/types",
+      "title": "Types",
+      "description": "Default Types",
       "sidebar": "tutorialSidebar"
     }
   }

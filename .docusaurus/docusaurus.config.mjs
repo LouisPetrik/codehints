@@ -28,7 +28,7 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "/Users/louis/Desktop/projekte/codehints/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/LouisPetrik/cheatsheet"
         },
         "blog": false,
         "theme": {
@@ -52,7 +52,7 @@ export default {
           "label": "Cheatsheets"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/LouisPetrik/cheatsheet",
           "label": "GitHub",
           "position": "right"
         }
@@ -72,23 +72,6 @@ export default {
           ]
         },
         {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
           "title": "More",
           "items": [
             {
@@ -102,7 +85,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Louis Petrik"
     },
     "prism": {
       "theme": {

@@ -5,8 +5,8 @@
   "permalink": "/category/haskell",
   "navigation": {
     "previous": {
-      "title": "Functions",
-      "permalink": "/purescript/functions"
+      "title": "Types",
+      "permalink": "/purescript/types"
     },
     "next": {
       "title": "Data types",

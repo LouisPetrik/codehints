@@ -8,17 +8,17 @@
   "slug": "/purescript/functions",
   "permalink": "/purescript/functions",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/purescript/functions.md",
+  "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/functions.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "PureScript",
-    "permalink": "/category/purescript"
+    "title": "Folds",
+    "permalink": "/purescript/folds"
   },
   "next": {
-    "title": "Haskell",
-    "permalink": "/category/haskell"
+    "title": "Getting started",
+    "permalink": "/purescript/getting-started"
   }
 }

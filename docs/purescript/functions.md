@@ -2,7 +2,7 @@
 
 As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know. 
 
-### Writing a function with a return
+## Writing a function with a return
 
 ```haskell
 double a = a * 2
@@ -10,7 +10,7 @@ double a = a * 2
 
 This functions receives a parameter "a" and returns it (everything behind the equals-sign).
 
-#### Providing types for the function:
+### Providing types for the function:
 
 ```haskell
 double :: Int -> Int
@@ -19,7 +19,7 @@ double a = a * 2
 
 This is optional, yet, a best practise.
 
-### Writing a function with more than one parameter:
+## Writing a function with more than one parameter:
 
 ```haskell
 add :: Int -> Int -> Int
@@ -39,7 +39,7 @@ function add(a) {
 
 Confusing, hm?
 
-### Function recursion
+## Function recursion
 
 Recursive is a function that calls itself. This is really useful to write clean code.
 The following example is a recursive function. It receives a number as starting value,
@@ -59,7 +59,7 @@ main = log (show (sumToTen 0))
 Result will be "10".
 
 
-### Higher-order functions 
+## Higher-order functions 
 
 A higher-order function is a function, that takes another function as a parameter / and or returns another function. This might sound weird at first, but trust me, you used higher-order functions before, and the concept is really powerful. For example, map, filter and reduce as we also have them in JavaScript or Python, are higher-order functions. 
 
@@ -84,7 +84,7 @@ divideByTwo doubleNum 4
 
 As we undo the multiplication through dividing, the output is 4 again. 
 
-### Impure functions
+## Impure functions
 
 By definition, pure functions do not change anything outside of their scope. Logging something in the
 console therefore is an impure function.
@@ -99,7 +99,7 @@ logSomething message = log ("My message: " <> message)
 main = logSomething "Hello"
 ```
 
-### The do-keyword in functions
+## The do-keyword in functions
 
 The do keyword allows to make code in functions more readable and to work with different expressions. In the following example, "j" and "i" are both expressions, used in a final expression at the bottom which is finally returned.
 

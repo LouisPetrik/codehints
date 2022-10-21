@@ -9,8 +9,8 @@
       "permalink": "/golang/variables"
     },
     "next": {
-      "title": "Functions",
-      "permalink": "/purescript/functions"
+      "title": "Using the console",
+      "permalink": "/purescript/IO"
     }
   }
 }

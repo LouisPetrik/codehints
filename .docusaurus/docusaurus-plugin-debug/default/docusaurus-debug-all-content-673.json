@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/",
           "tagsPath": "/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs",
+          "editUrlLocalized": "https://github.com/LouisPetrik/cheatsheet/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/louis/Desktop/projekte/codehints/sidebars.js",
@@ -29,7 +29,7 @@
               "slug": "/cpp/functions",
               "permalink": "/cpp/functions",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/cpp/functions.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/functions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -53,7 +53,7 @@
               "slug": "/golang/arrays-slices",
               "permalink": "/golang/arrays-slices",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/arrays-slices.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/arrays-slices.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -77,7 +77,7 @@
               "slug": "/golang/concurrency",
               "permalink": "/golang/concurrency",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/concurrency.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/concurrency.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -101,7 +101,7 @@
               "slug": "/golang/conditionals",
               "permalink": "/golang/conditionals",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/conditionals.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/conditionals.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -125,7 +125,7 @@
               "slug": "/golang/custom-types",
               "permalink": "/golang/custom-types",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/custom-types.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/custom-types.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -149,7 +149,7 @@
               "slug": "/golang/getting-started",
               "permalink": "/golang/getting-started",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/getting-started.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/getting-started.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -173,7 +173,7 @@
               "slug": "/golang/io",
               "permalink": "/golang/io",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/io.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/io.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -197,7 +197,7 @@
               "slug": "/golang/loops",
               "permalink": "/golang/loops",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/loops.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/loops.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -221,7 +221,7 @@
               "slug": "/golang/variables",
               "permalink": "/golang/variables",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/variables.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/variables.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -245,7 +245,7 @@
               "slug": "/haskell/datatypes",
               "permalink": "/haskell/datatypes",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/datatypes.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/datatypes.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -269,7 +269,7 @@
               "slug": "/haskell/functions",
               "permalink": "/haskell/functions",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/functions.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/functions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -293,7 +293,7 @@
               "slug": "/haskell/ghci",
               "permalink": "/haskell/ghci",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/ghci.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/ghci.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -313,7 +313,7 @@
               "slug": "/",
               "permalink": "/",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -328,6 +328,126 @@
               }
             },
             {
+              "unversionedId": "purescript/arrays",
+              "id": "purescript/arrays",
+              "title": "Arrays",
+              "description": "Generating Array in Range:",
+              "source": "@site/docs/purescript/arrays.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/arrays",
+              "permalink": "/purescript/arrays",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/arrays.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Using the console",
+                "permalink": "/purescript/IO"
+              },
+              "next": {
+                "title": "Bindings",
+                "permalink": "/purescript/bindings"
+              }
+            },
+            {
+              "unversionedId": "purescript/bindings",
+              "id": "purescript/bindings",
+              "title": "Bindings",
+              "description": "Many ask, whether it's in the style of functional programming to declare and mutate variables within the scope of a function. If you have a couple hours left, go ahead and Google the discussion yourself. Meanwhile, in PureScript we can assign constants within the scope of a function. This can be done with bindings.",
+              "source": "@site/docs/purescript/bindings.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/bindings",
+              "permalink": "/purescript/bindings",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/bindings.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Arrays",
+                "permalink": "/purescript/arrays"
+              },
+              "next": {
+                "title": "Conditionals",
+                "permalink": "/purescript/conditionals"
+              }
+            },
+            {
+              "unversionedId": "purescript/conditionals",
+              "id": "purescript/conditionals",
+              "title": "Conditionals",
+              "description": "There are a couple ways to execute code conditionally in PureScript: If-then-else, case expressions, pattern matching (there is a whole section below on this topic) and guards.",
+              "source": "@site/docs/purescript/conditionals.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/conditionals",
+              "permalink": "/purescript/conditionals",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/conditionals.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bindings",
+                "permalink": "/purescript/bindings"
+              },
+              "next": {
+                "title": "Custom Types",
+                "permalink": "/purescript/custom-types"
+              }
+            },
+            {
+              "unversionedId": "purescript/custom-types",
+              "id": "purescript/custom-types",
+              "title": "Custom Types",
+              "description": "Creating data types and re-naming types is powerful. To achieve both things, PureScript offers two keywords:",
+              "source": "@site/docs/purescript/custom-types.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/custom-types",
+              "permalink": "/purescript/custom-types",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/custom-types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conditionals",
+                "permalink": "/purescript/conditionals"
+              },
+              "next": {
+                "title": "Folds",
+                "permalink": "/purescript/folds"
+              }
+            },
+            {
+              "unversionedId": "purescript/folds",
+              "id": "purescript/folds",
+              "title": "Folds",
+              "description": "Make sure to import:",
+              "source": "@site/docs/purescript/folds.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/folds",
+              "permalink": "/purescript/folds",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/folds.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Custom Types",
+                "permalink": "/purescript/custom-types"
+              },
+              "next": {
+                "title": "Functions",
+                "permalink": "/purescript/functions"
+              }
+            },
+            {
               "unversionedId": "purescript/functions",
               "id": "purescript/functions",
               "title": "Functions",
@@ -337,7 +457,55 @@
               "slug": "/purescript/functions",
               "permalink": "/purescript/functions",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/purescript/functions.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/functions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Folds",
+                "permalink": "/purescript/folds"
+              },
+              "next": {
+                "title": "Getting started",
+                "permalink": "/purescript/getting-started"
+              }
+            },
+            {
+              "unversionedId": "purescript/getting-started",
+              "id": "purescript/getting-started",
+              "title": "Getting started",
+              "description": "Installing PureScript on your machine:",
+              "source": "@site/docs/purescript/getting-started.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/getting-started",
+              "permalink": "/purescript/getting-started",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/purescript/functions"
+              },
+              "next": {
+                "title": "JavaScript Interaction",
+                "permalink": "/purescript/js-interaction"
+              }
+            },
+            {
+              "unversionedId": "purescript/IO",
+              "id": "purescript/IO",
+              "title": "Using the console",
+              "description": "To log something in the console, make sure to import the proper package.",
+              "source": "@site/docs/purescript/IO.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/IO",
+              "permalink": "/purescript/IO",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/IO.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -345,6 +513,222 @@
               "previous": {
                 "title": "PureScript",
                 "permalink": "/category/purescript"
+              },
+              "next": {
+                "title": "Arrays",
+                "permalink": "/purescript/arrays"
+              }
+            },
+            {
+              "unversionedId": "purescript/js-interaction",
+              "id": "purescript/js-interaction",
+              "title": "JavaScript Interaction",
+              "description": "This part resolves around using PureScript functions in JavaScript, and the other way around - using JavaScript functions in",
+              "source": "@site/docs/purescript/js-interaction.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/js-interaction",
+              "permalink": "/purescript/js-interaction",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/js-interaction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/purescript/getting-started"
+              },
+              "next": {
+                "title": "Lists",
+                "permalink": "/purescript/lists"
+              }
+            },
+            {
+              "unversionedId": "purescript/lists",
+              "id": "purescript/lists",
+              "title": "Lists",
+              "description": "In PureScript it is important to differentiate Lists and Arrays.",
+              "source": "@site/docs/purescript/lists.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/lists",
+              "permalink": "/purescript/lists",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/lists.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "JavaScript Interaction",
+                "permalink": "/purescript/js-interaction"
+              },
+              "next": {
+                "title": "Map, Reduce and Filter",
+                "permalink": "/purescript/map-reduce-filter"
+              }
+            },
+            {
+              "unversionedId": "purescript/map-reduce-filter",
+              "id": "purescript/map-reduce-filter",
+              "title": "Map, Reduce and Filter",
+              "description": "Map",
+              "source": "@site/docs/purescript/map-reduce-filter.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/map-reduce-filter",
+              "permalink": "/purescript/map-reduce-filter",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/map-reduce-filter.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Lists",
+                "permalink": "/purescript/lists"
+              },
+              "next": {
+                "title": "Modules",
+                "permalink": "/purescript/modules"
+              }
+            },
+            {
+              "unversionedId": "purescript/modules",
+              "id": "purescript/modules",
+              "title": "Modules",
+              "description": "Modules are the way to split up our code into multiple files. Here is an example of writing a function in",
+              "source": "@site/docs/purescript/modules.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/modules",
+              "permalink": "/purescript/modules",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/modules.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Map, Reduce and Filter",
+                "permalink": "/purescript/map-reduce-filter"
+              },
+              "next": {
+                "title": "Pattern matching",
+                "permalink": "/purescript/patttern-matching"
+              }
+            },
+            {
+              "unversionedId": "purescript/patttern-matching",
+              "id": "purescript/patttern-matching",
+              "title": "Pattern matching",
+              "description": "Before, we just covered a little bit of pattern matching in functions - let's go into more detail, and learn about pattern matching for different data types.",
+              "source": "@site/docs/purescript/patttern-matching.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/patttern-matching",
+              "permalink": "/purescript/patttern-matching",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/patttern-matching.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Modules",
+                "permalink": "/purescript/modules"
+              },
+              "next": {
+                "title": "Records",
+                "permalink": "/purescript/records"
+              }
+            },
+            {
+              "unversionedId": "purescript/records",
+              "id": "purescript/records",
+              "title": "Records",
+              "description": "Records are basically like Objects in JS. Yet, immutable, of course.",
+              "source": "@site/docs/purescript/records.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/records",
+              "permalink": "/purescript/records",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/records.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pattern matching",
+                "permalink": "/purescript/patttern-matching"
+              },
+              "next": {
+                "title": "Standard Library",
+                "permalink": "/purescript/standard-lib"
+              }
+            },
+            {
+              "unversionedId": "purescript/standard-lib",
+              "id": "purescript/standard-lib",
+              "title": "Standard Library",
+              "description": "This section is going to cover some useful functions, available by default, like const, apply, flip and more.",
+              "source": "@site/docs/purescript/standard-lib.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/standard-lib",
+              "permalink": "/purescript/standard-lib",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/standard-lib.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Records",
+                "permalink": "/purescript/records"
+              },
+              "next": {
+                "title": "Typeclasses",
+                "permalink": "/purescript/typeclasses"
+              }
+            },
+            {
+              "unversionedId": "purescript/typeclasses",
+              "id": "purescript/typeclasses",
+              "title": "Typeclasses",
+              "description": "No, typeclasses are not related to classes in object oriented programming. Rather, typeclasses can be imagined as interfaces in functional programming. Typeclasses serve to overload functions for different data types, for example. First, we define the class itself and the signature of the functions it holds. Then, we can create as many instances as we like to - these instances are usually created for different data types. Nevertheless, all instances must define the functions which are declared in the related typeclass. Let's look at an example.",
+              "source": "@site/docs/purescript/typeclasses.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/typeclasses",
+              "permalink": "/purescript/typeclasses",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/typeclasses.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Standard Library",
+                "permalink": "/purescript/standard-lib"
+              },
+              "next": {
+                "title": "Types",
+                "permalink": "/purescript/types"
+              }
+            },
+            {
+              "unversionedId": "purescript/types",
+              "id": "purescript/types",
+              "title": "Types",
+              "description": "Default Types",
+              "source": "@site/docs/purescript/types.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/types",
+              "permalink": "/purescript/types",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Typeclasses",
+                "permalink": "/purescript/typeclasses"
               },
               "next": {
                 "title": "Haskell",
@@ -431,7 +815,71 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "purescript/IO"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/arrays"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/bindings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/conditionals"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/custom-types"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/folds"
+                  },
+                  {
+                    "type": "doc",
                     "id": "purescript/functions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/js-interaction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/lists"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/map-reduce-filter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/modules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/patttern-matching"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/records"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/standard-lib"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/typeclasses"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "purescript/types"
                   }
                 ],
                 "link": {

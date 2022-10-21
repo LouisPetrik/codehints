@@ -1,88 +1,195 @@
 {
-  "/markdown-page-a3f": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-103": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "fec76d0c"
-    },
-    "content": "393be207"
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
   },
-  "/-8cd": {
-    "__comp": "1be78505",
+  "/__docusaurus/debug/config-fc9": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "b074cfb1"
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/content-b6e": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
     },
-    "versionMetadata": "935f2afb"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-e11": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/metadata-da4": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/registry-84a": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/routes-5c1": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/markdown-page-a3f": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagefec-dd7"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/-f49": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---b-07-cee"
+    },
+    "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-96c": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
   },
   "/category/c-d50": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "a4b6e805"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-ca-4-b-f10"
   },
   "/category/go-381": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "292a567c"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-go-292-a4f"
   },
   "/category/haskell-614": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "92a0ef04"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-haskell-92-a-f6b"
   },
   "/category/purescript-383": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "72a0bdde"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-purescript-72-a-147"
   },
   "/cpp/functions-87a": {
-    "__comp": "17896441",
-    "content": "f4db765f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-functionsf-4-d-6d6"
   },
   "/golang/arrays-slices-e6b": {
-    "__comp": "17896441",
-    "content": "1eb1cd26"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-arrays-slices-1-eb-e5e"
   },
   "/golang/concurrency-5b0": {
-    "__comp": "17896441",
-    "content": "34d2c77e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-concurrency-34-d-12b"
   },
   "/golang/conditionals-6ba": {
-    "__comp": "17896441",
-    "content": "a15dc04c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-conditionalsa-15-0a3"
   },
   "/golang/custom-types-02a": {
-    "__comp": "17896441",
-    "content": "c6d437f3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-custom-typesc-6-d-639"
   },
   "/golang/getting-started-b70": {
-    "__comp": "17896441",
-    "content": "4e2f6f47"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-getting-started-4-e-2-96e"
   },
   "/golang/io-3eb": {
-    "__comp": "17896441",
-    "content": "93a14427"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-io-93-a-426"
   },
   "/golang/loops-e5c": {
-    "__comp": "17896441",
-    "content": "513f36a7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-loops-513-59c"
   },
   "/golang/variables-451": {
-    "__comp": "17896441",
-    "content": "7f06554a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-variables-7-f-0-bf6"
   },
   "/haskell/datatypes-bfa": {
-    "__comp": "17896441",
-    "content": "59b22df4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-datatypes-59-b-5c9"
   },
   "/haskell/functions-d00": {
-    "__comp": "17896441",
-    "content": "8971d69d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-functions-897-fdf"
   },
   "/haskell/ghci-ba9": {
-    "__comp": "17896441",
-    "content": "5679e8e8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-ghci-567-76f"
+  },
+  "/purescript/arrays-3b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-arraysa-11-b0f"
+  },
+  "/purescript/bindings-7ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-bindings-5-ff-85c"
+  },
+  "/purescript/conditionals-7df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-conditionals-07-e-fbf"
+  },
+  "/purescript/custom-types-3ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-custom-typesa-67-b6f"
+  },
+  "/purescript/folds-615": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-folds-38-e-821"
   },
   "/purescript/functions-9b3": {
-    "__comp": "17896441",
-    "content": "38fa46cb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-functions-38-f-3e7"
+  },
+  "/purescript/getting-started-91d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-getting-started-1-f-8-71f"
+  },
+  "/purescript/IO-692": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-io-047-b5b"
+  },
+  "/purescript/js-interaction-64f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-js-interaction-9-a-7-f2e"
+  },
+  "/purescript/lists-099": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-lists-83-c-dc3"
+  },
+  "/purescript/map-reduce-filter-a90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-map-reduce-filter-73-a-257"
+  },
+  "/purescript/modules-9c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-modulesbf-3-7ff"
+  },
+  "/purescript/patttern-matching-1d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-patttern-matching-9-d-3-b31"
+  },
+  "/purescript/records-880": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-recordsadb-84c"
+  },
+  "/purescript/standard-lib-9fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-standard-libb-8-b-296"
+  },
+  "/purescript/typeclasses-99a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-typeclassesfa-4-d1b"
+  },
+  "/purescript/types-e4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-typesefa-8e6"
   }
 }
