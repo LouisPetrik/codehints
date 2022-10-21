@@ -4,6 +4,10 @@
   "slug": "/category/c",
   "permalink": "/category/c",
   "navigation": {
+    "previous": {
+      "title": "Cheatsheets Introduction",
+      "permalink": "/"
+    },
     "next": {
       "title": "Functions",
       "permalink": "/cpp/functions"

@@ -17,12 +17,8 @@
     "slug": "/"
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Functions",
-    "permalink": "/cpp/functions"
-  },
   "next": {
-    "title": "Go",
-    "permalink": "/category/go"
+    "title": "C++",
+    "permalink": "/category/c"
   }
 }

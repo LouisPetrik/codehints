@@ -70,8 +70,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/category/c",
-                "label": "C++"
+                "path": "/",
+                "label": "intro"
               }
             }
           }

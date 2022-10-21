@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/louis/Desktop/projekte/docu-site/sidebars.js",
-          "contentPath": "/Users/louis/Desktop/projekte/docu-site/docs",
-          "contentPathLocalized": "/Users/louis/Desktop/projekte/docu-site/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/louis/Desktop/projekte/codehints/sidebars.js",
+          "contentPath": "/Users/louis/Desktop/projekte/codehints/docs",
+          "contentPathLocalized": "/Users/louis/Desktop/projekte/codehints/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "cpp/functions",
@@ -39,8 +39,8 @@
                 "permalink": "/category/c"
               },
               "next": {
-                "title": "Cheatsheets Introduction",
-                "permalink": "/"
+                "title": "Go",
+                "permalink": "/category/go"
               }
             },
             {
@@ -154,13 +154,9 @@
                 "slug": "/"
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Functions",
-                "permalink": "/cpp/functions"
-              },
               "next": {
-                "title": "Go",
-                "permalink": "/category/go"
+                "title": "C++",
+                "permalink": "/category/c"
               }
             },
             {
@@ -192,6 +188,10 @@
           "sidebars": {
             "tutorialSidebar": [
               {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
                 "type": "category",
                 "label": "C++",
                 "collapsible": true,
@@ -208,10 +208,6 @@
                   "slug": "/category/c",
                   "permalink": "/category/c"
                 }
-              },
-              {
-                "type": "doc",
-                "id": "intro"
               },
               {
                 "type": "category",

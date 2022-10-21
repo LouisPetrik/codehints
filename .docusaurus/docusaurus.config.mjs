@@ -27,12 +27,12 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/louis/Desktop/projekte/docu-site/sidebars.js",
+          "sidebarPath": "/Users/louis/Desktop/projekte/codehints/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/Users/louis/Desktop/projekte/docu-site/src/css/custom.css"
+          "customCss": "/Users/louis/Desktop/projekte/codehints/src/css/custom.css"
         }
       }
     ]
@@ -52,11 +52,6 @@ export default {
           "label": "Cheatsheets"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/facebook/docusaurus",
           "label": "GitHub",
           "position": "right"
@@ -68,11 +63,11 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Codehints",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Cheatsheets",
+              "to": "/"
             }
           ]
         },
@@ -97,8 +92,8 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
+              "label": "More Cheatsheets",
+              "to": "https://codingcheats.io/"
             },
             {
               "label": "GitHub",

@@ -5,8 +5,8 @@
   "permalink": "/category/go",
   "navigation": {
     "previous": {
-      "title": "Cheatsheets Introduction",
-      "permalink": "/"
+      "title": "Functions",
+      "permalink": "/cpp/functions"
     },
     "next": {
       "title": "Basics",

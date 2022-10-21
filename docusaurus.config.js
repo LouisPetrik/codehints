@@ -64,7 +64,7 @@ const config = {
             position: 'left',
             label: 'Cheatsheets',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          //{ to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -76,11 +76,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Codehints',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Cheatsheets',
+                to: '/',
               },
             ],
           },
@@ -105,8 +105,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'More Cheatsheets',
+                to: 'https://codingcheats.io/',
               },
               {
                 label: 'GitHub',
