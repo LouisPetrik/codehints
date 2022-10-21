@@ -1,0 +1,136 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "C++",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Functions",
+            "href": "/cpp/functions",
+            "docId": "cpp/functions"
+          }
+        ],
+        "href": "/category/c"
+      },
+      {
+        "type": "link",
+        "label": "Cheatsheets Introduction",
+        "href": "/",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Go",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Basics",
+            "href": "/golang/basics",
+            "docId": "golang/basics"
+          }
+        ],
+        "href": "/category/go"
+      },
+      {
+        "type": "category",
+        "label": "PureScript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Functions",
+            "href": "/purescript/functions",
+            "docId": "purescript/functions"
+          }
+        ],
+        "href": "/category/purescript"
+      },
+      {
+        "type": "category",
+        "label": "Haskell",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Data types",
+            "href": "/haskell/datatypes",
+            "docId": "haskell/datatypes"
+          },
+          {
+            "type": "link",
+            "label": "Functions",
+            "href": "/haskell/functions",
+            "docId": "haskell/functions"
+          },
+          {
+            "type": "link",
+            "label": "ghci",
+            "href": "/haskell/ghci",
+            "docId": "haskell/ghci"
+          }
+        ],
+        "href": "/category/haskell"
+      }
+    ]
+  },
+  "docs": {
+    "cpp/functions": {
+      "id": "cpp/functions",
+      "title": "Functions",
+      "description": "Terminology:",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/basics": {
+      "id": "golang/basics",
+      "title": "Basics",
+      "description": "Overview / Table of contents",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/datatypes": {
+      "id": "haskell/datatypes",
+      "title": "Data types",
+      "description": "Int & Integer",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/functions": {
+      "id": "haskell/functions",
+      "title": "Functions",
+      "description": "Second title",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/ghci": {
+      "id": "haskell/ghci",
+      "title": "ghci",
+      "description": "GHCI",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Cheatsheets Introduction",
+      "description": "Hey there! Welcome to my cheatsheets",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/functions": {
+      "id": "purescript/functions",
+      "title": "Functions",
+      "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

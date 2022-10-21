@@ -1,0 +1,16 @@
+{
+  "title": "PureScript",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/purescript-1",
+  "permalink": "/category/purescript-1",
+  "navigation": {
+    "previous": {
+      "title": "ghci",
+      "permalink": "/haskell/ghci"
+    },
+    "next": {
+      "title": "Functions",
+      "permalink": "/purescript/functions"
+    }
+  }
+}

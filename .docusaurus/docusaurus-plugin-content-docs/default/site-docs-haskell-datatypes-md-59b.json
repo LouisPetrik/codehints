@@ -1,0 +1,24 @@
+{
+  "unversionedId": "haskell/datatypes",
+  "id": "haskell/datatypes",
+  "title": "Data types",
+  "description": "Int & Integer",
+  "source": "@site/docs/haskell/datatypes.md",
+  "sourceDirName": "haskell",
+  "slug": "/haskell/datatypes",
+  "permalink": "/haskell/datatypes",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/datatypes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Haskell",
+    "permalink": "/category/haskell"
+  },
+  "next": {
+    "title": "Functions",
+    "permalink": "/haskell/functions"
+  }
+}

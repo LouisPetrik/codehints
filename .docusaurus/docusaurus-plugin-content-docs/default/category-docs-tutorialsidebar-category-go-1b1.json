@@ -1,0 +1,16 @@
+{
+  "title": "Go",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/go",
+  "permalink": "/docs/category/go",
+  "navigation": {
+    "previous": {
+      "title": "Cheatsheets Introduction",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Basics",
+      "permalink": "/docs/golang/basics"
+    }
+  }
+}

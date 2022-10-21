@@ -1,0 +1,103 @@
+{
+  "/__docusaurus/debug-75d": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/__docusaurus/debug/config-018": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/__docusaurus/debug/content-6b9": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-4d3": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/__docusaurus/debug/metadata-c2e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/__docusaurus/debug/registry-194": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/__docusaurus/debug/routes-01f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-39-c-c7f"
+    }
+  },
+  "/markdown-page-28b": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-374-11f"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/-dfc": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---993-7b6"
+    },
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/-96c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
+  },
+  "/category/c-d50": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-ca-4-b-f10"
+  },
+  "/category/go-381": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-go-292-a4f"
+  },
+  "/category/haskell-614": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-haskell-92-a-f6b"
+  },
+  "/category/purescript-383": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-purescript-72-a-147"
+  },
+  "/cpp/functions-87a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-functionsf-4-d-6d6"
+  },
+  "/golang/basics-d15": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---golang-basics-64-b-59b"
+  },
+  "/haskell/datatypes-bfa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-datatypes-59-b-5c9"
+  },
+  "/haskell/functions-d00": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-functions-897-fdf"
+  },
+  "/haskell/ghci-ba9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-ghci-567-76f"
+  },
+  "/purescript/functions-9b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-functions-38-f-3e7"
+  }
+}

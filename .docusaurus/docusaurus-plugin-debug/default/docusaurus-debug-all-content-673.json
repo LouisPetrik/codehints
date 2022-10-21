@@ -1,0 +1,302 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/louis/Desktop/projekte/docu-site/sidebars.js",
+          "contentPath": "/Users/louis/Desktop/projekte/docu-site/docs",
+          "contentPathLocalized": "/Users/louis/Desktop/projekte/docu-site/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "cpp/functions",
+              "id": "cpp/functions",
+              "title": "Functions",
+              "description": "Terminology:",
+              "source": "@site/docs/cpp/functions.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/functions",
+              "permalink": "/cpp/functions",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/cpp/functions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "C++",
+                "permalink": "/category/c"
+              },
+              "next": {
+                "title": "Cheatsheets Introduction",
+                "permalink": "/"
+              }
+            },
+            {
+              "unversionedId": "golang/basics",
+              "id": "golang/basics",
+              "title": "Basics",
+              "description": "Overview / Table of contents",
+              "source": "@site/docs/golang/basics.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/basics",
+              "permalink": "/golang/basics",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/basics.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Go",
+                "permalink": "/category/go"
+              },
+              "next": {
+                "title": "PureScript",
+                "permalink": "/category/purescript"
+              }
+            },
+            {
+              "unversionedId": "haskell/datatypes",
+              "id": "haskell/datatypes",
+              "title": "Data types",
+              "description": "Int & Integer",
+              "source": "@site/docs/haskell/datatypes.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/datatypes",
+              "permalink": "/haskell/datatypes",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/datatypes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Haskell",
+                "permalink": "/category/haskell"
+              },
+              "next": {
+                "title": "Functions",
+                "permalink": "/haskell/functions"
+              }
+            },
+            {
+              "unversionedId": "haskell/functions",
+              "id": "haskell/functions",
+              "title": "Functions",
+              "description": "Second title",
+              "source": "@site/docs/haskell/functions.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/functions",
+              "permalink": "/haskell/functions",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/functions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data types",
+                "permalink": "/haskell/datatypes"
+              },
+              "next": {
+                "title": "ghci",
+                "permalink": "/haskell/ghci"
+              }
+            },
+            {
+              "unversionedId": "haskell/ghci",
+              "id": "haskell/ghci",
+              "title": "ghci",
+              "description": "GHCI",
+              "source": "@site/docs/haskell/ghci.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/ghci",
+              "permalink": "/haskell/ghci",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/ghci.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/haskell/functions"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Cheatsheets Introduction",
+              "description": "Hey there! Welcome to my cheatsheets",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/cpp/functions"
+              },
+              "next": {
+                "title": "Go",
+                "permalink": "/category/go"
+              }
+            },
+            {
+              "unversionedId": "purescript/functions",
+              "id": "purescript/functions",
+              "title": "Functions",
+              "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+              "source": "@site/docs/purescript/functions.md",
+              "sourceDirName": "purescript",
+              "slug": "/purescript/functions",
+              "permalink": "/purescript/functions",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/purescript/functions.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PureScript",
+                "permalink": "/category/purescript"
+              },
+              "next": {
+                "title": "Haskell",
+                "permalink": "/category/haskell"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "C++",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "cpp/functions"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/c",
+                  "permalink": "/category/c"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Go",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "golang/basics"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/go",
+                  "permalink": "/category/go"
+                }
+              },
+              {
+                "type": "category",
+                "label": "PureScript",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "purescript/functions"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/purescript",
+                  "permalink": "/category/purescript"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Haskell",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "haskell/datatypes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/functions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/ghci"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/haskell",
+                  "permalink": "/category/haskell"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

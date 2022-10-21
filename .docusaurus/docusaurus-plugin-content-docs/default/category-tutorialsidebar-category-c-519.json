@@ -1,0 +1,12 @@
+{
+  "title": "C++",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/c",
+  "permalink": "/category/c",
+  "navigation": {
+    "next": {
+      "title": "Functions",
+      "permalink": "/cpp/functions"
+    }
+  }
+}

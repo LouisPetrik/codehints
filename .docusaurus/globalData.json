@@ -1,0 +1,83 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "cpp/functions",
+              "path": "/cpp/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/basics",
+              "path": "/golang/basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "haskell/datatypes",
+              "path": "/haskell/datatypes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "haskell/functions",
+              "path": "/haskell/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "haskell/ghci",
+              "path": "/haskell/ghci",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/functions",
+              "path": "/purescript/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/c",
+              "path": "/category/c",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/go",
+              "path": "/category/go",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/purescript",
+              "path": "/category/purescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/haskell",
+              "path": "/category/haskell",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/category/c",
+                "label": "C++"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

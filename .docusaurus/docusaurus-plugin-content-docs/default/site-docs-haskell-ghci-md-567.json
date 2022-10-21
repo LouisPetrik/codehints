@@ -1,0 +1,20 @@
+{
+  "unversionedId": "haskell/ghci",
+  "id": "haskell/ghci",
+  "title": "ghci",
+  "description": "GHCI",
+  "source": "@site/docs/haskell/ghci.md",
+  "sourceDirName": "haskell",
+  "slug": "/haskell/ghci",
+  "permalink": "/haskell/ghci",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/ghci.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions",
+    "permalink": "/haskell/functions"
+  }
+}

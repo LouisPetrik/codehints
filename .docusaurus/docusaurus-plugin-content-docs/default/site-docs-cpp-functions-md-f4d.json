@@ -1,0 +1,24 @@
+{
+  "unversionedId": "cpp/functions",
+  "id": "cpp/functions",
+  "title": "Functions",
+  "description": "Terminology:",
+  "source": "@site/docs/cpp/functions.md",
+  "sourceDirName": "cpp",
+  "slug": "/cpp/functions",
+  "permalink": "/cpp/functions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/cpp/functions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "C++",
+    "permalink": "/category/c"
+  },
+  "next": {
+    "title": "Cheatsheets Introduction",
+    "permalink": "/"
+  }
+}

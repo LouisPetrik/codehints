@@ -1,0 +1,24 @@
+{
+  "unversionedId": "haskell/functions",
+  "id": "haskell/functions",
+  "title": "Functions",
+  "description": "Second title",
+  "source": "@site/docs/haskell/functions.md",
+  "sourceDirName": "haskell",
+  "slug": "/haskell/functions",
+  "permalink": "/haskell/functions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/haskell/functions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data types",
+    "permalink": "/haskell/datatypes"
+  },
+  "next": {
+    "title": "ghci",
+    "permalink": "/haskell/ghci"
+  }
+}

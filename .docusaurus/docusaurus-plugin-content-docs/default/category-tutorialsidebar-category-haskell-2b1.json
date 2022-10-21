@@ -1,0 +1,16 @@
+{
+  "title": "Haskell",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/haskell",
+  "permalink": "/category/haskell",
+  "navigation": {
+    "previous": {
+      "title": "Functions",
+      "permalink": "/purescript/functions"
+    },
+    "next": {
+      "title": "Data types",
+      "permalink": "/haskell/datatypes"
+    }
+  }
+}

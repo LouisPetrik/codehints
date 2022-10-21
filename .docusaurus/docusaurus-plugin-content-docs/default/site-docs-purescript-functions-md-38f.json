@@ -1,0 +1,24 @@
+{
+  "unversionedId": "purescript/functions",
+  "id": "purescript/functions",
+  "title": "Functions",
+  "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+  "source": "@site/docs/purescript/functions.md",
+  "sourceDirName": "purescript",
+  "slug": "/purescript/functions",
+  "permalink": "/purescript/functions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/purescript/functions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PureScript",
+    "permalink": "/category/purescript"
+  },
+  "next": {
+    "title": "Haskell",
+    "permalink": "/category/haskell"
+  }
+}
