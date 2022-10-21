@@ -16,8 +16,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "golang/basics",
-              "path": "/golang/basics",
+              "id": "golang/arrays-slices",
+              "path": "/golang/arrays-slices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/concurrency",
+              "path": "/golang/concurrency",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/conditionals",
+              "path": "/golang/conditionals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/custom-types",
+              "path": "/golang/custom-types",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/getting-started",
+              "path": "/golang/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/io",
+              "path": "/golang/io",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/loops",
+              "path": "/golang/loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "golang/variables",
+              "path": "/golang/variables",
               "sidebar": "tutorialSidebar"
             },
             {

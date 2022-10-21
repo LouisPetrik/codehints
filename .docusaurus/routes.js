@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '54a'),
+    component: ComponentCreator('/', '8cd'),
     routes: [
       {
         path: '/',
@@ -48,8 +48,50 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/basics',
-        component: ComponentCreator('/golang/basics', 'd15'),
+        path: '/golang/arrays-slices',
+        component: ComponentCreator('/golang/arrays-slices', 'e6b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/concurrency',
+        component: ComponentCreator('/golang/concurrency', '5b0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/conditionals',
+        component: ComponentCreator('/golang/conditionals', '6ba'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/custom-types',
+        component: ComponentCreator('/golang/custom-types', '02a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/getting-started',
+        component: ComponentCreator('/golang/getting-started', 'b70'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/io',
+        component: ComponentCreator('/golang/io', '3eb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/loops',
+        component: ComponentCreator('/golang/loops', 'e5c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/golang/variables',
+        component: ComponentCreator('/golang/variables', '451'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

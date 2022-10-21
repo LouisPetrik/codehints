@@ -37,8 +37,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/LouisPetrik/cheatsheet',
         },
         blog: false,
         theme: {
@@ -66,7 +65,7 @@ const config = {
           },
           //{ to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/LouisPetrik/cheatsheet',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,11 +105,11 @@ const config = {
             items: [
               {
                 label: 'More Cheatsheets',
-                to: 'https://codingcheats.io/',
+                to: 'https://codingcheats.io/b',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/LouisPetrik/cheatsheet',
               },
             ],
           },

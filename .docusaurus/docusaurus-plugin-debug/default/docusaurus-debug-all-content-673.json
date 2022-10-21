@@ -44,16 +44,16 @@
               }
             },
             {
-              "unversionedId": "golang/basics",
-              "id": "golang/basics",
-              "title": "Basics",
-              "description": "Overview / Table of contents",
-              "source": "@site/docs/golang/basics.md",
+              "unversionedId": "golang/arrays-slices",
+              "id": "golang/arrays-slices",
+              "title": "Arrays & Slices",
+              "description": "Arrays",
+              "source": "@site/docs/golang/arrays-slices.md",
               "sourceDirName": "golang",
-              "slug": "/golang/basics",
-              "permalink": "/golang/basics",
+              "slug": "/golang/arrays-slices",
+              "permalink": "/golang/arrays-slices",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/basics.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/arrays-slices.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -61,6 +61,174 @@
               "previous": {
                 "title": "Go",
                 "permalink": "/category/go"
+              },
+              "next": {
+                "title": "Concurrency",
+                "permalink": "/golang/concurrency"
+              }
+            },
+            {
+              "unversionedId": "golang/concurrency",
+              "id": "golang/concurrency",
+              "title": "Concurrency",
+              "description": "In this example, there will never be \"fish\" printed.",
+              "source": "@site/docs/golang/concurrency.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/concurrency",
+              "permalink": "/golang/concurrency",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/concurrency.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Arrays & Slices",
+                "permalink": "/golang/arrays-slices"
+              },
+              "next": {
+                "title": "Conditionals",
+                "permalink": "/golang/conditionals"
+              }
+            },
+            {
+              "unversionedId": "golang/conditionals",
+              "id": "golang/conditionals",
+              "title": "Conditionals",
+              "description": "You can declare variables even within the if-syntax:",
+              "source": "@site/docs/golang/conditionals.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/conditionals",
+              "permalink": "/golang/conditionals",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/conditionals.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Concurrency",
+                "permalink": "/golang/concurrency"
+              },
+              "next": {
+                "title": "Custom types",
+                "permalink": "/golang/custom-types"
+              }
+            },
+            {
+              "unversionedId": "golang/custom-types",
+              "id": "golang/custom-types",
+              "title": "Custom types",
+              "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
+              "source": "@site/docs/golang/custom-types.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/custom-types",
+              "permalink": "/golang/custom-types",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/custom-types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Conditionals",
+                "permalink": "/golang/conditionals"
+              },
+              "next": {
+                "title": "Getting started",
+                "permalink": "/golang/getting-started"
+              }
+            },
+            {
+              "unversionedId": "golang/getting-started",
+              "id": "golang/getting-started",
+              "title": "Getting started",
+              "description": "app.go",
+              "source": "@site/docs/golang/getting-started.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/getting-started",
+              "permalink": "/golang/getting-started",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Custom types",
+                "permalink": "/golang/custom-types"
+              },
+              "next": {
+                "title": "fmt package (IO)",
+                "permalink": "/golang/io"
+              }
+            },
+            {
+              "unversionedId": "golang/io",
+              "id": "golang/io",
+              "title": "fmt package (IO)",
+              "description": "fmt is a default package, used for IO. It stands for \"format\".",
+              "source": "@site/docs/golang/io.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/io",
+              "permalink": "/golang/io",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/io.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/golang/getting-started"
+              },
+              "next": {
+                "title": "Functions",
+                "permalink": "/golang/loops"
+              }
+            },
+            {
+              "unversionedId": "golang/loops",
+              "id": "golang/loops",
+              "title": "Functions",
+              "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
+              "source": "@site/docs/golang/loops.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/loops",
+              "permalink": "/golang/loops",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/loops.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "fmt package (IO)",
+                "permalink": "/golang/io"
+              },
+              "next": {
+                "title": "Variables",
+                "permalink": "/golang/variables"
+              }
+            },
+            {
+              "unversionedId": "golang/variables",
+              "id": "golang/variables",
+              "title": "Variables",
+              "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
+              "source": "@site/docs/golang/variables.md",
+              "sourceDirName": "golang",
+              "slug": "/golang/variables",
+              "permalink": "/golang/variables",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/golang/variables.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/golang/loops"
               },
               "next": {
                 "title": "PureScript",
@@ -217,7 +385,35 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "golang/basics"
+                    "id": "golang/arrays-slices"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/concurrency"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/conditionals"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/custom-types"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/io"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/loops"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "golang/variables"
                   }
                 ],
                 "link": {

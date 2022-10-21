@@ -5,8 +5,8 @@
   "permalink": "/category/purescript",
   "navigation": {
     "previous": {
-      "title": "Basics",
-      "permalink": "/golang/basics"
+      "title": "Variables",
+      "permalink": "/golang/variables"
     },
     "next": {
       "title": "Functions",

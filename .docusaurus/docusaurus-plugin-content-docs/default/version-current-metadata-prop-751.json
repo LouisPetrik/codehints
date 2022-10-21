@@ -38,9 +38,51 @@
         "items": [
           {
             "type": "link",
-            "label": "Basics",
-            "href": "/golang/basics",
-            "docId": "golang/basics"
+            "label": "Arrays & Slices",
+            "href": "/golang/arrays-slices",
+            "docId": "golang/arrays-slices"
+          },
+          {
+            "type": "link",
+            "label": "Concurrency",
+            "href": "/golang/concurrency",
+            "docId": "golang/concurrency"
+          },
+          {
+            "type": "link",
+            "label": "Conditionals",
+            "href": "/golang/conditionals",
+            "docId": "golang/conditionals"
+          },
+          {
+            "type": "link",
+            "label": "Custom types",
+            "href": "/golang/custom-types",
+            "docId": "golang/custom-types"
+          },
+          {
+            "type": "link",
+            "label": "Getting started",
+            "href": "/golang/getting-started",
+            "docId": "golang/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "fmt package (IO)",
+            "href": "/golang/io",
+            "docId": "golang/io"
+          },
+          {
+            "type": "link",
+            "label": "Functions",
+            "href": "/golang/loops",
+            "docId": "golang/loops"
+          },
+          {
+            "type": "link",
+            "label": "Variables",
+            "href": "/golang/variables",
+            "docId": "golang/variables"
           }
         ],
         "href": "/category/go"
@@ -96,10 +138,52 @@
       "description": "Terminology:",
       "sidebar": "tutorialSidebar"
     },
-    "golang/basics": {
-      "id": "golang/basics",
-      "title": "Basics",
-      "description": "Overview / Table of contents",
+    "golang/arrays-slices": {
+      "id": "golang/arrays-slices",
+      "title": "Arrays & Slices",
+      "description": "Arrays",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/concurrency": {
+      "id": "golang/concurrency",
+      "title": "Concurrency",
+      "description": "In this example, there will never be \"fish\" printed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/conditionals": {
+      "id": "golang/conditionals",
+      "title": "Conditionals",
+      "description": "You can declare variables even within the if-syntax:",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/custom-types": {
+      "id": "golang/custom-types",
+      "title": "Custom types",
+      "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/getting-started": {
+      "id": "golang/getting-started",
+      "title": "Getting started",
+      "description": "app.go",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/io": {
+      "id": "golang/io",
+      "title": "fmt package (IO)",
+      "description": "fmt is a default package, used for IO. It stands for \"format\".",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/loops": {
+      "id": "golang/loops",
+      "title": "Functions",
+      "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
+      "sidebar": "tutorialSidebar"
+    },
+    "golang/variables": {
+      "id": "golang/variables",
+      "title": "Variables",
+      "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
       "sidebar": "tutorialSidebar"
     },
     "haskell/datatypes": {

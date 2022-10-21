@@ -93,11 +93,11 @@ export default {
           "items": [
             {
               "label": "More Cheatsheets",
-              "to": "https://codingcheats.io/"
+              "to": "https://codingcheats.io/b"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/LouisPetrik/cheatsheet"
             }
           ]
         }
