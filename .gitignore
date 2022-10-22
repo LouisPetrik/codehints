@@ -3,3 +3,4 @@
 /.docusaurus
 .DS_Store 
 package-lock.json 
+yarn.lock 
