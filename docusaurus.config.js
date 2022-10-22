@@ -27,6 +27,36 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true,
+
+        indexDocSidebarParentCategories: 0,
+
+        indexBlog: false,
+
+        indexPages: false,
+
+        // language of your documentation, see next section
+        language: 'en',
+
+        // setting this to "none" will prevent the default CSS to be included. The default CSS
+        // comes from autocomplete-theme-classic, which you can read more about here:
+        // https://www.algolia.com/doc/ui-libraries/autocomplete/api-reference/autocomplete-theme-classic/
+        // When you want to overwrite CSS variables defined by the default theme, make sure to suffix your
+        // overwrites with `!important`, because they might otherwise not be applied as expected. See the
+        // following comment for more information: https://github.com/cmfcmf/docusaurus-search-local/issues/107#issuecomment-1119831938.
+        style: undefined,
+
+        // The maximum number of search results shown to the user. This does _not_ affect performance of
+        // searches, but simply does not display additional search results that have been found.
+        maxSearchResults: 8,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',

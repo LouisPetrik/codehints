@@ -2,3 +2,4 @@
 /build
 /.docusaurus
 .DS_Store 
+package-lock.json 

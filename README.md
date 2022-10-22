@@ -117,9 +117,17 @@ break anything. Thank you.
 
 # Todos 
 
+## Content
+
 - Interfaces in C++ 
 - Filling out AssemblyScript and TypeScript
 - Basics of C 
 - Bun Cheatsheet 
 - "Cheatsheet" -> "Cheat sheets" 
 - Make links in Repo README work 
+
+## Technical 
+
+- Make search bar results more specific (Maybe rename all "Arrays" to "Arrays in C++" for example)
+- Preview image when sharing via WhatsApp, Twitter etc. 
+- 
