@@ -1,5 +1,6 @@
 ---
 title: Arrays in AssemblyScript
+id: arrays-assemblyscript
 ---
 
 
@@ -10,7 +11,7 @@ For the first part, there are Arrays like we know them from JavaScript - second,
 as they appear in C, with one huge difference: The Arrays in C are fixed in size. In AssemblyScript, these
 fixed Arrays are called static Arrays. 
 
-# Arrays 
+# JS-like Arrays in AssemblyScript 
 
 First, let's cover the "normal" arrays. 
 

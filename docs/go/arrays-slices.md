@@ -1,10 +1,11 @@
 ---
 title: Arrays and Slices in Go 
+id: arrays-slices-go
 ---
 
-# Arrays & Slices 
+# Arrays & Slices in Go 
 
-## Arrays
+## Arrays in Go 
 
 ```go
 func main() {
@@ -17,7 +18,7 @@ func main() {
 Whitespaces when printing the empty array will indicate the number of elements, the array is made for.
 No joke.
 
-## Slices
+## Slices in Go 
 
 Arrays have a fixed length of elements, a slice can grow and shrink. They can only hold data of the same type.
 

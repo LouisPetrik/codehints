@@ -129,5 +129,9 @@ break anything. Thank you.
 ## Technical 
 
 - Make search bar results more specific (Maybe rename all "Arrays" to "Arrays in C++" for example)
+I will equip all pages containing "Array" with some front matter to see, if adding more meta info helps. 
+"Arrays" appears in assemblyscript, go and c++
+
+
 - Preview image when sharing via WhatsApp, Twitter etc. 
 - 

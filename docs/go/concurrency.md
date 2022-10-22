@@ -2,7 +2,7 @@
 title: Concurrency in Go 
 ---
 
-# Concurrency
+# Concurrency in Go 
 
 In this example, there will never be "fish" printed.
 Code will print sheep forever, because Go is blocking.
