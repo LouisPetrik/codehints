@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CodeHints',
-  tagline: 'Code concepts through cheatsheets',
+  tagline: 'Code concepts through cheat sheets',
   url: 'https://codehints.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,7 +37,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/LouisPetrik/cheatsheet',
+          editUrl: 'https://github.com/LouisPetrik/codehints#contributing',
         },
         blog: false,
         theme: {
@@ -53,19 +53,19 @@ const config = {
       navbar: {
         title: 'CodeHints',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'CodeHints Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Cheatsheets',
+            label: 'Cheat Sheets',
           },
           //{ to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/LouisPetrik/cheatsheet',
+            href: 'https://github.com/LouisPetrik/codehints',
             label: 'GitHub',
             position: 'right',
           },
@@ -78,7 +78,7 @@ const config = {
             title: 'Codehints',
             items: [
               {
-                label: 'Cheatsheets',
+                label: 'Cheat sheets',
                 to: '/',
               },
             ],
@@ -88,12 +88,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'More Cheatsheets',
+                label: 'More Cheat sheets',
                 to: 'https://codingcheats.io/b',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/LouisPetrik/cheatsheet',
+                href: 'https://github.com/LouisPetrik/codehints',
               },
             ],
           },
