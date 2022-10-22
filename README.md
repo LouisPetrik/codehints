@@ -30,46 +30,46 @@ master -> main/docs
 
 ## Go
 
--  [Hello World](https://github.com/LouisPetrik/cheatsheet/blob/master/go/getting-started.md)
--  [Variables](https://github.com/LouisPetrik/cheatsheet/blob/master/go/variables.md)
--  [Functions](https://github.com/LouisPetrik/cheatsheet/blob/master/go/functions.md)
--  [For-Loop](https://github.com/LouisPetrik/cheatsheet/blob/master/go/loops.md)
--  [Conditionals](https://github.com/LouisPetrik/cheatsheet/blob/master/go/conditionals.md)
--  [Concurrency](https://github.com/LouisPetrik/cheatsheet/blob/master/go/concurrency.md)
--  [Arrays and Slices](https://github.com/LouisPetrik/cheatsheet/blob/master/go/arrays-slices.md)
+-  [Hello World](https://github.com/LouisPetrik/codehints/blob/main/docs/go/getting-started.md)
+-  [Variables](https://github.com/LouisPetrik/codehints/blob/main/docs/go/variables.md)
+-  [Functions](https://github.com/LouisPetrik/codehints/blob/main/docs/go/functions.md)
+-  [For-Loop](https://github.com/LouisPetrik/codehints/blob/main/docs/go/loops.md)
+-  [Conditionals](https://github.com/LouisPetrik/codehints/blob/main/docs/go/conditionals.md)
+-  [Concurrency](https://github.com/LouisPetrik/codehints/blob/main/docs/go/concurrency.md)
+-  [Arrays and Slices](https://github.com/LouisPetrik/codehints/blob/main/docs/go/arrays-slices.md)
 
 
 ## Haskell 
-- [GHCI & Hello World!](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/ghci.md)
-- [Data types](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/data-types.md)
-- [Functions](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/functions.md)
-- [Bindings](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/bindings.md)
-- [Lists](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/lists.md)
-- [Typeclasses](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/typeclasses.md)
-- [In and output](https://github.com/LouisPetrik/cheatsheet/blob/master/haskell/IO.md)
+- [GHCI & Hello World!](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/ghci.md)
+- [Data types](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/data-types.md)
+- [Functions](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/functions.md)
+- [Bindings](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/bindings.md)
+- [Lists](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/lists.md)
+- [Typeclasses](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/typeclasses.md)
+- [In and output](https://github.com/LouisPetrik/codehints/blob/main/docs/haskell/IO.md)
 
 
 ## PureScript 
-- [Getting started, tools & the REPL](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/getting-started.md)
-- [Types](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/types.md)
-- [Functions](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/functions.md)
-- [Bindings](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/bindings.md)
-- [Custom types](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/custom-types.md)
-- [IO](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/IO.md)
-- [Records](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/records.md)
-- [Conditionals](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/conditionals.md)
-- [Pattern matching](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/patttern-matching.md)
-- [Map, Reduce and Filter](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/map-reduce-filter.md)
-- [Arrays](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/arrays.md)
-- [Folds](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/folds.md)
-- [Standard Library](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/standard-lib.md)
-- [Lists](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/lists.md)
-- [Typeclasses](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/typeclasses.md)
-- [Interaction with JavaScript](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript/js-interaction.md)
+- [Getting started, tools & the REPL](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/getting-started.md)
+- [Types](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/types.md)
+- [Functions](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/functions.md)
+- [Bindings](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/bindings.md)
+- [Custom types](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/custom-types.md)
+- [IO](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/IO.md)
+- [Records](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/records.md)
+- [Conditionals](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/conditionals.md)
+- [Pattern matching](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/patttern-matching.md)
+- [Map, Reduce and Filter](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/map-reduce-filter.md)
+- [Arrays](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/arrays.md)
+- [Folds](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/folds.md)
+- [Standard Library](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/standard-lib.md)
+- [Lists](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/lists.md)
+- [Typeclasses](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/typeclasses.md)
+- [Interaction with JavaScript](https://github.com/LouisPetrik/codehints/blob/main/docs/purescript/js-interaction.md)
 
 
 ## WebAssembly 
-- [Text Format](https://github.com/LouisPetrik/cheatsheet/blob/master/webassembly/wat.md)
+- [Text Format](https://github.com/LouisPetrik/codehints/blob/main/docs/webassembly/wat.md)
 
 
 # Contributing 
