@@ -1,13 +1,37 @@
 ---
-title: Data types in AssemblyScript
+title: Data types & Variables in AssemblyScript
 sidebar_position: 3
 --- 
 
-# Data types in AssemblyScript
+# Data Types & Variables in AssemblyScript
+
+Both concepts cannot be neglected when learning a new programming language. While AssemblyScript is very heavily
+inspired by TypeScript, there are some important differences, especially when it comes to the data types, that are built in. 
 
 
+# Variables
 
-## Primitve Types 
+Variables can be created as known from JavaScript with the keywords var, let and const. 
+While var shouldn't be used anymore, const is for creating constant variables. 
+
+To make values accessible to JavaScript, they can be exported: 
+
+```typescript
+export const name : string = "Max"
+```
+
+To import and use a variable like this in JavaScript: 
+
+```javascript
+import { name } from './build/release.js'
+
+console.log('The name is ', name.value)
+```
+
+# Data Types
+
+
+## Primitive Types 
 
 ### Integer Types
 

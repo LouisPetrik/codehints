@@ -76,9 +76,12 @@ master -> main/docs
 
 # Contributing 
 
-In case you are interested in contributing, reach out to me. 
+Contributing is possible via GitHub. Alternatively, you can send in content, content-drafts or content-ideas 
+via Mail: louispetrik@aol.com. 
 
-## Style guidelines
+
+## Style Guidelines
+The following are Guidelines to myself and others for adding contnet. 
 
 Each Markdown file has a header section on top which will be rendered to <head></head>. 
 Therefore it holds the title, the description etc. 
