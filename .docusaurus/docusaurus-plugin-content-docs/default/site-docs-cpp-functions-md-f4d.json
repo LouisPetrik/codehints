@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "C++",
-    "permalink": "/category/c"
+    "title": "Classes",
+    "permalink": "/cpp/classes"
   },
   "next": {
-    "title": "Go",
-    "permalink": "/category/go"
+    "title": "Stack, Heap and Static Memory",
+    "permalink": "/cpp/heap-stack-memory"
   }
 }

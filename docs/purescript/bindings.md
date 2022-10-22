@@ -1,3 +1,7 @@
+---
+title: Bindings in PureScript 
+----
+
 # Bindings 
 
 Many ask, whether it's in the style of functional programming to declare and mutate variables within the scope of a function. If you have a couple hours left, go ahead and Google the discussion yourself. Meanwhile, in PureScript we can assign constants within the scope of a function. This can be done with bindings. 

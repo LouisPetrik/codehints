@@ -1,3 +1,7 @@
+---
+title: Map, Reduce and Filter in PureScript 
+----
+
 # Map, Reduce and Filter
 
 ## Map

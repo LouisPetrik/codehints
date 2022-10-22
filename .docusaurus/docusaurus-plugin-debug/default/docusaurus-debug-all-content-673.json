@@ -20,6 +20,54 @@
           "contentPathLocalized": "/Users/louis/Desktop/projekte/codehints/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "cpp/arrays",
+              "id": "cpp/arrays",
+              "title": "Arrays",
+              "description": "An array is a collecting of data, of the same type and with a fixed length.",
+              "source": "@site/docs/cpp/arrays.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/arrays",
+              "permalink": "/cpp/arrays",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/arrays.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "C++",
+                "permalink": "/category/c"
+              },
+              "next": {
+                "title": "Classes",
+                "permalink": "/cpp/classes"
+              }
+            },
+            {
+              "unversionedId": "cpp/classes",
+              "id": "cpp/classes",
+              "title": "Classes",
+              "description": "By default, all properties of a class are kept private, therefore not visble outside of the scope.",
+              "source": "@site/docs/cpp/classes.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/classes",
+              "permalink": "/cpp/classes",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/classes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Arrays",
+                "permalink": "/cpp/arrays"
+              },
+              "next": {
+                "title": "Functions",
+                "permalink": "/cpp/functions"
+              }
+            },
+            {
               "unversionedId": "cpp/functions",
               "id": "cpp/functions",
               "title": "Functions",
@@ -35,8 +83,152 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "C++",
-                "permalink": "/category/c"
+                "title": "Classes",
+                "permalink": "/cpp/classes"
+              },
+              "next": {
+                "title": "Stack, Heap and Static Memory",
+                "permalink": "/cpp/heap-stack-memory"
+              }
+            },
+            {
+              "unversionedId": "cpp/heap-stack-memory",
+              "id": "cpp/heap-stack-memory",
+              "title": "Stack, Heap and Static Memory",
+              "description": "Allocating variables in the memory",
+              "source": "@site/docs/cpp/heap-stack-memory.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/heap-stack-memory",
+              "permalink": "/cpp/heap-stack-memory",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/heap-stack-memory.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/cpp/functions"
+              },
+              "next": {
+                "title": "Pointers",
+                "permalink": "/cpp/pointers"
+              }
+            },
+            {
+              "unversionedId": "cpp/pointers",
+              "id": "cpp/pointers",
+              "title": "Pointers",
+              "description": "A pointer is an integer, which stores a memory address. Types can be used with pointers but more on a syntactical-level to make clear what the value retrieved will be.",
+              "source": "@site/docs/cpp/pointers.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/pointers",
+              "permalink": "/cpp/pointers",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/pointers.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stack, Heap and Static Memory",
+                "permalink": "/cpp/heap-stack-memory"
+              },
+              "next": {
+                "title": "References",
+                "permalink": "/cpp/references"
+              }
+            },
+            {
+              "unversionedId": "cpp/references",
+              "id": "cpp/references",
+              "title": "References",
+              "description": "References are related to pointers - one needs to understand the first one. They work similary like pointers.",
+              "source": "@site/docs/cpp/references.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/references",
+              "permalink": "/cpp/references",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/references.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pointers",
+                "permalink": "/cpp/pointers"
+              },
+              "next": {
+                "title": "Structures",
+                "permalink": "/cpp/structures"
+              }
+            },
+            {
+              "unversionedId": "cpp/structures",
+              "id": "cpp/structures",
+              "title": "Structures",
+              "description": "Through structures, multiple values can be grouped together.",
+              "source": "@site/docs/cpp/structures.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/structures",
+              "permalink": "/cpp/structures",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/structures.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "References",
+                "permalink": "/cpp/references"
+              },
+              "next": {
+                "title": "Variables & Data types",
+                "permalink": "/cpp/variables-data-types"
+              }
+            },
+            {
+              "unversionedId": "cpp/variables-data-types",
+              "id": "cpp/variables-data-types",
+              "title": "Variables & Data types",
+              "description": "Strings",
+              "source": "@site/docs/cpp/variables-data-types.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/variables-data-types",
+              "permalink": "/cpp/variables-data-types",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/variables-data-types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Structures",
+                "permalink": "/cpp/structures"
+              },
+              "next": {
+                "title": "vectors",
+                "permalink": "/cpp/vectors"
+              }
+            },
+            {
+              "unversionedId": "cpp/vectors",
+              "id": "cpp/vectors",
+              "title": "vectors",
+              "description": "Dynamic arrays (std::vector)",
+              "source": "@site/docs/cpp/vectors.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/vectors",
+              "permalink": "/cpp/vectors",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/vectors.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Variables & Data types",
+                "permalink": "/cpp/variables-data-types"
               },
               "next": {
                 "title": "Go",
@@ -44,16 +236,16 @@
               }
             },
             {
-              "unversionedId": "golang/arrays-slices",
-              "id": "golang/arrays-slices",
+              "unversionedId": "go/arrays-slices",
+              "id": "go/arrays-slices",
               "title": "Arrays & Slices",
               "description": "Arrays",
-              "source": "@site/docs/golang/arrays-slices.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/arrays-slices",
-              "permalink": "/golang/arrays-slices",
+              "source": "@site/docs/go/arrays-slices.md",
+              "sourceDirName": "go",
+              "slug": "/go/arrays-slices",
+              "permalink": "/go/arrays-slices",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/arrays-slices.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/arrays-slices.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -64,171 +256,195 @@
               },
               "next": {
                 "title": "Concurrency",
-                "permalink": "/golang/concurrency"
+                "permalink": "/go/concurrency"
               }
             },
             {
-              "unversionedId": "golang/concurrency",
-              "id": "golang/concurrency",
+              "unversionedId": "go/concurrency",
+              "id": "go/concurrency",
               "title": "Concurrency",
               "description": "In this example, there will never be \"fish\" printed.",
-              "source": "@site/docs/golang/concurrency.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/concurrency",
-              "permalink": "/golang/concurrency",
+              "source": "@site/docs/go/concurrency.md",
+              "sourceDirName": "go",
+              "slug": "/go/concurrency",
+              "permalink": "/go/concurrency",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/concurrency.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/concurrency.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Arrays & Slices",
-                "permalink": "/golang/arrays-slices"
+                "permalink": "/go/arrays-slices"
               },
               "next": {
                 "title": "Conditionals",
-                "permalink": "/golang/conditionals"
+                "permalink": "/go/conditionals"
               }
             },
             {
-              "unversionedId": "golang/conditionals",
-              "id": "golang/conditionals",
+              "unversionedId": "go/conditionals",
+              "id": "go/conditionals",
               "title": "Conditionals",
               "description": "You can declare variables even within the if-syntax:",
-              "source": "@site/docs/golang/conditionals.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/conditionals",
-              "permalink": "/golang/conditionals",
+              "source": "@site/docs/go/conditionals.md",
+              "sourceDirName": "go",
+              "slug": "/go/conditionals",
+              "permalink": "/go/conditionals",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/conditionals.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/conditionals.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Concurrency",
-                "permalink": "/golang/concurrency"
+                "permalink": "/go/concurrency"
               },
               "next": {
                 "title": "Custom types",
-                "permalink": "/golang/custom-types"
+                "permalink": "/go/custom-types"
               }
             },
             {
-              "unversionedId": "golang/custom-types",
-              "id": "golang/custom-types",
+              "unversionedId": "go/custom-types",
+              "id": "go/custom-types",
               "title": "Custom types",
               "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
-              "source": "@site/docs/golang/custom-types.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/custom-types",
-              "permalink": "/golang/custom-types",
+              "source": "@site/docs/go/custom-types.md",
+              "sourceDirName": "go",
+              "slug": "/go/custom-types",
+              "permalink": "/go/custom-types",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/custom-types.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/custom-types.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Conditionals",
-                "permalink": "/golang/conditionals"
+                "permalink": "/go/conditionals"
               },
               "next": {
-                "title": "Getting started",
-                "permalink": "/golang/getting-started"
+                "title": "Functions",
+                "permalink": "/go/functions"
               }
             },
             {
-              "unversionedId": "golang/getting-started",
-              "id": "golang/getting-started",
-              "title": "Getting started",
-              "description": "app.go",
-              "source": "@site/docs/golang/getting-started.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/getting-started",
-              "permalink": "/golang/getting-started",
+              "unversionedId": "go/functions",
+              "id": "go/functions",
+              "title": "Functions",
+              "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
+              "source": "@site/docs/go/functions.md",
+              "sourceDirName": "go",
+              "slug": "/go/functions",
+              "permalink": "/go/functions",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/getting-started.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/functions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Custom types",
-                "permalink": "/golang/custom-types"
+                "permalink": "/go/custom-types"
               },
               "next": {
-                "title": "fmt package (IO)",
-                "permalink": "/golang/io"
+                "title": "Getting started",
+                "permalink": "/go/getting-started"
               }
             },
             {
-              "unversionedId": "golang/io",
-              "id": "golang/io",
+              "unversionedId": "go/getting-started",
+              "id": "go/getting-started",
+              "title": "Getting started",
+              "description": "app.go",
+              "source": "@site/docs/go/getting-started.md",
+              "sourceDirName": "go",
+              "slug": "/go/getting-started",
+              "permalink": "/go/getting-started",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Functions",
+                "permalink": "/go/functions"
+              },
+              "next": {
+                "title": "fmt package (IO)",
+                "permalink": "/go/io"
+              }
+            },
+            {
+              "unversionedId": "go/io",
+              "id": "go/io",
               "title": "fmt package (IO)",
               "description": "fmt is a default package, used for IO. It stands for \"format\".",
-              "source": "@site/docs/golang/io.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/io",
-              "permalink": "/golang/io",
+              "source": "@site/docs/go/io.md",
+              "sourceDirName": "go",
+              "slug": "/go/io",
+              "permalink": "/go/io",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/io.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/io.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Getting started",
-                "permalink": "/golang/getting-started"
+                "permalink": "/go/getting-started"
               },
               "next": {
-                "title": "Functions",
-                "permalink": "/golang/loops"
+                "title": "For Loops",
+                "permalink": "/go/loops"
               }
             },
             {
-              "unversionedId": "golang/loops",
-              "id": "golang/loops",
-              "title": "Functions",
-              "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
-              "source": "@site/docs/golang/loops.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/loops",
-              "permalink": "/golang/loops",
+              "unversionedId": "go/loops",
+              "id": "go/loops",
+              "title": "For Loops",
+              "description": "For-Loops are the only loops which can be used in Go.",
+              "source": "@site/docs/go/loops.md",
+              "sourceDirName": "go",
+              "slug": "/go/loops",
+              "permalink": "/go/loops",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/loops.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/loops.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "fmt package (IO)",
-                "permalink": "/golang/io"
+                "permalink": "/go/io"
               },
               "next": {
                 "title": "Variables",
-                "permalink": "/golang/variables"
+                "permalink": "/go/variables"
               }
             },
             {
-              "unversionedId": "golang/variables",
-              "id": "golang/variables",
+              "unversionedId": "go/variables",
+              "id": "go/variables",
               "title": "Variables",
               "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
-              "source": "@site/docs/golang/variables.md",
-              "sourceDirName": "golang",
-              "slug": "/golang/variables",
-              "permalink": "/golang/variables",
+              "source": "@site/docs/go/variables.md",
+              "sourceDirName": "go",
+              "slug": "/go/variables",
+              "permalink": "/go/variables",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/golang/variables.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/variables.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Functions",
-                "permalink": "/golang/loops"
+                "title": "For Loops",
+                "permalink": "/go/loops"
               },
               "next": {
                 "title": "PureScript",
@@ -236,23 +452,47 @@
               }
             },
             {
-              "unversionedId": "haskell/datatypes",
-              "id": "haskell/datatypes",
-              "title": "Data types",
-              "description": "Int & Integer",
-              "source": "@site/docs/haskell/datatypes.md",
+              "unversionedId": "haskell/bindings",
+              "id": "haskell/bindings",
+              "title": "Bindings",
+              "description": "Bindings can be seen as a replacement for constants in the scope of functions. They don't enable us to do something completely new, but help to make things more clearly, as we can store the result of some expression through a binding.",
+              "source": "@site/docs/haskell/bindings.md",
               "sourceDirName": "haskell",
-              "slug": "/haskell/datatypes",
-              "permalink": "/haskell/datatypes",
+              "slug": "/haskell/bindings",
+              "permalink": "/haskell/bindings",
               "draft": false,
-              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/datatypes.md",
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/bindings.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Haskell",
-                "permalink": "/category/haskell"
+                "title": "In and output",
+                "permalink": "/haskell/IO"
+              },
+              "next": {
+                "title": "Data types",
+                "permalink": "/haskell/data-types"
+              }
+            },
+            {
+              "unversionedId": "haskell/data-types",
+              "id": "haskell/data-types",
+              "title": "Data types",
+              "description": "Int & Integer",
+              "source": "@site/docs/haskell/data-types.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/data-types",
+              "permalink": "/haskell/data-types",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/data-types.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bindings",
+                "permalink": "/haskell/bindings"
               },
               "next": {
                 "title": "Functions",
@@ -263,7 +503,7 @@
               "unversionedId": "haskell/functions",
               "id": "haskell/functions",
               "title": "Functions",
-              "description": "Second title",
+              "description": "Chapter will be more complete soon. For now, check out the Functions cheatsheet of PureScript as functions work the same way in Haskell.",
               "source": "@site/docs/haskell/functions.md",
               "sourceDirName": "haskell",
               "slug": "/haskell/functions",
@@ -276,18 +516,18 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data types",
-                "permalink": "/haskell/datatypes"
+                "permalink": "/haskell/data-types"
               },
               "next": {
-                "title": "ghci",
+                "title": "GHCI",
                 "permalink": "/haskell/ghci"
               }
             },
             {
               "unversionedId": "haskell/ghci",
               "id": "haskell/ghci",
-              "title": "ghci",
-              "description": "GHCI",
+              "title": "GHCI",
+              "description": "The Glasgow Haskell compiler",
               "source": "@site/docs/haskell/ghci.md",
               "sourceDirName": "haskell",
               "slug": "/haskell/ghci",
@@ -301,6 +541,106 @@
               "previous": {
                 "title": "Functions",
                 "permalink": "/haskell/functions"
+              },
+              "next": {
+                "title": "Hello world",
+                "permalink": "/haskell/greeting"
+              }
+            },
+            {
+              "unversionedId": "haskell/greeting",
+              "id": "haskell/greeting",
+              "title": "Hello world",
+              "description": "",
+              "source": "@site/docs/haskell/greeting.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/greeting",
+              "permalink": "/haskell/greeting",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/greeting.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GHCI",
+                "permalink": "/haskell/ghci"
+              },
+              "next": {
+                "title": "Lists",
+                "permalink": "/haskell/lists"
+              }
+            },
+            {
+              "unversionedId": "haskell/IO",
+              "id": "haskell/IO",
+              "title": "In and output",
+              "description": "When initialising records for example, you might have noticed that you are unable to print",
+              "source": "@site/docs/haskell/IO.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/IO",
+              "permalink": "/haskell/IO",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/IO.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Haskell",
+                "permalink": "/category/haskell"
+              },
+              "next": {
+                "title": "Bindings",
+                "permalink": "/haskell/bindings"
+              }
+            },
+            {
+              "unversionedId": "haskell/lists",
+              "id": "haskell/lists",
+              "title": "Lists",
+              "description": "Accessing element in list through index:",
+              "source": "@site/docs/haskell/lists.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/lists",
+              "permalink": "/haskell/lists",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/lists.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hello world",
+                "permalink": "/haskell/greeting"
+              },
+              "next": {
+                "title": "Typeclasses",
+                "permalink": "/haskell/typeclasses"
+              }
+            },
+            {
+              "unversionedId": "haskell/typeclasses",
+              "id": "haskell/typeclasses",
+              "title": "Typeclasses",
+              "description": "When asking GHCI for the type of an operator like the plus-operator, you will notice that it is basically a function. Everything before the => sign is called the class constraint.",
+              "source": "@site/docs/haskell/typeclasses.md",
+              "sourceDirName": "haskell",
+              "slug": "/haskell/typeclasses",
+              "permalink": "/haskell/typeclasses",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/typeclasses.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Lists",
+                "permalink": "/haskell/lists"
+              },
+              "next": {
+                "title": "WebAssembly",
+                "permalink": "/category/webassembly"
               }
             },
             {
@@ -330,7 +670,7 @@
             {
               "unversionedId": "purescript/arrays",
               "id": "purescript/arrays",
-              "title": "Arrays",
+              "title": "Arrays in PureScript",
               "description": "Generating Array in Range:",
               "source": "@site/docs/purescript/arrays.md",
               "sourceDirName": "purescript",
@@ -340,7 +680,9 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/arrays.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Arrays in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Using the console",
@@ -367,7 +709,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Arrays",
+                "title": "Arrays in PureScript",
                 "permalink": "/purescript/arrays"
               },
               "next": {
@@ -515,7 +857,7 @@
                 "permalink": "/category/purescript"
               },
               "next": {
-                "title": "Arrays",
+                "title": "Arrays in PureScript",
                 "permalink": "/purescript/arrays"
               }
             },
@@ -734,6 +1076,26 @@
                 "title": "Haskell",
                 "permalink": "/category/haskell"
               }
+            },
+            {
+              "unversionedId": "webassembly/wat",
+              "id": "webassembly/wat",
+              "title": "WebAssembly Text Format (WAT)",
+              "description": "WA offers a notation which can be used to write human-readable code, compiled to WASM.",
+              "source": "@site/docs/webassembly/wat.md",
+              "sourceDirName": "webassembly",
+              "slug": "/webassembly/wat",
+              "permalink": "/webassembly/wat",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/webassembly/wat.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "WebAssembly",
+                "permalink": "/category/webassembly"
+              }
             }
           ],
           "drafts": [],
@@ -751,7 +1113,39 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "cpp/arrays"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/classes"
+                  },
+                  {
+                    "type": "doc",
                     "id": "cpp/functions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/heap-stack-memory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/pointers"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/references"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/structures"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/variables-data-types"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/vectors"
                   }
                 ],
                 "link": {
@@ -769,35 +1163,39 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "golang/arrays-slices"
+                    "id": "go/arrays-slices"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/concurrency"
+                    "id": "go/concurrency"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/conditionals"
+                    "id": "go/conditionals"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/custom-types"
+                    "id": "go/custom-types"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/getting-started"
+                    "id": "go/functions"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/io"
+                    "id": "go/getting-started"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/loops"
+                    "id": "go/io"
                   },
                   {
                     "type": "doc",
-                    "id": "golang/variables"
+                    "id": "go/loops"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "go/variables"
                   }
                 ],
                 "link": {
@@ -897,7 +1295,15 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "haskell/datatypes"
+                    "id": "haskell/IO"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/bindings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/data-types"
                   },
                   {
                     "type": "doc",
@@ -906,6 +1312,18 @@
                   {
                     "type": "doc",
                     "id": "haskell/ghci"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/greeting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/lists"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "haskell/typeclasses"
                   }
                 ],
                 "link": {
@@ -913,6 +1331,24 @@
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/haskell",
                   "permalink": "/category/haskell"
+                }
+              },
+              {
+                "type": "category",
+                "label": "WebAssembly",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "webassembly/wat"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/webassembly",
+                  "permalink": "/category/webassembly"
                 }
               }
             ]

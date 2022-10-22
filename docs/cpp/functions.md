@@ -1,3 +1,7 @@
+---
+title: Functions in C++
+---
+
 # Functions
 
 Terminology: 
@@ -14,7 +18,7 @@ int add(int a, int b) {
 ```
 
 
-### Passing Functions as parameters 
+## Passing Functions as parameters 
 
 ```cpp
 int add (int a, int b) {
@@ -30,13 +34,13 @@ int main() {
 }
 ```
 
-### Virtual functions
+## Virtual functions
 
 B is a subclass of A, and A holds a virtual function. Therefore, we can override it in the B file, resulting in a method, which is able to do something else. 
 Code coming soon. 
 
 
-### Function pointers 
+## Function pointers 
 
 Function pointers help, to assign functions to variables. They also help, to pass functions to other functions, for example. 
 
@@ -60,7 +64,7 @@ int main() {
 ```
 In the example, the PrintValue function is passed into the ForEach function, so it can be used there in another way. 
 
-### Lambdas 
+## Lambdas 
 
 Lambdas could be viewed as throw-away functions, which help to receive the advantages of a function without the physical presence of a normal function. 
 Whenever we have a function pointer, we can use a lambda. 
@@ -83,3 +87,4 @@ lambda();
 ```
 
 There are many other ways to specify, you can check them out in a C++ reference. 
+

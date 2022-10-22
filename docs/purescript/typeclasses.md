@@ -1,3 +1,7 @@
+---
+title: Typeclasses in PureScript 
+----
+
 # Typeclasses 
 
 No, typeclasses are not related to classes in object oriented programming. Rather, typeclasses can be imagined as interfaces in functional programming. Typeclasses serve to overload functions for different data types, for example. First, we define the class itself and the signature of the functions it holds. Then, we can create as many instances as we like to - these instances are usually created for different data types. Nevertheless, all instances must define the functions which are declared in the related typeclass. Let's look at an example. 

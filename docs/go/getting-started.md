@@ -1,3 +1,7 @@
+---
+title: Getting started in Go 
+---
+
 # Getting started
 
 app.go

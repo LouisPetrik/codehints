@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-f49": {
+  "/-f09": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---b-07-cee"
@@ -76,45 +76,89 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---category-purescript-72-a-147"
   },
+  "/category/webassembly-bc1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-webassemblyebb-8ba"
+  },
+  "/cpp/arrays-431": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-arraysa-98-c4a"
+  },
+  "/cpp/classes-e94": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-classese-1-b-501"
+  },
   "/cpp/functions-87a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---cpp-functionsf-4-d-6d6"
   },
-  "/golang/arrays-slices-e6b": {
+  "/cpp/heap-stack-memory-683": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-arrays-slices-1-eb-e5e"
+    "content": "content---cpp-heap-stack-memoryac-3-afa"
   },
-  "/golang/concurrency-5b0": {
+  "/cpp/pointers-b2c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-concurrency-34-d-12b"
+    "content": "content---cpp-pointers-8-ab-9c3"
   },
-  "/golang/conditionals-6ba": {
+  "/cpp/references-f92": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-conditionalsa-15-0a3"
+    "content": "content---cpp-references-35-d-00e"
   },
-  "/golang/custom-types-02a": {
+  "/cpp/structures-a11": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-custom-typesc-6-d-639"
+    "content": "content---cpp-structuresc-7-b-577"
   },
-  "/golang/getting-started-b70": {
+  "/cpp/variables-data-types-604": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-getting-started-4-e-2-96e"
+    "content": "content---cpp-variables-data-types-2-da-53f"
   },
-  "/golang/io-3eb": {
+  "/cpp/vectors-8b5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-io-93-a-426"
+    "content": "content---cpp-vectors-958-891"
   },
-  "/golang/loops-e5c": {
+  "/go/arrays-slices-7f1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-loops-513-59c"
+    "content": "content---go-arrays-slices-159-845"
   },
-  "/golang/variables-451": {
+  "/go/concurrency-aa6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---golang-variables-7-f-0-bf6"
+    "content": "content---go-concurrencya-93-0f4"
   },
-  "/haskell/datatypes-bfa": {
+  "/go/conditionals-9d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---haskell-datatypes-59-b-5c9"
+    "content": "content---go-conditionalsb-73-5d6"
+  },
+  "/go/custom-types-304": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-custom-types-226-bad"
+  },
+  "/go/functions-6ae": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-functionsb-2-e-3d2"
+  },
+  "/go/getting-started-b8e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-getting-started-715-4e6"
+  },
+  "/go/io-def": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-iod-60-3c4"
+  },
+  "/go/loops-e24": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-loops-02-e-1a6"
+  },
+  "/go/variables-40e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-variablesaac-410"
+  },
+  "/haskell/bindings-37b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-bindingsaec-d4b"
+  },
+  "/haskell/data-types-9a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-data-types-121-f1e"
   },
   "/haskell/functions-d00": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -123,6 +167,22 @@
   "/haskell/ghci-ba9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---haskell-ghci-567-76f"
+  },
+  "/haskell/greeting-fce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-greeting-7-bb-40f"
+  },
+  "/haskell/IO-604": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-io-7-a-1-2e3"
+  },
+  "/haskell/lists-c1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-lists-004-3f5"
+  },
+  "/haskell/typeclasses-5d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-typeclasses-20-c-b3a"
   },
   "/purescript/arrays-3b6": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -191,5 +251,9 @@
   "/purescript/types-e4d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---purescript-typesefa-8e6"
+  },
+  "/webassembly/wat-9b5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---webassembly-wat-58-f-cbb"
   }
 }

@@ -1,3 +1,7 @@
+---
+title: Input and Output in Go 
+---
+
 # fmt package (IO)
 
 fmt is a default package, used for IO. It stands for "format".

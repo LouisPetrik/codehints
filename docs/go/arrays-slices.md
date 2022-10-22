@@ -1,3 +1,7 @@
+---
+title: Arrays and Slices in Go 
+---
+
 # Arrays & Slices 
 
 ## Arrays

@@ -1,3 +1,7 @@
+---
+title: Concurrency in Go 
+---
+
 # Concurrency
 
 In this example, there will never be "fish" printed.

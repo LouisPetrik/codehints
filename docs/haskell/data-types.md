@@ -1,14 +1,18 @@
+---
+title: Data Types in Haskell 
+----
+
 # Data types 
 
-### Int & Integer 
+## Int & Integer 
 
 While "Int" is the classic integer type bound to a size, so limited in the number of numbers it can represent, "Integer" is not bound - yet, "Int" is more efficient. 
 
-### Char & String
+## Char & String
 
 A char is a single character. A string is technically an array of chars, which is why strings are often noted as [Char] in Haskell. Nevertheless, we can also use "String". 
 
-### Tuples 
+## Tuples 
 
 Unlike lists, tuples can hold different types of data. 
 
@@ -32,7 +36,7 @@ returnTuple x y = (x, y)
 
 This function just takes two values and puts them into a tuple. 
 
-### Enums 
+## Enums 
 
 Enum stands for enumeration, and might be known from many other programming languages. 
 
@@ -62,7 +66,7 @@ More on the deriving-syntax [here](https://github.com/LouisPetrik/cheatsheet/blo
 
 Types always start with an uppercase letter. 
 
-### Type variables 
+## Type variables 
 
 Often you will see function signatures like this one: 
 
@@ -113,7 +117,7 @@ greetWithFirstname (Firstname "Max")
 In the type declaration, you can see that we use Name as the first parameter - not Firstname, which the function actually wants to use. The reason is, that Firstname is a constructor - not a type. Name is the type, and in the function declaration, types are needed. 
 
 
-### Using type parameters 
+## Using type parameters 
 
 As we covered data constructors before, we can now move on to types parameters. 
 
@@ -128,7 +132,7 @@ To make it even more clear, when we pass String to Maybe, the resulting type wil
 
 Important to understand is also, that the type of "Nothing" is "Maybe a". Therefore, we can pass Nothing to each function requiring a "Maybe x" (String, Integer etc.). 
 
-### Deriving instances 
+## Deriving instances 
 
 In Haskell, we can force our data type to be derived of a certain typeclass. We will see in a second what this means. 
 Here is an example. 

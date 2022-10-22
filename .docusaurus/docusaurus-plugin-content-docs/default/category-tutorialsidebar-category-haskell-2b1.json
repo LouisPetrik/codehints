@@ -9,8 +9,8 @@
       "permalink": "/purescript/types"
     },
     "next": {
-      "title": "Data types",
-      "permalink": "/haskell/datatypes"
+      "title": "In and output",
+      "permalink": "/haskell/IO"
     }
   }
 }

@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f49'),
+    component: ComponentCreator('/', 'f09'),
     routes: [
       {
         path: '/',
@@ -77,62 +77,128 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/webassembly',
+        component: ComponentCreator('/category/webassembly', 'bc1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/cpp/arrays',
+        component: ComponentCreator('/cpp/arrays', '431'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/cpp/classes',
+        component: ComponentCreator('/cpp/classes', 'e94'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/cpp/functions',
         component: ComponentCreator('/cpp/functions', '87a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/arrays-slices',
-        component: ComponentCreator('/golang/arrays-slices', 'e6b'),
+        path: '/cpp/heap-stack-memory',
+        component: ComponentCreator('/cpp/heap-stack-memory', '683'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/concurrency',
-        component: ComponentCreator('/golang/concurrency', '5b0'),
+        path: '/cpp/pointers',
+        component: ComponentCreator('/cpp/pointers', 'b2c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/conditionals',
-        component: ComponentCreator('/golang/conditionals', '6ba'),
+        path: '/cpp/references',
+        component: ComponentCreator('/cpp/references', 'f92'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/custom-types',
-        component: ComponentCreator('/golang/custom-types', '02a'),
+        path: '/cpp/structures',
+        component: ComponentCreator('/cpp/structures', 'a11'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/getting-started',
-        component: ComponentCreator('/golang/getting-started', 'b70'),
+        path: '/cpp/variables-data-types',
+        component: ComponentCreator('/cpp/variables-data-types', '604'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/io',
-        component: ComponentCreator('/golang/io', '3eb'),
+        path: '/cpp/vectors',
+        component: ComponentCreator('/cpp/vectors', '8b5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/loops',
-        component: ComponentCreator('/golang/loops', 'e5c'),
+        path: '/go/arrays-slices',
+        component: ComponentCreator('/go/arrays-slices', '7f1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/golang/variables',
-        component: ComponentCreator('/golang/variables', '451'),
+        path: '/go/concurrency',
+        component: ComponentCreator('/go/concurrency', 'aa6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/haskell/datatypes',
-        component: ComponentCreator('/haskell/datatypes', 'bfa'),
+        path: '/go/conditionals',
+        component: ComponentCreator('/go/conditionals', '9d2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/custom-types',
+        component: ComponentCreator('/go/custom-types', '304'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/functions',
+        component: ComponentCreator('/go/functions', '6ae'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/getting-started',
+        component: ComponentCreator('/go/getting-started', 'b8e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/io',
+        component: ComponentCreator('/go/io', 'def'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/loops',
+        component: ComponentCreator('/go/loops', 'e24'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/go/variables',
+        component: ComponentCreator('/go/variables', '40e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/bindings',
+        component: ComponentCreator('/haskell/bindings', '37b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/data-types',
+        component: ComponentCreator('/haskell/data-types', '9a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -145,6 +211,30 @@ export default [
       {
         path: '/haskell/ghci',
         component: ComponentCreator('/haskell/ghci', 'ba9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/greeting',
+        component: ComponentCreator('/haskell/greeting', 'fce'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/IO',
+        component: ComponentCreator('/haskell/IO', '604'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/lists',
+        component: ComponentCreator('/haskell/lists', 'c1a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/haskell/typeclasses',
+        component: ComponentCreator('/haskell/typeclasses', '5d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -247,6 +337,12 @@ export default [
       {
         path: '/purescript/types',
         component: ComponentCreator('/purescript/types', 'e4d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/webassembly/wat',
+        component: ComponentCreator('/webassembly/wat', '9b5'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

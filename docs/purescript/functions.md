@@ -1,3 +1,7 @@
+---
+title: Functions in PureScript 
+----
+
 # Functions
 
 As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know. 

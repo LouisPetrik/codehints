@@ -23,9 +23,57 @@
         "items": [
           {
             "type": "link",
+            "label": "Arrays",
+            "href": "/cpp/arrays",
+            "docId": "cpp/arrays"
+          },
+          {
+            "type": "link",
+            "label": "Classes",
+            "href": "/cpp/classes",
+            "docId": "cpp/classes"
+          },
+          {
+            "type": "link",
             "label": "Functions",
             "href": "/cpp/functions",
             "docId": "cpp/functions"
+          },
+          {
+            "type": "link",
+            "label": "Stack, Heap and Static Memory",
+            "href": "/cpp/heap-stack-memory",
+            "docId": "cpp/heap-stack-memory"
+          },
+          {
+            "type": "link",
+            "label": "Pointers",
+            "href": "/cpp/pointers",
+            "docId": "cpp/pointers"
+          },
+          {
+            "type": "link",
+            "label": "References",
+            "href": "/cpp/references",
+            "docId": "cpp/references"
+          },
+          {
+            "type": "link",
+            "label": "Structures",
+            "href": "/cpp/structures",
+            "docId": "cpp/structures"
+          },
+          {
+            "type": "link",
+            "label": "Variables & Data types",
+            "href": "/cpp/variables-data-types",
+            "docId": "cpp/variables-data-types"
+          },
+          {
+            "type": "link",
+            "label": "vectors",
+            "href": "/cpp/vectors",
+            "docId": "cpp/vectors"
           }
         ],
         "href": "/category/c"
@@ -39,50 +87,56 @@
           {
             "type": "link",
             "label": "Arrays & Slices",
-            "href": "/golang/arrays-slices",
-            "docId": "golang/arrays-slices"
+            "href": "/go/arrays-slices",
+            "docId": "go/arrays-slices"
           },
           {
             "type": "link",
             "label": "Concurrency",
-            "href": "/golang/concurrency",
-            "docId": "golang/concurrency"
+            "href": "/go/concurrency",
+            "docId": "go/concurrency"
           },
           {
             "type": "link",
             "label": "Conditionals",
-            "href": "/golang/conditionals",
-            "docId": "golang/conditionals"
+            "href": "/go/conditionals",
+            "docId": "go/conditionals"
           },
           {
             "type": "link",
             "label": "Custom types",
-            "href": "/golang/custom-types",
-            "docId": "golang/custom-types"
-          },
-          {
-            "type": "link",
-            "label": "Getting started",
-            "href": "/golang/getting-started",
-            "docId": "golang/getting-started"
-          },
-          {
-            "type": "link",
-            "label": "fmt package (IO)",
-            "href": "/golang/io",
-            "docId": "golang/io"
+            "href": "/go/custom-types",
+            "docId": "go/custom-types"
           },
           {
             "type": "link",
             "label": "Functions",
-            "href": "/golang/loops",
-            "docId": "golang/loops"
+            "href": "/go/functions",
+            "docId": "go/functions"
+          },
+          {
+            "type": "link",
+            "label": "Getting started",
+            "href": "/go/getting-started",
+            "docId": "go/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "fmt package (IO)",
+            "href": "/go/io",
+            "docId": "go/io"
+          },
+          {
+            "type": "link",
+            "label": "For Loops",
+            "href": "/go/loops",
+            "docId": "go/loops"
           },
           {
             "type": "link",
             "label": "Variables",
-            "href": "/golang/variables",
-            "docId": "golang/variables"
+            "href": "/go/variables",
+            "docId": "go/variables"
           }
         ],
         "href": "/category/go"
@@ -101,7 +155,7 @@
           },
           {
             "type": "link",
-            "label": "Arrays",
+            "label": "Arrays in PureScript",
             "href": "/purescript/arrays",
             "docId": "purescript/arrays"
           },
@@ -206,9 +260,21 @@
         "items": [
           {
             "type": "link",
+            "label": "In and output",
+            "href": "/haskell/IO",
+            "docId": "haskell/IO"
+          },
+          {
+            "type": "link",
+            "label": "Bindings",
+            "href": "/haskell/bindings",
+            "docId": "haskell/bindings"
+          },
+          {
+            "type": "link",
             "label": "Data types",
-            "href": "/haskell/datatypes",
-            "docId": "haskell/datatypes"
+            "href": "/haskell/data-types",
+            "docId": "haskell/data-types"
           },
           {
             "type": "link",
@@ -218,72 +284,165 @@
           },
           {
             "type": "link",
-            "label": "ghci",
+            "label": "GHCI",
             "href": "/haskell/ghci",
             "docId": "haskell/ghci"
+          },
+          {
+            "type": "link",
+            "label": "Hello world",
+            "href": "/haskell/greeting",
+            "docId": "haskell/greeting"
+          },
+          {
+            "type": "link",
+            "label": "Lists",
+            "href": "/haskell/lists",
+            "docId": "haskell/lists"
+          },
+          {
+            "type": "link",
+            "label": "Typeclasses",
+            "href": "/haskell/typeclasses",
+            "docId": "haskell/typeclasses"
           }
         ],
         "href": "/category/haskell"
+      },
+      {
+        "type": "category",
+        "label": "WebAssembly",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "WebAssembly Text Format (WAT)",
+            "href": "/webassembly/wat",
+            "docId": "webassembly/wat"
+          }
+        ],
+        "href": "/category/webassembly"
       }
     ]
   },
   "docs": {
+    "cpp/arrays": {
+      "id": "cpp/arrays",
+      "title": "Arrays",
+      "description": "An array is a collecting of data, of the same type and with a fixed length.",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/classes": {
+      "id": "cpp/classes",
+      "title": "Classes",
+      "description": "By default, all properties of a class are kept private, therefore not visble outside of the scope.",
+      "sidebar": "tutorialSidebar"
+    },
     "cpp/functions": {
       "id": "cpp/functions",
       "title": "Functions",
       "description": "Terminology:",
       "sidebar": "tutorialSidebar"
     },
-    "golang/arrays-slices": {
-      "id": "golang/arrays-slices",
+    "cpp/heap-stack-memory": {
+      "id": "cpp/heap-stack-memory",
+      "title": "Stack, Heap and Static Memory",
+      "description": "Allocating variables in the memory",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/pointers": {
+      "id": "cpp/pointers",
+      "title": "Pointers",
+      "description": "A pointer is an integer, which stores a memory address. Types can be used with pointers but more on a syntactical-level to make clear what the value retrieved will be.",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/references": {
+      "id": "cpp/references",
+      "title": "References",
+      "description": "References are related to pointers - one needs to understand the first one. They work similary like pointers.",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/structures": {
+      "id": "cpp/structures",
+      "title": "Structures",
+      "description": "Through structures, multiple values can be grouped together.",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/variables-data-types": {
+      "id": "cpp/variables-data-types",
+      "title": "Variables & Data types",
+      "description": "Strings",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/vectors": {
+      "id": "cpp/vectors",
+      "title": "vectors",
+      "description": "Dynamic arrays (std::vector)",
+      "sidebar": "tutorialSidebar"
+    },
+    "go/arrays-slices": {
+      "id": "go/arrays-slices",
       "title": "Arrays & Slices",
       "description": "Arrays",
       "sidebar": "tutorialSidebar"
     },
-    "golang/concurrency": {
-      "id": "golang/concurrency",
+    "go/concurrency": {
+      "id": "go/concurrency",
       "title": "Concurrency",
       "description": "In this example, there will never be \"fish\" printed.",
       "sidebar": "tutorialSidebar"
     },
-    "golang/conditionals": {
-      "id": "golang/conditionals",
+    "go/conditionals": {
+      "id": "go/conditionals",
       "title": "Conditionals",
       "description": "You can declare variables even within the if-syntax:",
       "sidebar": "tutorialSidebar"
     },
-    "golang/custom-types": {
-      "id": "golang/custom-types",
+    "go/custom-types": {
+      "id": "go/custom-types",
       "title": "Custom types",
       "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
       "sidebar": "tutorialSidebar"
     },
-    "golang/getting-started": {
-      "id": "golang/getting-started",
-      "title": "Getting started",
-      "description": "app.go",
-      "sidebar": "tutorialSidebar"
-    },
-    "golang/io": {
-      "id": "golang/io",
-      "title": "fmt package (IO)",
-      "description": "fmt is a default package, used for IO. It stands for \"format\".",
-      "sidebar": "tutorialSidebar"
-    },
-    "golang/loops": {
-      "id": "golang/loops",
+    "go/functions": {
+      "id": "go/functions",
       "title": "Functions",
       "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
       "sidebar": "tutorialSidebar"
     },
-    "golang/variables": {
-      "id": "golang/variables",
+    "go/getting-started": {
+      "id": "go/getting-started",
+      "title": "Getting started",
+      "description": "app.go",
+      "sidebar": "tutorialSidebar"
+    },
+    "go/io": {
+      "id": "go/io",
+      "title": "fmt package (IO)",
+      "description": "fmt is a default package, used for IO. It stands for \"format\".",
+      "sidebar": "tutorialSidebar"
+    },
+    "go/loops": {
+      "id": "go/loops",
+      "title": "For Loops",
+      "description": "For-Loops are the only loops which can be used in Go.",
+      "sidebar": "tutorialSidebar"
+    },
+    "go/variables": {
+      "id": "go/variables",
       "title": "Variables",
       "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
       "sidebar": "tutorialSidebar"
     },
-    "haskell/datatypes": {
-      "id": "haskell/datatypes",
+    "haskell/bindings": {
+      "id": "haskell/bindings",
+      "title": "Bindings",
+      "description": "Bindings can be seen as a replacement for constants in the scope of functions. They don't enable us to do something completely new, but help to make things more clearly, as we can store the result of some expression through a binding.",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/data-types": {
+      "id": "haskell/data-types",
       "title": "Data types",
       "description": "Int & Integer",
       "sidebar": "tutorialSidebar"
@@ -291,13 +450,37 @@
     "haskell/functions": {
       "id": "haskell/functions",
       "title": "Functions",
-      "description": "Second title",
+      "description": "Chapter will be more complete soon. For now, check out the Functions cheatsheet of PureScript as functions work the same way in Haskell.",
       "sidebar": "tutorialSidebar"
     },
     "haskell/ghci": {
       "id": "haskell/ghci",
-      "title": "ghci",
-      "description": "GHCI",
+      "title": "GHCI",
+      "description": "The Glasgow Haskell compiler",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/greeting": {
+      "id": "haskell/greeting",
+      "title": "Hello world",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/IO": {
+      "id": "haskell/IO",
+      "title": "In and output",
+      "description": "When initialising records for example, you might have noticed that you are unable to print",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/lists": {
+      "id": "haskell/lists",
+      "title": "Lists",
+      "description": "Accessing element in list through index:",
+      "sidebar": "tutorialSidebar"
+    },
+    "haskell/typeclasses": {
+      "id": "haskell/typeclasses",
+      "title": "Typeclasses",
+      "description": "When asking GHCI for the type of an operator like the plus-operator, you will notice that it is basically a function. Everything before the => sign is called the class constraint.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -308,7 +491,7 @@
     },
     "purescript/arrays": {
       "id": "purescript/arrays",
-      "title": "Arrays",
+      "title": "Arrays in PureScript",
       "description": "Generating Array in Range:",
       "sidebar": "tutorialSidebar"
     },
@@ -406,6 +589,12 @@
       "id": "purescript/types",
       "title": "Types",
       "description": "Default Types",
+      "sidebar": "tutorialSidebar"
+    },
+    "webassembly/wat": {
+      "id": "webassembly/wat",
+      "title": "WebAssembly Text Format (WAT)",
+      "description": "WA offers a notation which can be used to write human-readable code, compiled to WASM.",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -1,3 +1,7 @@
+---
+title: Records in PureScript 
+----
+
 # Records
 
 Records are basically like Objects in JS. Yet, immutable, of course.

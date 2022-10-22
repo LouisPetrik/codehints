@@ -1,3 +1,7 @@
+---
+title: Folds in PureScript 
+----
+
 # Folds
 
 Make sure to import:

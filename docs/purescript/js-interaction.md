@@ -1,3 +1,7 @@
+---
+title: Interacting with JS in PureScript 
+----
+
 # JavaScript Interaction
 
 This part resolves around using PureScript functions in JavaScript, and the other way around - using JavaScript functions in 

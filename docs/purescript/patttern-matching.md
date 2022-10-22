@@ -1,3 +1,7 @@
+---
+title: Pattern Matching in PureScript 
+----
+
 # Pattern matching 
 
 Before, we just covered a little bit of pattern matching in functions - let's go into more detail, and learn about pattern matching for different data types. 

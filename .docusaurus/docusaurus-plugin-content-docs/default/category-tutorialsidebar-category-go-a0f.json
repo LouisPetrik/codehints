@@ -5,12 +5,12 @@
   "permalink": "/category/go",
   "navigation": {
     "previous": {
-      "title": "Functions",
-      "permalink": "/cpp/functions"
+      "title": "vectors",
+      "permalink": "/cpp/vectors"
     },
     "next": {
       "title": "Arrays & Slices",
-      "permalink": "/golang/arrays-slices"
+      "permalink": "/go/arrays-slices"
     }
   }
 }

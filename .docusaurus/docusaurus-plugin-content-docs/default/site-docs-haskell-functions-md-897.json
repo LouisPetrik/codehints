@@ -2,7 +2,7 @@
   "unversionedId": "haskell/functions",
   "id": "haskell/functions",
   "title": "Functions",
-  "description": "Second title",
+  "description": "Chapter will be more complete soon. For now, check out the Functions cheatsheet of PureScript as functions work the same way in Haskell.",
   "source": "@site/docs/haskell/functions.md",
   "sourceDirName": "haskell",
   "slug": "/haskell/functions",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Data types",
-    "permalink": "/haskell/datatypes"
+    "permalink": "/haskell/data-types"
   },
   "next": {
-    "title": "ghci",
+    "title": "GHCI",
     "permalink": "/haskell/ghci"
   }
 }

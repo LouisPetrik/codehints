@@ -4,9 +4,9 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "CodeHints",
+  "tagline": "Code concepts through cheatsheets",
+  "url": "https://codehints.netlify.app",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -39,7 +39,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "CodeHints",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"

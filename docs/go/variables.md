@@ -1,3 +1,7 @@
+---
+title: Variables in Go 
+---
+
 # Variables
 
 Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.

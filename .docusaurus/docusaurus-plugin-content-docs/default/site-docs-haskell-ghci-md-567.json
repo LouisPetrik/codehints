@@ -1,8 +1,8 @@
 {
   "unversionedId": "haskell/ghci",
   "id": "haskell/ghci",
-  "title": "ghci",
-  "description": "GHCI",
+  "title": "GHCI",
+  "description": "The Glasgow Haskell compiler",
   "source": "@site/docs/haskell/ghci.md",
   "sourceDirName": "haskell",
   "slug": "/haskell/ghci",
@@ -16,5 +16,9 @@
   "previous": {
     "title": "Functions",
     "permalink": "/haskell/functions"
+  },
+  "next": {
+    "title": "Hello world",
+    "permalink": "/haskell/greeting"
   }
 }

@@ -1,3 +1,7 @@
+---
+title: Functions in Go 
+---
+
 # Functions
 
 Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.

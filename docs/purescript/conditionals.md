@@ -1,3 +1,7 @@
+---
+title: Conditionals in PureScript 
+----
+
 # Conditionals
 
 There are a couple ways to execute code conditionally in PureScript: If-then-else, case expressions, pattern matching (there is a whole section below on this topic) and guards. 

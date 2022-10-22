@@ -1,3 +1,7 @@
+---
+title: PureScript's Standard Library
+----
+
 # Standard Library
 
 This section is going to cover some useful functions, available by default, like const, apply, flip and more.

@@ -1,3 +1,7 @@
+---
+title: Getting Started with PureScript 
+----
+
 # Getting started
 
 Installing PureScript on your machine:

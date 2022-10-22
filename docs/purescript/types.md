@@ -1,4 +1,4 @@
-# Types
+# Types in PureScript 
 
 ## Default Types 
 
