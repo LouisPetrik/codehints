@@ -1,232 +1,275 @@
 {
-  "/markdown-page-a3f": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-103": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "fec76d0c"
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/config-fc9": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/content-b6e": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
     },
-    "content": "393be207"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-e11": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/metadata-da4": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/registry-84a": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/__docusaurus/debug/routes-5c1": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-2-b-0-ad4"
+    }
+  },
+  "/markdown-page-a3f": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagefec-dd7"
+    },
+    "content": "content---markdown-page-393-028"
   },
   "/-232": {
-    "__comp": "1be78505",
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "b074cfb1"
+      "plugin": "plugin---b-07-cee"
     },
-    "versionMetadata": "935f2afb"
+    "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-96c": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---0-e-3-279"
   },
   "/category/c-764": {
-    "__comp": "17896441",
-    "content": "3db6a42c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---category-c-3-db-52d"
   },
   "/category/c-d50": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "a4b6e805"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-ca-4-b-f10"
   },
   "/category/go-28c": {
-    "__comp": "17896441",
-    "content": "069936ab"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---category-go-069-cd3"
   },
   "/category/go-381": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "292a567c"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-go-292-a4f"
   },
   "/category/haskell-236": {
-    "__comp": "17896441",
-    "content": "ef99a412"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---category-haskellef-9-7e6"
   },
   "/category/haskell-614": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "92a0ef04"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-haskell-92-a-f6b"
   },
   "/category/purescript-ffc": {
-    "__comp": "17896441",
-    "content": "e6139f4e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---category-purescripte-61-6e9"
   },
   "/category/purescript-383": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "72a0bdde"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-purescript-72-a-147"
   },
   "/category/webassembly-bc1": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "ebb13996"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-webassemblyebb-8ba"
   },
   "/cpp/arrays-431": {
-    "__comp": "17896441",
-    "content": "a9830ce6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-arraysa-98-c4a"
   },
   "/cpp/classes-e94": {
-    "__comp": "17896441",
-    "content": "e1bd0171"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-classese-1-b-501"
   },
   "/cpp/functions-87a": {
-    "__comp": "17896441",
-    "content": "f4db765f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-functionsf-4-d-6d6"
   },
   "/cpp/heap-stack-memory-683": {
-    "__comp": "17896441",
-    "content": "ac3a4673"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-heap-stack-memoryac-3-afa"
   },
   "/cpp/pointers-b2c": {
-    "__comp": "17896441",
-    "content": "8abc7b82"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-pointers-8-ab-9c3"
   },
   "/cpp/references-f92": {
-    "__comp": "17896441",
-    "content": "35d1a6c2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-references-35-d-00e"
   },
   "/cpp/structures-a11": {
-    "__comp": "17896441",
-    "content": "c7bbb86b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-structuresc-7-b-577"
   },
   "/cpp/variables-data-types-604": {
-    "__comp": "17896441",
-    "content": "2da950b7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-variables-data-types-2-da-53f"
   },
   "/cpp/vectors-8b5": {
-    "__comp": "17896441",
-    "content": "958ebfb7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cpp-vectors-958-891"
   },
   "/go/arrays-slices-7f1": {
-    "__comp": "17896441",
-    "content": "1598e832"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-arrays-slices-159-845"
   },
   "/go/concurrency-aa6": {
-    "__comp": "17896441",
-    "content": "a93649c1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-concurrencya-93-0f4"
   },
   "/go/conditionals-9d2": {
-    "__comp": "17896441",
-    "content": "b73d8663"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-conditionalsb-73-5d6"
   },
   "/go/custom-types-304": {
-    "__comp": "17896441",
-    "content": "2264dfbf"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-custom-types-226-bad"
   },
   "/go/functions-6ae": {
-    "__comp": "17896441",
-    "content": "b2e3aa06"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-functionsb-2-e-3d2"
   },
   "/go/getting-started-b8e": {
-    "__comp": "17896441",
-    "content": "71564ca8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-getting-started-715-4e6"
   },
   "/go/io-def": {
-    "__comp": "17896441",
-    "content": "d60bd5a5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-iod-60-3c4"
   },
   "/go/loops-e24": {
-    "__comp": "17896441",
-    "content": "02e3e2b1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-loops-02-e-1a6"
   },
   "/go/variables-40e": {
-    "__comp": "17896441",
-    "content": "aac890dd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---go-variablesaac-410"
   },
   "/haskell/bindings-37b": {
-    "__comp": "17896441",
-    "content": "aec54f8c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-bindingsaec-d4b"
   },
   "/haskell/data-types-9a8": {
-    "__comp": "17896441",
-    "content": "12192e87"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-data-types-121-f1e"
   },
   "/haskell/functions-d00": {
-    "__comp": "17896441",
-    "content": "8971d69d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-functions-897-fdf"
   },
   "/haskell/ghci-ba9": {
-    "__comp": "17896441",
-    "content": "5679e8e8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-ghci-567-76f"
   },
   "/haskell/greeting-fce": {
-    "__comp": "17896441",
-    "content": "7bba2bf8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-greeting-7-bb-40f"
   },
   "/haskell/IO-604": {
-    "__comp": "17896441",
-    "content": "7a10ec27"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-io-7-a-1-2e3"
   },
   "/haskell/lists-c1a": {
-    "__comp": "17896441",
-    "content": "0046e867"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-lists-004-3f5"
   },
   "/haskell/typeclasses-5d7": {
-    "__comp": "17896441",
-    "content": "20cd2506"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---haskell-typeclasses-20-c-b3a"
   },
   "/purescript/arrays-3b6": {
-    "__comp": "17896441",
-    "content": "a1100cb5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-arraysa-11-b0f"
   },
   "/purescript/bindings-7ab": {
-    "__comp": "17896441",
-    "content": "5ffc20a1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-bindings-5-ff-85c"
   },
   "/purescript/conditionals-7df": {
-    "__comp": "17896441",
-    "content": "07e35a86"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-conditionals-07-e-fbf"
   },
   "/purescript/custom-types-3ca": {
-    "__comp": "17896441",
-    "content": "a6767ca7"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-custom-typesa-67-b6f"
   },
   "/purescript/folds-615": {
-    "__comp": "17896441",
-    "content": "38eb9ebd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-folds-38-e-821"
   },
   "/purescript/functions-9b3": {
-    "__comp": "17896441",
-    "content": "38fa46cb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-functions-38-f-3e7"
   },
   "/purescript/getting-started-91d": {
-    "__comp": "17896441",
-    "content": "1f89bf8f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-getting-started-1-f-8-71f"
   },
   "/purescript/IO-692": {
-    "__comp": "17896441",
-    "content": "04744eec"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-io-047-b5b"
   },
   "/purescript/js-interaction-64f": {
-    "__comp": "17896441",
-    "content": "9a7b2222"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-js-interaction-9-a-7-f2e"
   },
   "/purescript/lists-099": {
-    "__comp": "17896441",
-    "content": "83c023c8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-lists-83-c-dc3"
   },
   "/purescript/map-reduce-filter-a90": {
-    "__comp": "17896441",
-    "content": "73abb4ec"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-map-reduce-filter-73-a-257"
   },
   "/purescript/modules-9c6": {
-    "__comp": "17896441",
-    "content": "bf3331c3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-modulesbf-3-7ff"
   },
   "/purescript/patttern-matching-1d6": {
-    "__comp": "17896441",
-    "content": "9d3fb40c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-patttern-matching-9-d-3-b31"
   },
   "/purescript/records-880": {
-    "__comp": "17896441",
-    "content": "adb6956f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-recordsadb-84c"
   },
   "/purescript/standard-lib-9fe": {
-    "__comp": "17896441",
-    "content": "b8be7c4d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-standard-libb-8-b-296"
   },
   "/purescript/typeclasses-99a": {
-    "__comp": "17896441",
-    "content": "fa4d9dc3"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-typeclassesfa-4-d1b"
   },
   "/purescript/types-e4d": {
-    "__comp": "17896441",
-    "content": "efa145a8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---purescript-typesefa-8e6"
   },
   "/webassembly/wat-9b5": {
-    "__comp": "17896441",
-    "content": "58ff0eb0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---webassembly-wat-58-f-cbb"
   }
 }

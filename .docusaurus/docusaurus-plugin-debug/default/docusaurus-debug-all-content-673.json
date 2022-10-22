@@ -127,7 +127,7 @@
               "unversionedId": "cpp/intro",
               "id": "cpp/intro",
               "title": "Introduction to C++",
-              "description": "",
+              "description": "Come on, you know it.",
               "source": "@site/docs/cpp/intro.md",
               "sourceDirName": "cpp",
               "slug": "/category/c",
@@ -138,6 +138,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
+                "title": "Introduction to C++",
                 "sidebar_position": 1,
                 "slug": "/category/c"
               },
@@ -299,7 +300,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Go",
+                "title": "Introduction to Go",
                 "permalink": "/category/go"
               },
               "next": {
@@ -435,6 +436,35 @@
               "next": {
                 "title": "Input and Output in Go",
                 "permalink": "/go/io"
+              }
+            },
+            {
+              "unversionedId": "go/intro",
+              "id": "go/intro",
+              "title": "Introduction to Go",
+              "description": "Go is a mostly imperativ programming language, created by Google in 2009. Go can be seen as a modern alternative to C, yet it's main focus the world of servers.",
+              "source": "@site/docs/go/intro.md",
+              "sourceDirName": "go",
+              "slug": "/category/go",
+              "permalink": "/category/go",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction to Go",
+                "sidebar_position": 1,
+                "slug": "/category/go"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Go",
+                "permalink": "/category/go"
+              },
+              "next": {
+                "title": "Arrays and Slices in Go",
+                "permalink": "/go/arrays-slices"
               }
             },
             {
@@ -644,6 +674,35 @@
               }
             },
             {
+              "unversionedId": "haskell/intro",
+              "id": "haskell/intro",
+              "title": "Introduction to Haskell",
+              "description": "Haskell is a purely functional programming language created in 1990.",
+              "source": "@site/docs/haskell/intro.md",
+              "sourceDirName": "haskell",
+              "slug": "/category/haskell",
+              "permalink": "/category/haskell",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction to Haskell",
+                "sidebar_position": 1,
+                "slug": "/category/haskell"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Haskell",
+                "permalink": "/category/haskell"
+              },
+              "next": {
+                "title": "Input and Output in Haskell",
+                "permalink": "/haskell/IO"
+              }
+            },
+            {
               "unversionedId": "haskell/IO",
               "id": "haskell/IO",
               "title": "Input and Output in Haskell",
@@ -661,7 +720,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Haskell",
+                "title": "Introduction to Haskell",
                 "permalink": "/category/haskell"
               },
               "next": {
@@ -1306,6 +1365,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "go/intro"
+                  },
+                  {
+                    "type": "doc",
                     "id": "go/arrays-slices"
                   },
                   {
@@ -1440,6 +1503,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "haskell/intro"
+                  },
                   {
                     "type": "doc",
                     "id": "haskell/IO"
