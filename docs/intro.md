@@ -1,7 +1,8 @@
 ---
-title: Programming Cheat sheets 
+title: Programming Cheat Sheets 
 sidebar_position: 1
 slug: /
+description: A collection of cheat sheets for programmers, created while learning. Covering C++, Golang, PureScript, Haskell and more. 
 ---
 
 # Louis' Programming Cheat Sheets 
