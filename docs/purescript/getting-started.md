@@ -1,6 +1,6 @@
 ---
 title: Getting Started with PureScript 
-----
+---
 
 # Getting started
 

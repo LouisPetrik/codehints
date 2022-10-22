@@ -1,6 +1,6 @@
 ---
 title: Modules in PureScript 
-----
+---
 
 # Modules
 

@@ -1,6 +1,6 @@
 ---
 title: Bindings in PureScript 
-----
+---
 
 # Bindings 
 

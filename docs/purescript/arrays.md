@@ -1,6 +1,6 @@
 ---
 title: Arrays in PureScript 
-----
+---
 
 # Arrays
 

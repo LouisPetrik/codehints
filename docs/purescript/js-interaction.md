@@ -1,6 +1,6 @@
 ---
 title: Interacting with JS in PureScript 
-----
+---
 
 # JavaScript Interaction
 

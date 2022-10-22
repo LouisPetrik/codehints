@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Louis Programming Cheatsheets 
+# Louis' Programming Cheatsheets 
 
 Hey there! Welcome to my programming cheat sheets. 
 

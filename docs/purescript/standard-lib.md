@@ -1,6 +1,6 @@
 ---
 title: PureScript's Standard Library
-----
+---
 
 # Standard Library
 

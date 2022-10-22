@@ -1,6 +1,6 @@
 ---
 title: Custom Types in PureScript 
-----
+---
 
 # Custom Types 
 

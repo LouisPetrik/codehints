@@ -1,6 +1,6 @@
 ---
 title: Folds in PureScript 
-----
+---
 
 # Folds
 

@@ -1,6 +1,6 @@
 ---
 title: Functions in PureScript 
-----
+---
 
 # Functions
 

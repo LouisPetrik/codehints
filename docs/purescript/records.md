@@ -1,6 +1,6 @@
 ---
 title: Records in PureScript 
-----
+---
 
 # Records
 

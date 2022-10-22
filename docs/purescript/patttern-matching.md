@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching in PureScript 
-----
+---
 
 # Pattern matching 
 

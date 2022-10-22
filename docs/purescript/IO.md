@@ -1,6 +1,6 @@
 ---
 title: Input and Output in PureScript 
-----
+---
 
 # IO 
 

@@ -1,6 +1,6 @@
 ---
 title: Typeclasses in PureScript 
-----
+---
 
 # Typeclasses 
 

@@ -1,6 +1,6 @@
 ---
 title: Conditionals in PureScript 
-----
+---
 
 # Conditionals
 

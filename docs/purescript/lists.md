@@ -1,6 +1,6 @@
 ---
 title: Lists in PureScript 
-----
+---
 
 # Lists 
 
