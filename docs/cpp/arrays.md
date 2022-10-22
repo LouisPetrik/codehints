@@ -1,9 +1,8 @@
 ---
 title: Arrays in C++
-id: arrays-cpp
 ---
 
-# Arrays in C++ 
+# Arrays 
 
 An array is a collecting of data, of the same type and with a fixed length. 
 

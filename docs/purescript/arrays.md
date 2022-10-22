@@ -2,7 +2,7 @@
 title: Arrays in PureScript 
 ---
 
-# Arrays in PureScript 
+# Arrays 
 
 ## Generating Array in Range:
 

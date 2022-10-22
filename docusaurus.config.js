@@ -116,6 +116,7 @@ const config = {
         docsRouteBasePath: '/',
         indexBlog: false,
         indexPages: false,
+        explicitSearchResultPath: true,
       },
     ],
   ],

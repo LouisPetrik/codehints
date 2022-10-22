@@ -3,7 +3,7 @@ title: Data types & Variables in AssemblyScript
 sidebar_position: 3
 --- 
 
-# Data Types & Variables in AssemblyScript
+# Data Types & Variables 
 
 Both concepts cannot be neglected when learning a new programming language. While AssemblyScript is very heavily
 inspired by TypeScript, there are some important differences, especially when it comes to the data types, that are built in. 
