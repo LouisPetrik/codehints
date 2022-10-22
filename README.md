@@ -101,7 +101,8 @@ slug: /category/technology-name
 ```
 
 Each of the files has the h1 headings: 
-- What is technology-name? 
+- What is technology-name? (use cases, projects etc. )
+- Code examples (optional)
 - Author's Notes (optional)
 - Sources 
 - Additional Ressources 

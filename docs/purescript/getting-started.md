@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: Getting Started with PureScript 
 ---
 
@@ -30,7 +31,7 @@ Building for the web:
 spago bundle-app
 ```
 
-## Getting started the recommended way:
+## Getting started the recommended way
 
 This way avoids a global installation of PureScript to ensure working with multiple projects in different versions.
 
