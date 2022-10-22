@@ -103,7 +103,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['haskell'],
+        additionalLanguages: ['haskell', 'typescript'],
       },
     }),
 }
