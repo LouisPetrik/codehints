@@ -2,25 +2,29 @@
 
 # Table of Contents 
 
-- [Introduction](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/variables-data-types.md)
-- [Table of Contents for the Cheatsheets](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/variables-data-types.md)
-- [Contributing](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/variables-data-types.md)
-- [Todos](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/variables-data-types.md)
+- [Introduction](https://github.com/LouisPetrik/codehints#louis-programming-cheatsheets---codehintsnetlifyapp)
+- [Table of Contents for the Cheatsheets](https://github.com/LouisPetrik/codehints#cheatsheets-table-of-contents)
+- [Contributing](https://github.com/LouisPetrik/codehints#contributing)
+- [Todos](https://github.com/LouisPetrik/codehints#todos)
 
 # Cheatsheets Table of Contents 
 The links do not work by now. 
 
 ## C++ 
 
-- [Variables and Data Types](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/variables-data-types.md)
-- [Functions](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/functions.md)
-- [Arrays](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/arrays.md)
-- [Dynamic arrays (vectors)](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/vectors.md)
-- [Stack, Heap and Static Memory](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/heap-stack-memory.md)
-- [Pointers](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/pointers.md)
-- [References](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/references.md)
-- [Classes](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/classes.md)
-- [Structs](https://github.com/LouisPetrik/cheatsheet/blob/master/cpp/structures.md)
+
+master -> main/docs
+
+
+- [Variables and Data Types](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/variables-data-types.md)
+- [Functions](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/functions.md)
+- [Arrays](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/arrays.md)
+- [Dynamic arrays (vectors)](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/vectors.md)
+- [Stack, Heap and Static Memory](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/heap-stack-memory.md)
+- [Pointers](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/pointers.md)
+- [References](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/references.md)
+- [Classes](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/classes.md)
+- [Structs](https://github.com/LouisPetrik/codehints/blob/main/docs/cpp/structures.md)
 
 
 
@@ -111,3 +115,5 @@ break anything. Thank you.
 - Filling out AssemblyScript and TypeScript
 - Basics of C 
 - Bun Cheatsheet 
+- "Cheatsheet" -> "Cheat sheets" 
+- Make links in Repo README work 

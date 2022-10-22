@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Cheatsheets Introduction",
+        "label": "Programming Cheat sheets",
         "href": "/",
         "docId": "intro"
       },
@@ -527,8 +527,8 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Cheatsheets Introduction",
-      "description": "Hey there! Welcome to my cheatsheets",
+      "title": "Programming Cheat sheets",
+      "description": "Hey there! Welcome to my programming cheat sheets.",
       "sidebar": "tutorialSidebar"
     },
     "purescript/arrays": {

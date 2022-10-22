@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Cheatsheets Introduction",
-  "description": "Hey there! Welcome to my cheatsheets",
+  "title": "Programming Cheat sheets",
+  "description": "Hey there! Welcome to my programming cheat sheets.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -13,6 +13,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "title": "Programming Cheat sheets",
     "sidebar_position": 1,
     "slug": "/"
   },
