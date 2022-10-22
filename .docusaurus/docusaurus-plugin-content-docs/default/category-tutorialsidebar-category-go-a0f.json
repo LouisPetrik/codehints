@@ -5,12 +5,12 @@
   "permalink": "/category/go",
   "navigation": {
     "previous": {
-      "title": "vectors",
+      "title": "Vectors in C++",
       "permalink": "/cpp/vectors"
     },
     "next": {
-      "title": "Arrays & Slices",
-      "permalink": "/go/arrays-slices"
+      "title": "Introduction to Go",
+      "permalink": "/category/go"
     }
   }
 }

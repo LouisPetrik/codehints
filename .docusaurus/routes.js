@@ -3,52 +3,23 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '103'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'fc9'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'b6e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e11'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'da4'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '84a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '5c1'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'a3f'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f09'),
+    component: ComponentCreator('/', '232'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/', '96c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/c',
+        component: ComponentCreator('/category/c', '764'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -60,13 +31,31 @@ export default [
       },
       {
         path: '/category/go',
+        component: ComponentCreator('/category/go', '28c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/go',
         component: ComponentCreator('/category/go', '381'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/category/haskell',
+        component: ComponentCreator('/category/haskell', '236'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/haskell',
         component: ComponentCreator('/category/haskell', '614'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/purescript',
+        component: ComponentCreator('/category/purescript', 'ffc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

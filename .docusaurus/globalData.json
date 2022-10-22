@@ -31,6 +31,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "cpp/intro",
+              "path": "/category/c",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "cpp/pointers",
               "path": "/cpp/pointers",
               "sidebar": "tutorialSidebar"
@@ -86,6 +91,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "go/intro",
+              "path": "/category/go",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "go/io",
               "path": "/go/io",
               "sidebar": "tutorialSidebar"
@@ -123,6 +133,11 @@
             {
               "id": "haskell/greeting",
               "path": "/haskell/greeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "haskell/intro",
+              "path": "/category/haskell",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -178,6 +193,11 @@
             {
               "id": "purescript/getting-started",
               "path": "/purescript/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "purescript/intro",
+              "path": "/category/purescript",
               "sidebar": "tutorialSidebar"
             },
             {

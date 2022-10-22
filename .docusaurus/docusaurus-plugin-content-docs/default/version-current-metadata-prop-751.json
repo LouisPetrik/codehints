@@ -23,55 +23,61 @@
         "items": [
           {
             "type": "link",
-            "label": "Arrays",
+            "label": "Introduction to C++",
+            "href": "/category/c",
+            "docId": "cpp/intro"
+          },
+          {
+            "type": "link",
+            "label": "Arrays in C++",
             "href": "/cpp/arrays",
             "docId": "cpp/arrays"
           },
           {
             "type": "link",
-            "label": "Classes",
+            "label": "Classes in C++",
             "href": "/cpp/classes",
             "docId": "cpp/classes"
           },
           {
             "type": "link",
-            "label": "Functions",
+            "label": "Functions in C++",
             "href": "/cpp/functions",
             "docId": "cpp/functions"
           },
           {
             "type": "link",
-            "label": "Stack, Heap and Static Memory",
+            "label": "Stack, Heap and Static Memory in C++",
             "href": "/cpp/heap-stack-memory",
             "docId": "cpp/heap-stack-memory"
           },
           {
             "type": "link",
-            "label": "Pointers",
+            "label": "Pointers in C++",
             "href": "/cpp/pointers",
             "docId": "cpp/pointers"
           },
           {
             "type": "link",
-            "label": "References",
+            "label": "References in C++",
             "href": "/cpp/references",
             "docId": "cpp/references"
           },
           {
             "type": "link",
-            "label": "Structures",
+            "label": "Structures in C++",
             "href": "/cpp/structures",
             "docId": "cpp/structures"
           },
           {
             "type": "link",
-            "label": "Variables & Data types",
+            "label": "Variables and Data Types in C++",
             "href": "/cpp/variables-data-types",
             "docId": "cpp/variables-data-types"
           },
           {
             "type": "link",
-            "label": "vectors",
+            "label": "Vectors in C++",
             "href": "/cpp/vectors",
             "docId": "cpp/vectors"
           }
@@ -86,55 +92,61 @@
         "items": [
           {
             "type": "link",
-            "label": "Arrays & Slices",
+            "label": "Introduction to Go",
+            "href": "/category/go",
+            "docId": "go/intro"
+          },
+          {
+            "type": "link",
+            "label": "Arrays and Slices in Go",
             "href": "/go/arrays-slices",
             "docId": "go/arrays-slices"
           },
           {
             "type": "link",
-            "label": "Concurrency",
+            "label": "Concurrency in Go",
             "href": "/go/concurrency",
             "docId": "go/concurrency"
           },
           {
             "type": "link",
-            "label": "Conditionals",
+            "label": "Conditionals in Go",
             "href": "/go/conditionals",
             "docId": "go/conditionals"
           },
           {
             "type": "link",
-            "label": "Custom types",
+            "label": "Custom Types in Go",
             "href": "/go/custom-types",
             "docId": "go/custom-types"
           },
           {
             "type": "link",
-            "label": "Functions",
+            "label": "Functions in Go",
             "href": "/go/functions",
             "docId": "go/functions"
           },
           {
             "type": "link",
-            "label": "Getting started",
+            "label": "Getting started in Go",
             "href": "/go/getting-started",
             "docId": "go/getting-started"
           },
           {
             "type": "link",
-            "label": "fmt package (IO)",
+            "label": "Input and Output in Go",
             "href": "/go/io",
             "docId": "go/io"
           },
           {
             "type": "link",
-            "label": "For Loops",
+            "label": "Loops in Go",
             "href": "/go/loops",
             "docId": "go/loops"
           },
           {
             "type": "link",
-            "label": "Variables",
+            "label": "Variables in Go",
             "href": "/go/variables",
             "docId": "go/variables"
           }
@@ -149,7 +161,13 @@
         "items": [
           {
             "type": "link",
-            "label": "Using the console",
+            "label": "Introduction to PureScript",
+            "href": "/category/purescript",
+            "docId": "purescript/intro"
+          },
+          {
+            "type": "link",
+            "label": "Input and Output in PureScript",
             "href": "/purescript/IO",
             "docId": "purescript/IO"
           },
@@ -161,91 +179,91 @@
           },
           {
             "type": "link",
-            "label": "Bindings",
+            "label": "Bindings in PureScript",
             "href": "/purescript/bindings",
             "docId": "purescript/bindings"
           },
           {
             "type": "link",
-            "label": "Conditionals",
+            "label": "Conditionals in PureScript",
             "href": "/purescript/conditionals",
             "docId": "purescript/conditionals"
           },
           {
             "type": "link",
-            "label": "Custom Types",
+            "label": "Custom Types in PureScript",
             "href": "/purescript/custom-types",
             "docId": "purescript/custom-types"
           },
           {
             "type": "link",
-            "label": "Folds",
+            "label": "Folds in PureScript",
             "href": "/purescript/folds",
             "docId": "purescript/folds"
           },
           {
             "type": "link",
-            "label": "Functions",
+            "label": "Functions in PureScript",
             "href": "/purescript/functions",
             "docId": "purescript/functions"
           },
           {
             "type": "link",
-            "label": "Getting started",
+            "label": "Getting Started with PureScript",
             "href": "/purescript/getting-started",
             "docId": "purescript/getting-started"
           },
           {
             "type": "link",
-            "label": "JavaScript Interaction",
+            "label": "Interacting with JS in PureScript",
             "href": "/purescript/js-interaction",
             "docId": "purescript/js-interaction"
           },
           {
             "type": "link",
-            "label": "Lists",
+            "label": "Lists in PureScript",
             "href": "/purescript/lists",
             "docId": "purescript/lists"
           },
           {
             "type": "link",
-            "label": "Map, Reduce and Filter",
+            "label": "Map, Reduce and Filter in PureScript",
             "href": "/purescript/map-reduce-filter",
             "docId": "purescript/map-reduce-filter"
           },
           {
             "type": "link",
-            "label": "Modules",
+            "label": "Modules in PureScript",
             "href": "/purescript/modules",
             "docId": "purescript/modules"
           },
           {
             "type": "link",
-            "label": "Pattern matching",
+            "label": "Pattern Matching in PureScript",
             "href": "/purescript/patttern-matching",
             "docId": "purescript/patttern-matching"
           },
           {
             "type": "link",
-            "label": "Records",
+            "label": "Records in PureScript",
             "href": "/purescript/records",
             "docId": "purescript/records"
           },
           {
             "type": "link",
-            "label": "Standard Library",
+            "label": "PureScript's Standard Library",
             "href": "/purescript/standard-lib",
             "docId": "purescript/standard-lib"
           },
           {
             "type": "link",
-            "label": "Typeclasses",
+            "label": "Typeclasses in PureScript",
             "href": "/purescript/typeclasses",
             "docId": "purescript/typeclasses"
           },
           {
             "type": "link",
-            "label": "Types",
+            "label": "Types in PureScript",
             "href": "/purescript/types",
             "docId": "purescript/types"
           }
@@ -260,31 +278,37 @@
         "items": [
           {
             "type": "link",
-            "label": "In and output",
+            "label": "Introduction to Haskell",
+            "href": "/category/haskell",
+            "docId": "haskell/intro"
+          },
+          {
+            "type": "link",
+            "label": "Input and Output in Haskell",
             "href": "/haskell/IO",
             "docId": "haskell/IO"
           },
           {
             "type": "link",
-            "label": "Bindings",
+            "label": "Bindings in Haskell",
             "href": "/haskell/bindings",
             "docId": "haskell/bindings"
           },
           {
             "type": "link",
-            "label": "Data types",
+            "label": "Data Types in Haskell",
             "href": "/haskell/data-types",
             "docId": "haskell/data-types"
           },
           {
             "type": "link",
-            "label": "Functions",
+            "label": "Functions in Haskell",
             "href": "/haskell/functions",
             "docId": "haskell/functions"
           },
           {
             "type": "link",
-            "label": "GHCI",
+            "label": "Using the Glasgow Haskell Compiler",
             "href": "/haskell/ghci",
             "docId": "haskell/ghci"
           },
@@ -296,13 +320,13 @@
           },
           {
             "type": "link",
-            "label": "Lists",
+            "label": "Lists in Haskell",
             "href": "/haskell/lists",
             "docId": "haskell/lists"
           },
           {
             "type": "link",
-            "label": "Typeclasses",
+            "label": "Typeclasses in Haskell",
             "href": "/haskell/typeclasses",
             "docId": "haskell/typeclasses"
           }
@@ -317,7 +341,7 @@
         "items": [
           {
             "type": "link",
-            "label": "WebAssembly Text Format (WAT)",
+            "label": "The WebAssembly Text Format",
             "href": "/webassembly/wat",
             "docId": "webassembly/wat"
           }
@@ -329,133 +353,145 @@
   "docs": {
     "cpp/arrays": {
       "id": "cpp/arrays",
-      "title": "Arrays",
+      "title": "Arrays in C++",
       "description": "An array is a collecting of data, of the same type and with a fixed length.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/classes": {
       "id": "cpp/classes",
-      "title": "Classes",
+      "title": "Classes in C++",
       "description": "By default, all properties of a class are kept private, therefore not visble outside of the scope.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/functions": {
       "id": "cpp/functions",
-      "title": "Functions",
+      "title": "Functions in C++",
       "description": "Terminology:",
       "sidebar": "tutorialSidebar"
     },
     "cpp/heap-stack-memory": {
       "id": "cpp/heap-stack-memory",
-      "title": "Stack, Heap and Static Memory",
+      "title": "Stack, Heap and Static Memory in C++",
       "description": "Allocating variables in the memory",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/intro": {
+      "id": "cpp/intro",
+      "title": "Introduction to C++",
+      "description": "Come on, you know it.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/pointers": {
       "id": "cpp/pointers",
-      "title": "Pointers",
+      "title": "Pointers in C++",
       "description": "A pointer is an integer, which stores a memory address. Types can be used with pointers but more on a syntactical-level to make clear what the value retrieved will be.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/references": {
       "id": "cpp/references",
-      "title": "References",
+      "title": "References in C++",
       "description": "References are related to pointers - one needs to understand the first one. They work similary like pointers.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/structures": {
       "id": "cpp/structures",
-      "title": "Structures",
+      "title": "Structures in C++",
       "description": "Through structures, multiple values can be grouped together.",
       "sidebar": "tutorialSidebar"
     },
     "cpp/variables-data-types": {
       "id": "cpp/variables-data-types",
-      "title": "Variables & Data types",
+      "title": "Variables and Data Types in C++",
       "description": "Strings",
       "sidebar": "tutorialSidebar"
     },
     "cpp/vectors": {
       "id": "cpp/vectors",
-      "title": "vectors",
-      "description": "Dynamic arrays (std::vector)",
+      "title": "Vectors in C++",
+      "description": "std::vector are usually not called vectors, often array links or dynamic arrays.",
       "sidebar": "tutorialSidebar"
     },
     "go/arrays-slices": {
       "id": "go/arrays-slices",
-      "title": "Arrays & Slices",
+      "title": "Arrays and Slices in Go",
       "description": "Arrays",
       "sidebar": "tutorialSidebar"
     },
     "go/concurrency": {
       "id": "go/concurrency",
-      "title": "Concurrency",
+      "title": "Concurrency in Go",
       "description": "In this example, there will never be \"fish\" printed.",
       "sidebar": "tutorialSidebar"
     },
     "go/conditionals": {
       "id": "go/conditionals",
-      "title": "Conditionals",
+      "title": "Conditionals in Go",
       "description": "You can declare variables even within the if-syntax:",
       "sidebar": "tutorialSidebar"
     },
     "go/custom-types": {
       "id": "go/custom-types",
-      "title": "Custom types",
+      "title": "Custom Types in Go",
       "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
       "sidebar": "tutorialSidebar"
     },
     "go/functions": {
       "id": "go/functions",
-      "title": "Functions",
+      "title": "Functions in Go",
       "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
       "sidebar": "tutorialSidebar"
     },
     "go/getting-started": {
       "id": "go/getting-started",
-      "title": "Getting started",
+      "title": "Getting started in Go",
       "description": "app.go",
+      "sidebar": "tutorialSidebar"
+    },
+    "go/intro": {
+      "id": "go/intro",
+      "title": "Introduction to Go",
+      "description": "Go is a mostly imperativ programming language, created by Google in 2009. Go can be seen as a modern alternative to C, yet it's main focus the world of servers.",
       "sidebar": "tutorialSidebar"
     },
     "go/io": {
       "id": "go/io",
-      "title": "fmt package (IO)",
+      "title": "Input and Output in Go",
       "description": "fmt is a default package, used for IO. It stands for \"format\".",
       "sidebar": "tutorialSidebar"
     },
     "go/loops": {
       "id": "go/loops",
-      "title": "For Loops",
+      "title": "Loops in Go",
       "description": "For-Loops are the only loops which can be used in Go.",
       "sidebar": "tutorialSidebar"
     },
     "go/variables": {
       "id": "go/variables",
-      "title": "Variables",
+      "title": "Variables in Go",
       "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
       "sidebar": "tutorialSidebar"
     },
     "haskell/bindings": {
       "id": "haskell/bindings",
-      "title": "Bindings",
+      "title": "Bindings in Haskell",
       "description": "Bindings can be seen as a replacement for constants in the scope of functions. They don't enable us to do something completely new, but help to make things more clearly, as we can store the result of some expression through a binding.",
       "sidebar": "tutorialSidebar"
     },
     "haskell/data-types": {
       "id": "haskell/data-types",
-      "title": "Data types",
-      "description": "Int & Integer",
+      "title": "Data Types in Haskell",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "haskell/functions": {
       "id": "haskell/functions",
-      "title": "Functions",
+      "title": "Functions in Haskell",
       "description": "Chapter will be more complete soon. For now, check out the Functions cheatsheet of PureScript as functions work the same way in Haskell.",
       "sidebar": "tutorialSidebar"
     },
     "haskell/ghci": {
       "id": "haskell/ghci",
-      "title": "GHCI",
+      "title": "Using the Glasgow Haskell Compiler",
       "description": "The Glasgow Haskell compiler",
       "sidebar": "tutorialSidebar"
     },
@@ -465,21 +501,27 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "haskell/intro": {
+      "id": "haskell/intro",
+      "title": "Introduction to Haskell",
+      "description": "Haskell is a purely functional programming language created in 1990.",
+      "sidebar": "tutorialSidebar"
+    },
     "haskell/IO": {
       "id": "haskell/IO",
-      "title": "In and output",
+      "title": "Input and Output in Haskell",
       "description": "When initialising records for example, you might have noticed that you are unable to print",
       "sidebar": "tutorialSidebar"
     },
     "haskell/lists": {
       "id": "haskell/lists",
-      "title": "Lists",
+      "title": "Lists in Haskell",
       "description": "Accessing element in list through index:",
       "sidebar": "tutorialSidebar"
     },
     "haskell/typeclasses": {
       "id": "haskell/typeclasses",
-      "title": "Typeclasses",
+      "title": "Typeclasses in Haskell",
       "description": "When asking GHCI for the type of an operator like the plus-operator, you will notice that it is basically a function. Everything before the => sign is called the class constraint.",
       "sidebar": "tutorialSidebar"
     },
@@ -492,108 +534,114 @@
     "purescript/arrays": {
       "id": "purescript/arrays",
       "title": "Arrays in PureScript",
-      "description": "Generating Array in Range:",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/bindings": {
       "id": "purescript/bindings",
-      "title": "Bindings",
-      "description": "Many ask, whether it's in the style of functional programming to declare and mutate variables within the scope of a function. If you have a couple hours left, go ahead and Google the discussion yourself. Meanwhile, in PureScript we can assign constants within the scope of a function. This can be done with bindings.",
+      "title": "Bindings in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/conditionals": {
       "id": "purescript/conditionals",
-      "title": "Conditionals",
-      "description": "There are a couple ways to execute code conditionally in PureScript: If-then-else, case expressions, pattern matching (there is a whole section below on this topic) and guards.",
+      "title": "Conditionals in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/custom-types": {
       "id": "purescript/custom-types",
-      "title": "Custom Types",
-      "description": "Creating data types and re-naming types is powerful. To achieve both things, PureScript offers two keywords:",
+      "title": "Custom Types in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/folds": {
       "id": "purescript/folds",
-      "title": "Folds",
-      "description": "Make sure to import:",
+      "title": "Folds in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/functions": {
       "id": "purescript/functions",
-      "title": "Functions",
-      "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+      "title": "Functions in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/getting-started": {
       "id": "purescript/getting-started",
-      "title": "Getting started",
-      "description": "Installing PureScript on your machine:",
+      "title": "Getting Started with PureScript",
+      "description": "-",
+      "sidebar": "tutorialSidebar"
+    },
+    "purescript/intro": {
+      "id": "purescript/intro",
+      "title": "Introduction to PureScript",
+      "description": "PureScript is a purely functional programming language created in 2013.",
       "sidebar": "tutorialSidebar"
     },
     "purescript/IO": {
       "id": "purescript/IO",
-      "title": "Using the console",
-      "description": "To log something in the console, make sure to import the proper package.",
+      "title": "Input and Output in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/js-interaction": {
       "id": "purescript/js-interaction",
-      "title": "JavaScript Interaction",
-      "description": "This part resolves around using PureScript functions in JavaScript, and the other way around - using JavaScript functions in",
+      "title": "Interacting with JS in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/lists": {
       "id": "purescript/lists",
-      "title": "Lists",
-      "description": "In PureScript it is important to differentiate Lists and Arrays.",
+      "title": "Lists in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/map-reduce-filter": {
       "id": "purescript/map-reduce-filter",
-      "title": "Map, Reduce and Filter",
-      "description": "Map",
+      "title": "Map, Reduce and Filter in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/modules": {
       "id": "purescript/modules",
-      "title": "Modules",
-      "description": "Modules are the way to split up our code into multiple files. Here is an example of writing a function in",
+      "title": "Modules in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/patttern-matching": {
       "id": "purescript/patttern-matching",
-      "title": "Pattern matching",
-      "description": "Before, we just covered a little bit of pattern matching in functions - let's go into more detail, and learn about pattern matching for different data types.",
+      "title": "Pattern Matching in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/records": {
       "id": "purescript/records",
-      "title": "Records",
-      "description": "Records are basically like Objects in JS. Yet, immutable, of course.",
+      "title": "Records in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/standard-lib": {
       "id": "purescript/standard-lib",
-      "title": "Standard Library",
-      "description": "This section is going to cover some useful functions, available by default, like const, apply, flip and more.",
+      "title": "PureScript's Standard Library",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/typeclasses": {
       "id": "purescript/typeclasses",
-      "title": "Typeclasses",
-      "description": "No, typeclasses are not related to classes in object oriented programming. Rather, typeclasses can be imagined as interfaces in functional programming. Typeclasses serve to overload functions for different data types, for example. First, we define the class itself and the signature of the functions it holds. Then, we can create as many instances as we like to - these instances are usually created for different data types. Nevertheless, all instances must define the functions which are declared in the related typeclass. Let's look at an example.",
+      "title": "Typeclasses in PureScript",
+      "description": "-",
       "sidebar": "tutorialSidebar"
     },
     "purescript/types": {
       "id": "purescript/types",
-      "title": "Types",
+      "title": "Types in PureScript",
       "description": "Default Types",
       "sidebar": "tutorialSidebar"
     },
     "webassembly/wat": {
       "id": "webassembly/wat",
-      "title": "WebAssembly Text Format (WAT)",
+      "title": "The WebAssembly Text Format",
       "description": "WA offers a notation which can be used to write human-readable code, compiled to WASM.",
       "sidebar": "tutorialSidebar"
     }

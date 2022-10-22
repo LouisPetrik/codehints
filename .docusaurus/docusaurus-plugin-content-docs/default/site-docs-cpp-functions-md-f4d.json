@@ -1,7 +1,7 @@
 {
   "unversionedId": "cpp/functions",
   "id": "cpp/functions",
-  "title": "Functions",
+  "title": "Functions in C++",
   "description": "Terminology:",
   "source": "@site/docs/cpp/functions.md",
   "sourceDirName": "cpp",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/functions.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Functions in C++"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Classes",
+    "title": "Classes in C++",
     "permalink": "/cpp/classes"
   },
   "next": {
-    "title": "Stack, Heap and Static Memory",
+    "title": "Stack, Heap and Static Memory in C++",
     "permalink": "/cpp/heap-stack-memory"
   }
 }

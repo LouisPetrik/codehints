@@ -5,12 +5,12 @@
   "permalink": "/category/purescript",
   "navigation": {
     "previous": {
-      "title": "Variables",
+      "title": "Variables in Go",
       "permalink": "/go/variables"
     },
     "next": {
-      "title": "Using the console",
-      "permalink": "/purescript/IO"
+      "title": "Introduction to PureScript",
+      "permalink": "/category/purescript"
     }
   }
 }

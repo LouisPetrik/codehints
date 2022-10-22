@@ -22,7 +22,7 @@
             {
               "unversionedId": "cpp/arrays",
               "id": "cpp/arrays",
-              "title": "Arrays",
+              "title": "Arrays in C++",
               "description": "An array is a collecting of data, of the same type and with a fixed length.",
               "source": "@site/docs/cpp/arrays.md",
               "sourceDirName": "cpp",
@@ -32,21 +32,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/arrays.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Arrays in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "C++",
+                "title": "Introduction to C++",
                 "permalink": "/category/c"
               },
               "next": {
-                "title": "Classes",
+                "title": "Classes in C++",
                 "permalink": "/cpp/classes"
               }
             },
             {
               "unversionedId": "cpp/classes",
               "id": "cpp/classes",
-              "title": "Classes",
+              "title": "Classes in C++",
               "description": "By default, all properties of a class are kept private, therefore not visble outside of the scope.",
               "source": "@site/docs/cpp/classes.md",
               "sourceDirName": "cpp",
@@ -56,21 +58,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/classes.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Classes in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Arrays",
+                "title": "Arrays in C++",
                 "permalink": "/cpp/arrays"
               },
               "next": {
-                "title": "Functions",
+                "title": "Functions in C++",
                 "permalink": "/cpp/functions"
               }
             },
             {
               "unversionedId": "cpp/functions",
               "id": "cpp/functions",
-              "title": "Functions",
+              "title": "Functions in C++",
               "description": "Terminology:",
               "source": "@site/docs/cpp/functions.md",
               "sourceDirName": "cpp",
@@ -80,21 +84,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/functions.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Functions in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Classes",
+                "title": "Classes in C++",
                 "permalink": "/cpp/classes"
               },
               "next": {
-                "title": "Stack, Heap and Static Memory",
+                "title": "Stack, Heap and Static Memory in C++",
                 "permalink": "/cpp/heap-stack-memory"
               }
             },
             {
               "unversionedId": "cpp/heap-stack-memory",
               "id": "cpp/heap-stack-memory",
-              "title": "Stack, Heap and Static Memory",
+              "title": "Stack, Heap and Static Memory in C++",
               "description": "Allocating variables in the memory",
               "source": "@site/docs/cpp/heap-stack-memory.md",
               "sourceDirName": "cpp",
@@ -104,21 +110,51 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/heap-stack-memory.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Stack, Heap and Static Memory in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Functions",
+                "title": "Functions in C++",
                 "permalink": "/cpp/functions"
               },
               "next": {
-                "title": "Pointers",
+                "title": "Pointers in C++",
                 "permalink": "/cpp/pointers"
+              }
+            },
+            {
+              "unversionedId": "cpp/intro",
+              "id": "cpp/intro",
+              "title": "Introduction to C++",
+              "description": "",
+              "source": "@site/docs/cpp/intro.md",
+              "sourceDirName": "cpp",
+              "slug": "/category/c",
+              "permalink": "/category/c",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/category/c"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "C++",
+                "permalink": "/category/c"
+              },
+              "next": {
+                "title": "Arrays in C++",
+                "permalink": "/cpp/arrays"
               }
             },
             {
               "unversionedId": "cpp/pointers",
               "id": "cpp/pointers",
-              "title": "Pointers",
+              "title": "Pointers in C++",
               "description": "A pointer is an integer, which stores a memory address. Types can be used with pointers but more on a syntactical-level to make clear what the value retrieved will be.",
               "source": "@site/docs/cpp/pointers.md",
               "sourceDirName": "cpp",
@@ -128,21 +164,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/pointers.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Pointers in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Stack, Heap and Static Memory",
+                "title": "Stack, Heap and Static Memory in C++",
                 "permalink": "/cpp/heap-stack-memory"
               },
               "next": {
-                "title": "References",
+                "title": "References in C++",
                 "permalink": "/cpp/references"
               }
             },
             {
               "unversionedId": "cpp/references",
               "id": "cpp/references",
-              "title": "References",
+              "title": "References in C++",
               "description": "References are related to pointers - one needs to understand the first one. They work similary like pointers.",
               "source": "@site/docs/cpp/references.md",
               "sourceDirName": "cpp",
@@ -152,21 +190,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/references.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "References in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Pointers",
+                "title": "Pointers in C++",
                 "permalink": "/cpp/pointers"
               },
               "next": {
-                "title": "Structures",
+                "title": "Structures in C++",
                 "permalink": "/cpp/structures"
               }
             },
             {
               "unversionedId": "cpp/structures",
               "id": "cpp/structures",
-              "title": "Structures",
+              "title": "Structures in C++",
               "description": "Through structures, multiple values can be grouped together.",
               "source": "@site/docs/cpp/structures.md",
               "sourceDirName": "cpp",
@@ -176,21 +216,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/structures.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Structures in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "References",
+                "title": "References in C++",
                 "permalink": "/cpp/references"
               },
               "next": {
-                "title": "Variables & Data types",
+                "title": "Variables and Data Types in C++",
                 "permalink": "/cpp/variables-data-types"
               }
             },
             {
               "unversionedId": "cpp/variables-data-types",
               "id": "cpp/variables-data-types",
-              "title": "Variables & Data types",
+              "title": "Variables and Data Types in C++",
               "description": "Strings",
               "source": "@site/docs/cpp/variables-data-types.md",
               "sourceDirName": "cpp",
@@ -200,22 +242,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/variables-data-types.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Variables and Data Types in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Structures",
+                "title": "Structures in C++",
                 "permalink": "/cpp/structures"
               },
               "next": {
-                "title": "vectors",
+                "title": "Vectors in C++",
                 "permalink": "/cpp/vectors"
               }
             },
             {
               "unversionedId": "cpp/vectors",
               "id": "cpp/vectors",
-              "title": "vectors",
-              "description": "Dynamic arrays (std::vector)",
+              "title": "Vectors in C++",
+              "description": "std::vector are usually not called vectors, often array links or dynamic arrays.",
               "source": "@site/docs/cpp/vectors.md",
               "sourceDirName": "cpp",
               "slug": "/cpp/vectors",
@@ -224,10 +268,12 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/cpp/vectors.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Vectors in C++"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Variables & Data types",
+                "title": "Variables and Data Types in C++",
                 "permalink": "/cpp/variables-data-types"
               },
               "next": {
@@ -238,7 +284,7 @@
             {
               "unversionedId": "go/arrays-slices",
               "id": "go/arrays-slices",
-              "title": "Arrays & Slices",
+              "title": "Arrays and Slices in Go",
               "description": "Arrays",
               "source": "@site/docs/go/arrays-slices.md",
               "sourceDirName": "go",
@@ -248,21 +294,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/arrays-slices.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Arrays and Slices in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Go",
                 "permalink": "/category/go"
               },
               "next": {
-                "title": "Concurrency",
+                "title": "Concurrency in Go",
                 "permalink": "/go/concurrency"
               }
             },
             {
               "unversionedId": "go/concurrency",
               "id": "go/concurrency",
-              "title": "Concurrency",
+              "title": "Concurrency in Go",
               "description": "In this example, there will never be \"fish\" printed.",
               "source": "@site/docs/go/concurrency.md",
               "sourceDirName": "go",
@@ -272,21 +320,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/concurrency.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Concurrency in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Arrays & Slices",
+                "title": "Arrays and Slices in Go",
                 "permalink": "/go/arrays-slices"
               },
               "next": {
-                "title": "Conditionals",
+                "title": "Conditionals in Go",
                 "permalink": "/go/conditionals"
               }
             },
             {
               "unversionedId": "go/conditionals",
               "id": "go/conditionals",
-              "title": "Conditionals",
+              "title": "Conditionals in Go",
               "description": "You can declare variables even within the if-syntax:",
               "source": "@site/docs/go/conditionals.md",
               "sourceDirName": "go",
@@ -296,21 +346,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/conditionals.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Conditionals in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Concurrency",
+                "title": "Concurrency in Go",
                 "permalink": "/go/concurrency"
               },
               "next": {
-                "title": "Custom types",
+                "title": "Custom Types in Go",
                 "permalink": "/go/custom-types"
               }
             },
             {
               "unversionedId": "go/custom-types",
               "id": "go/custom-types",
-              "title": "Custom types",
+              "title": "Custom Types in Go",
               "description": "Thanks to custom types, we can create functions, so called receiver-functions, that do only work with the certain type, we created. A custom type is therefore just a fancy replacement for a base type, not something completely new.",
               "source": "@site/docs/go/custom-types.md",
               "sourceDirName": "go",
@@ -320,21 +372,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/custom-types.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Custom Types in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Conditionals",
+                "title": "Conditionals in Go",
                 "permalink": "/go/conditionals"
               },
               "next": {
-                "title": "Functions",
+                "title": "Functions in Go",
                 "permalink": "/go/functions"
               }
             },
             {
               "unversionedId": "go/functions",
               "id": "go/functions",
-              "title": "Functions",
+              "title": "Functions in Go",
               "description": "Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem.",
               "source": "@site/docs/go/functions.md",
               "sourceDirName": "go",
@@ -344,21 +398,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/functions.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Functions in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Custom types",
+                "title": "Custom Types in Go",
                 "permalink": "/go/custom-types"
               },
               "next": {
-                "title": "Getting started",
+                "title": "Getting started in Go",
                 "permalink": "/go/getting-started"
               }
             },
             {
               "unversionedId": "go/getting-started",
               "id": "go/getting-started",
-              "title": "Getting started",
+              "title": "Getting started in Go",
               "description": "app.go",
               "source": "@site/docs/go/getting-started.md",
               "sourceDirName": "go",
@@ -368,21 +424,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/getting-started.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Getting started in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Functions",
+                "title": "Functions in Go",
                 "permalink": "/go/functions"
               },
               "next": {
-                "title": "fmt package (IO)",
+                "title": "Input and Output in Go",
                 "permalink": "/go/io"
               }
             },
             {
               "unversionedId": "go/io",
               "id": "go/io",
-              "title": "fmt package (IO)",
+              "title": "Input and Output in Go",
               "description": "fmt is a default package, used for IO. It stands for \"format\".",
               "source": "@site/docs/go/io.md",
               "sourceDirName": "go",
@@ -392,21 +450,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/io.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Input and Output in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting started",
+                "title": "Getting started in Go",
                 "permalink": "/go/getting-started"
               },
               "next": {
-                "title": "For Loops",
+                "title": "Loops in Go",
                 "permalink": "/go/loops"
               }
             },
             {
               "unversionedId": "go/loops",
               "id": "go/loops",
-              "title": "For Loops",
+              "title": "Loops in Go",
               "description": "For-Loops are the only loops which can be used in Go.",
               "source": "@site/docs/go/loops.md",
               "sourceDirName": "go",
@@ -416,21 +476,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/loops.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Loops in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "fmt package (IO)",
+                "title": "Input and Output in Go",
                 "permalink": "/go/io"
               },
               "next": {
-                "title": "Variables",
+                "title": "Variables in Go",
                 "permalink": "/go/variables"
               }
             },
             {
               "unversionedId": "go/variables",
               "id": "go/variables",
-              "title": "Variables",
+              "title": "Variables in Go",
               "description": "Go is statically typed. That means, once we chose a datatype, we must keep the value aligned to it.",
               "source": "@site/docs/go/variables.md",
               "sourceDirName": "go",
@@ -440,10 +502,12 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/go/variables.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Variables in Go"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "For Loops",
+                "title": "Loops in Go",
                 "permalink": "/go/loops"
               },
               "next": {
@@ -454,7 +518,7 @@
             {
               "unversionedId": "haskell/bindings",
               "id": "haskell/bindings",
-              "title": "Bindings",
+              "title": "Bindings in Haskell",
               "description": "Bindings can be seen as a replacement for constants in the scope of functions. They don't enable us to do something completely new, but help to make things more clearly, as we can store the result of some expression through a binding.",
               "source": "@site/docs/haskell/bindings.md",
               "sourceDirName": "haskell",
@@ -464,22 +528,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/bindings.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Bindings in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "In and output",
+                "title": "Input and Output in Haskell",
                 "permalink": "/haskell/IO"
               },
               "next": {
-                "title": "Data types",
+                "title": "Data Types in Haskell",
                 "permalink": "/haskell/data-types"
               }
             },
             {
               "unversionedId": "haskell/data-types",
               "id": "haskell/data-types",
-              "title": "Data types",
-              "description": "Int & Integer",
+              "title": "Data Types in Haskell",
+              "description": "-",
               "source": "@site/docs/haskell/data-types.md",
               "sourceDirName": "haskell",
               "slug": "/haskell/data-types",
@@ -488,21 +554,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/data-types.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Data Types in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Bindings",
+                "title": "Bindings in Haskell",
                 "permalink": "/haskell/bindings"
               },
               "next": {
-                "title": "Functions",
+                "title": "Functions in Haskell",
                 "permalink": "/haskell/functions"
               }
             },
             {
               "unversionedId": "haskell/functions",
               "id": "haskell/functions",
-              "title": "Functions",
+              "title": "Functions in Haskell",
               "description": "Chapter will be more complete soon. For now, check out the Functions cheatsheet of PureScript as functions work the same way in Haskell.",
               "source": "@site/docs/haskell/functions.md",
               "sourceDirName": "haskell",
@@ -512,21 +580,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/functions.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Functions in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Data types",
+                "title": "Data Types in Haskell",
                 "permalink": "/haskell/data-types"
               },
               "next": {
-                "title": "GHCI",
+                "title": "Using the Glasgow Haskell Compiler",
                 "permalink": "/haskell/ghci"
               }
             },
             {
               "unversionedId": "haskell/ghci",
               "id": "haskell/ghci",
-              "title": "GHCI",
+              "title": "Using the Glasgow Haskell Compiler",
               "description": "The Glasgow Haskell compiler",
               "source": "@site/docs/haskell/ghci.md",
               "sourceDirName": "haskell",
@@ -536,10 +606,12 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/ghci.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Using the Glasgow Haskell Compiler"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Functions",
+                "title": "Functions in Haskell",
                 "permalink": "/haskell/functions"
               },
               "next": {
@@ -563,18 +635,18 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "GHCI",
+                "title": "Using the Glasgow Haskell Compiler",
                 "permalink": "/haskell/ghci"
               },
               "next": {
-                "title": "Lists",
+                "title": "Lists in Haskell",
                 "permalink": "/haskell/lists"
               }
             },
             {
               "unversionedId": "haskell/IO",
               "id": "haskell/IO",
-              "title": "In and output",
+              "title": "Input and Output in Haskell",
               "description": "When initialising records for example, you might have noticed that you are unable to print",
               "source": "@site/docs/haskell/IO.md",
               "sourceDirName": "haskell",
@@ -584,21 +656,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/IO.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Input and Output in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Haskell",
                 "permalink": "/category/haskell"
               },
               "next": {
-                "title": "Bindings",
+                "title": "Bindings in Haskell",
                 "permalink": "/haskell/bindings"
               }
             },
             {
               "unversionedId": "haskell/lists",
               "id": "haskell/lists",
-              "title": "Lists",
+              "title": "Lists in Haskell",
               "description": "Accessing element in list through index:",
               "source": "@site/docs/haskell/lists.md",
               "sourceDirName": "haskell",
@@ -608,21 +682,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/lists.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Lists in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Hello world",
                 "permalink": "/haskell/greeting"
               },
               "next": {
-                "title": "Typeclasses",
+                "title": "Typeclasses in Haskell",
                 "permalink": "/haskell/typeclasses"
               }
             },
             {
               "unversionedId": "haskell/typeclasses",
               "id": "haskell/typeclasses",
-              "title": "Typeclasses",
+              "title": "Typeclasses in Haskell",
               "description": "When asking GHCI for the type of an operator like the plus-operator, you will notice that it is basically a function. Everything before the => sign is called the class constraint.",
               "source": "@site/docs/haskell/typeclasses.md",
               "sourceDirName": "haskell",
@@ -632,10 +708,12 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/typeclasses.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Typeclasses in Haskell"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Lists",
+                "title": "Lists in Haskell",
                 "permalink": "/haskell/lists"
               },
               "next": {
@@ -671,7 +749,7 @@
               "unversionedId": "purescript/arrays",
               "id": "purescript/arrays",
               "title": "Arrays in PureScript",
-              "description": "Generating Array in Range:",
+              "description": "-",
               "source": "@site/docs/purescript/arrays.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/arrays",
@@ -685,19 +763,19 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Using the console",
+                "title": "Input and Output in PureScript",
                 "permalink": "/purescript/IO"
               },
               "next": {
-                "title": "Bindings",
+                "title": "Bindings in PureScript",
                 "permalink": "/purescript/bindings"
               }
             },
             {
               "unversionedId": "purescript/bindings",
               "id": "purescript/bindings",
-              "title": "Bindings",
-              "description": "Many ask, whether it's in the style of functional programming to declare and mutate variables within the scope of a function. If you have a couple hours left, go ahead and Google the discussion yourself. Meanwhile, in PureScript we can assign constants within the scope of a function. This can be done with bindings.",
+              "title": "Bindings in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/bindings.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/bindings",
@@ -706,22 +784,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/bindings.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Bindings in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Arrays in PureScript",
                 "permalink": "/purescript/arrays"
               },
               "next": {
-                "title": "Conditionals",
+                "title": "Conditionals in PureScript",
                 "permalink": "/purescript/conditionals"
               }
             },
             {
               "unversionedId": "purescript/conditionals",
               "id": "purescript/conditionals",
-              "title": "Conditionals",
-              "description": "There are a couple ways to execute code conditionally in PureScript: If-then-else, case expressions, pattern matching (there is a whole section below on this topic) and guards.",
+              "title": "Conditionals in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/conditionals.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/conditionals",
@@ -730,22 +810,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/conditionals.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Conditionals in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Bindings",
+                "title": "Bindings in PureScript",
                 "permalink": "/purescript/bindings"
               },
               "next": {
-                "title": "Custom Types",
+                "title": "Custom Types in PureScript",
                 "permalink": "/purescript/custom-types"
               }
             },
             {
               "unversionedId": "purescript/custom-types",
               "id": "purescript/custom-types",
-              "title": "Custom Types",
-              "description": "Creating data types and re-naming types is powerful. To achieve both things, PureScript offers two keywords:",
+              "title": "Custom Types in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/custom-types.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/custom-types",
@@ -754,22 +836,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/custom-types.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Custom Types in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Conditionals",
+                "title": "Conditionals in PureScript",
                 "permalink": "/purescript/conditionals"
               },
               "next": {
-                "title": "Folds",
+                "title": "Folds in PureScript",
                 "permalink": "/purescript/folds"
               }
             },
             {
               "unversionedId": "purescript/folds",
               "id": "purescript/folds",
-              "title": "Folds",
-              "description": "Make sure to import:",
+              "title": "Folds in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/folds.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/folds",
@@ -778,22 +862,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/folds.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Folds in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Custom Types",
+                "title": "Custom Types in PureScript",
                 "permalink": "/purescript/custom-types"
               },
               "next": {
-                "title": "Functions",
+                "title": "Functions in PureScript",
                 "permalink": "/purescript/functions"
               }
             },
             {
               "unversionedId": "purescript/functions",
               "id": "purescript/functions",
-              "title": "Functions",
-              "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+              "title": "Functions in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/functions.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/functions",
@@ -802,22 +888,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/functions.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Functions in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Folds",
+                "title": "Folds in PureScript",
                 "permalink": "/purescript/folds"
               },
               "next": {
-                "title": "Getting started",
+                "title": "Getting Started with PureScript",
                 "permalink": "/purescript/getting-started"
               }
             },
             {
               "unversionedId": "purescript/getting-started",
               "id": "purescript/getting-started",
-              "title": "Getting started",
-              "description": "Installing PureScript on your machine:",
+              "title": "Getting Started with PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/getting-started.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/getting-started",
@@ -826,22 +914,53 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/getting-started.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Getting Started with PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Functions",
+                "title": "Functions in PureScript",
                 "permalink": "/purescript/functions"
               },
               "next": {
-                "title": "JavaScript Interaction",
+                "title": "Interacting with JS in PureScript",
                 "permalink": "/purescript/js-interaction"
+              }
+            },
+            {
+              "unversionedId": "purescript/intro",
+              "id": "purescript/intro",
+              "title": "Introduction to PureScript",
+              "description": "PureScript is a purely functional programming language created in 2013.",
+              "source": "@site/docs/purescript/intro.md",
+              "sourceDirName": "purescript",
+              "slug": "/category/purescript",
+              "permalink": "/category/purescript",
+              "draft": false,
+              "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction to PureScript",
+                "sidebar_position": 1,
+                "slug": "/category/purescript"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "PureScript",
+                "permalink": "/category/purescript"
+              },
+              "next": {
+                "title": "Input and Output in PureScript",
+                "permalink": "/purescript/IO"
               }
             },
             {
               "unversionedId": "purescript/IO",
               "id": "purescript/IO",
-              "title": "Using the console",
-              "description": "To log something in the console, make sure to import the proper package.",
+              "title": "Input and Output in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/IO.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/IO",
@@ -850,10 +969,12 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/IO.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Input and Output in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "PureScript",
+                "title": "Introduction to PureScript",
                 "permalink": "/category/purescript"
               },
               "next": {
@@ -864,8 +985,8 @@
             {
               "unversionedId": "purescript/js-interaction",
               "id": "purescript/js-interaction",
-              "title": "JavaScript Interaction",
-              "description": "This part resolves around using PureScript functions in JavaScript, and the other way around - using JavaScript functions in",
+              "title": "Interacting with JS in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/js-interaction.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/js-interaction",
@@ -874,22 +995,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/js-interaction.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Interacting with JS in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting started",
+                "title": "Getting Started with PureScript",
                 "permalink": "/purescript/getting-started"
               },
               "next": {
-                "title": "Lists",
+                "title": "Lists in PureScript",
                 "permalink": "/purescript/lists"
               }
             },
             {
               "unversionedId": "purescript/lists",
               "id": "purescript/lists",
-              "title": "Lists",
-              "description": "In PureScript it is important to differentiate Lists and Arrays.",
+              "title": "Lists in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/lists.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/lists",
@@ -898,22 +1021,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/lists.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Lists in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "JavaScript Interaction",
+                "title": "Interacting with JS in PureScript",
                 "permalink": "/purescript/js-interaction"
               },
               "next": {
-                "title": "Map, Reduce and Filter",
+                "title": "Map, Reduce and Filter in PureScript",
                 "permalink": "/purescript/map-reduce-filter"
               }
             },
             {
               "unversionedId": "purescript/map-reduce-filter",
               "id": "purescript/map-reduce-filter",
-              "title": "Map, Reduce and Filter",
-              "description": "Map",
+              "title": "Map, Reduce and Filter in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/map-reduce-filter.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/map-reduce-filter",
@@ -922,22 +1047,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/map-reduce-filter.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Map, Reduce and Filter in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Lists",
+                "title": "Lists in PureScript",
                 "permalink": "/purescript/lists"
               },
               "next": {
-                "title": "Modules",
+                "title": "Modules in PureScript",
                 "permalink": "/purescript/modules"
               }
             },
             {
               "unversionedId": "purescript/modules",
               "id": "purescript/modules",
-              "title": "Modules",
-              "description": "Modules are the way to split up our code into multiple files. Here is an example of writing a function in",
+              "title": "Modules in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/modules.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/modules",
@@ -946,22 +1073,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/modules.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Modules in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Map, Reduce and Filter",
+                "title": "Map, Reduce and Filter in PureScript",
                 "permalink": "/purescript/map-reduce-filter"
               },
               "next": {
-                "title": "Pattern matching",
+                "title": "Pattern Matching in PureScript",
                 "permalink": "/purescript/patttern-matching"
               }
             },
             {
               "unversionedId": "purescript/patttern-matching",
               "id": "purescript/patttern-matching",
-              "title": "Pattern matching",
-              "description": "Before, we just covered a little bit of pattern matching in functions - let's go into more detail, and learn about pattern matching for different data types.",
+              "title": "Pattern Matching in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/patttern-matching.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/patttern-matching",
@@ -970,22 +1099,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/patttern-matching.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Pattern Matching in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Modules",
+                "title": "Modules in PureScript",
                 "permalink": "/purescript/modules"
               },
               "next": {
-                "title": "Records",
+                "title": "Records in PureScript",
                 "permalink": "/purescript/records"
               }
             },
             {
               "unversionedId": "purescript/records",
               "id": "purescript/records",
-              "title": "Records",
-              "description": "Records are basically like Objects in JS. Yet, immutable, of course.",
+              "title": "Records in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/records.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/records",
@@ -994,22 +1125,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/records.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Records in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Pattern matching",
+                "title": "Pattern Matching in PureScript",
                 "permalink": "/purescript/patttern-matching"
               },
               "next": {
-                "title": "Standard Library",
+                "title": "PureScript's Standard Library",
                 "permalink": "/purescript/standard-lib"
               }
             },
             {
               "unversionedId": "purescript/standard-lib",
               "id": "purescript/standard-lib",
-              "title": "Standard Library",
-              "description": "This section is going to cover some useful functions, available by default, like const, apply, flip and more.",
+              "title": "PureScript's Standard Library",
+              "description": "-",
               "source": "@site/docs/purescript/standard-lib.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/standard-lib",
@@ -1018,22 +1151,24 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/standard-lib.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "PureScript's Standard Library"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Records",
+                "title": "Records in PureScript",
                 "permalink": "/purescript/records"
               },
               "next": {
-                "title": "Typeclasses",
+                "title": "Typeclasses in PureScript",
                 "permalink": "/purescript/typeclasses"
               }
             },
             {
               "unversionedId": "purescript/typeclasses",
               "id": "purescript/typeclasses",
-              "title": "Typeclasses",
-              "description": "No, typeclasses are not related to classes in object oriented programming. Rather, typeclasses can be imagined as interfaces in functional programming. Typeclasses serve to overload functions for different data types, for example. First, we define the class itself and the signature of the functions it holds. Then, we can create as many instances as we like to - these instances are usually created for different data types. Nevertheless, all instances must define the functions which are declared in the related typeclass. Let's look at an example.",
+              "title": "Typeclasses in PureScript",
+              "description": "-",
               "source": "@site/docs/purescript/typeclasses.md",
               "sourceDirName": "purescript",
               "slug": "/purescript/typeclasses",
@@ -1042,21 +1177,23 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/typeclasses.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "Typeclasses in PureScript"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Standard Library",
+                "title": "PureScript's Standard Library",
                 "permalink": "/purescript/standard-lib"
               },
               "next": {
-                "title": "Types",
+                "title": "Types in PureScript",
                 "permalink": "/purescript/types"
               }
             },
             {
               "unversionedId": "purescript/types",
               "id": "purescript/types",
-              "title": "Types",
+              "title": "Types in PureScript",
               "description": "Default Types",
               "source": "@site/docs/purescript/types.md",
               "sourceDirName": "purescript",
@@ -1069,7 +1206,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Typeclasses",
+                "title": "Typeclasses in PureScript",
                 "permalink": "/purescript/typeclasses"
               },
               "next": {
@@ -1080,7 +1217,7 @@
             {
               "unversionedId": "webassembly/wat",
               "id": "webassembly/wat",
-              "title": "WebAssembly Text Format (WAT)",
+              "title": "The WebAssembly Text Format",
               "description": "WA offers a notation which can be used to write human-readable code, compiled to WASM.",
               "source": "@site/docs/webassembly/wat.md",
               "sourceDirName": "webassembly",
@@ -1090,7 +1227,9 @@
               "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/webassembly/wat.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "frontMatter": {
+                "title": "The WebAssembly Text Format"
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "WebAssembly",
@@ -1111,6 +1250,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "cpp/intro"
+                  },
                   {
                     "type": "doc",
                     "id": "cpp/arrays"
@@ -1211,6 +1354,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "purescript/intro"
+                  },
                   {
                     "type": "doc",
                     "id": "purescript/IO"

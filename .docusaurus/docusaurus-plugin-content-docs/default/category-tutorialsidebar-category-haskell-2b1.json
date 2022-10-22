@@ -5,12 +5,12 @@
   "permalink": "/category/haskell",
   "navigation": {
     "previous": {
-      "title": "Types",
+      "title": "Types in PureScript",
       "permalink": "/purescript/types"
     },
     "next": {
-      "title": "In and output",
-      "permalink": "/haskell/IO"
+      "title": "Introduction to Haskell",
+      "permalink": "/category/haskell"
     }
   }
 }

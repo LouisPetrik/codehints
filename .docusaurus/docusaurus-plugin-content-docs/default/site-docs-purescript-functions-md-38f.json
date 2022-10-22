@@ -1,8 +1,8 @@
 {
   "unversionedId": "purescript/functions",
   "id": "purescript/functions",
-  "title": "Functions",
-  "description": "As the name of functional programming suggests it, this style of writing code resolves all around writing functions - so, let's cover what you need to know.",
+  "title": "Functions in PureScript",
+  "description": "-",
   "source": "@site/docs/purescript/functions.md",
   "sourceDirName": "purescript",
   "slug": "/purescript/functions",
@@ -11,14 +11,16 @@
   "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/purescript/functions.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Functions in PureScript"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Folds",
+    "title": "Folds in PureScript",
     "permalink": "/purescript/folds"
   },
   "next": {
-    "title": "Getting started",
+    "title": "Getting Started with PureScript",
     "permalink": "/purescript/getting-started"
   }
 }

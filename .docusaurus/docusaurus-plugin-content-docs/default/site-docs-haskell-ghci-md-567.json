@@ -1,7 +1,7 @@
 {
   "unversionedId": "haskell/ghci",
   "id": "haskell/ghci",
-  "title": "GHCI",
+  "title": "Using the Glasgow Haskell Compiler",
   "description": "The Glasgow Haskell compiler",
   "source": "@site/docs/haskell/ghci.md",
   "sourceDirName": "haskell",
@@ -11,10 +11,12 @@
   "editUrl": "https://github.com/LouisPetrik/cheatsheet/docs/haskell/ghci.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "title": "Using the Glasgow Haskell Compiler"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Functions",
+    "title": "Functions in Haskell",
     "permalink": "/haskell/functions"
   },
   "next": {
