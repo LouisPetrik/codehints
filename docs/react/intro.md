@@ -10,8 +10,6 @@ import Bar from "@site/src/components/Bar";
 
 React is a JavaScript front-end library for creating user interfaces, developed by Facebook in 2013.
 
-<Bar />
-
 # Author's Notes
 
 PureScript is extremely hard to learn, likewise is Haskell. As the language
