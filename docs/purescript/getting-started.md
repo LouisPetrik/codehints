@@ -5,6 +5,9 @@ title: Getting Started with PureScript
 
 # Getting started
 
+As PureScript completely runs on top of Node.js, all we need to do is installing the 
+related NPM packages. 
+
 Installing PureScript on your machine:
 
 ```bash

@@ -50,6 +50,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          // makes the categories drop down collapse once another one is opened up
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: 'CodeHints',
         logo: {

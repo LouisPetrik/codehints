@@ -113,7 +113,29 @@ Each of the files has the h1 headings:
 Please do not use uncloses XML tags anywhere as this will 
 break anything. Thank you.
 
+## Using MDX 
 
+In the markdown pages, React components can be used, thanks to MDX.js.
+Create a component in the /components directory. Finally, import and render 
+it in a page like this: 
+
+```markdown
+--- 
+title: Introduction to React.js 
+sidebar_position: 1
+slug: /category/react
+--- 
+
+import Bar from "@site/src/components/Bar"; 
+
+# Introduction 
+A component: <Bar />
+```
+
+Within the React component, React needs to be importet explicitly!
+```javascript
+import React, { useState, useRef } from "react"
+```
 
 # Todos 
 
@@ -125,6 +147,24 @@ break anything. Thank you.
 - Bun Cheatsheet 
 - "Cheatsheet" -> "Cheat sheets" 
 - Make links in Repo README work 
+
+### Make content prettier using admonitions 
+These can be used to create note, tip, info, caution and danger banners. 
+Usage: 
+
+```markdown 
+:::note 
+
+This is a note. 
+
+::: 
+
+:::tip 
+
+This is a tip 
+
+::: 
+```
 
 ## Technical 
 
