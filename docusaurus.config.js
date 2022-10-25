@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
 	title: 'CodeHints',
 	tagline: 'Code concepts through cheat sheets',
-	url: 'https://codehints.io/',
+	url: 'https://codehints.io',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
