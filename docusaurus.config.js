@@ -47,6 +47,11 @@ const config = {
 					trackingID: 'G-JX2QYMM688',
 					anonymizeIP: true,
 				},
+				// experimental:
+				gtag: {
+					trackingID: 'G-JX2QYMM688',
+					anonymizeIP: true,
+				},
 			}),
 		],
 	],

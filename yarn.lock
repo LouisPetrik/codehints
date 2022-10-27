@@ -1407,7 +1407,7 @@
     "@docusaurus/utils-validation" "2.1.0"
     "tslib" "^2.4.0"
 
-"@docusaurus/plugin-google-gtag@2.1.0":
+"@docusaurus/plugin-google-gtag@^2.1.0", "@docusaurus/plugin-google-gtag@2.1.0":
   "integrity" "sha512-/3aDlv2dMoCeiX2e+DTGvvrdTA+v3cKQV3DbmfsF4ENhvc5nKV23nth04Z3Vq0Ci1ui6Sn80TkhGk/tiCMW2AA=="
   "resolved" "https://registry.npmjs.org/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.1.0.tgz"
   "version" "2.1.0"
