@@ -62,3 +62,7 @@ for (String person : people) {
   System.out.println(person);
 }
 ```
+
+## Java array methods
+
+Here is an overview, of the most important methods
