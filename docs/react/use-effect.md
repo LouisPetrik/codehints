@@ -1,5 +1,5 @@
 ---
-title: useEffect
+title: useEffect in React
 sidebar_position: 3
 ---
 

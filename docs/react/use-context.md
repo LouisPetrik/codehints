@@ -1,5 +1,5 @@
 ---
-title: useContext
+title: useContext in React
 sidebar_position: 5
 ---
 
