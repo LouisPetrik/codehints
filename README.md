@@ -106,6 +106,7 @@ Each of the files has the h1 headings:
 -  What is technology-name? (use cases, projects etc. )
 -  Hello World in technology-name
 -  Further Code examples (optional)
+-  Packages (optional)
 -  Author's Notes (optional)
 -  Sources
 -  Additional Ressources

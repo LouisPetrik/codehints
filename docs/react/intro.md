@@ -10,6 +10,15 @@ import Bar from "@site/src/components/Bar";
 
 React is a JavaScript front-end library for creating user interfaces, developed by Facebook in 2013.
 
+
+## Hello world in React.js 
+
+```jsx
+export default function App() {
+  return <p>Hello world!</p>
+}
+```
+
 ## Author's Notes
 
 React was gifted with new life when hooks were introducted. Since then, React doubled down on their position as the top UI-library, in my opinion.
