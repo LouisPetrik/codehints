@@ -37,7 +37,7 @@ Therefore, we pass state from App into Child using the context - App is the cont
 ```jsx
 function App() {
 	return (
-		<Context.Provider value={st`te_var}>
+		<Context.Provider value={stateVariable}>
 			<Child />
 		</Context.Provider>
 	)
