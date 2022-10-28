@@ -1,5 +1,7 @@
 ---
 title: Qwik - The Revolutionary Web Framework
+sidebar_position: 1
+slug: /category/qwik
 ---
 
 # What is Qwik?
