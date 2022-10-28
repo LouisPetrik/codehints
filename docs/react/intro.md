@@ -12,17 +12,13 @@ React is a JavaScript front-end library for creating user interfaces, developed 
 
 # Author's Notes
 
-PureScript is extremely hard to learn, likewise is Haskell. As the language
-offers less freedom and a very unique syntax, it takes a time to get into it.
+React was gifted with new life when hooks were introducted. Since then, React doubled down on their position as the top UI-library, in my opinion.
 
 # Sources
 
-As the source for these cheatsheets mainly the official PureScript book and the
-Functional Programming Made Easier book is used. Both are linked below.
+As sources, the official documentation is used.
 
 # Additional Ressources
 
--  [The official PureScript book](https://book.purescript.org/)
--  [Jordan's notes](https://jordanmartinez.github.io/purescript-jordans-reference-site/Preface.html/)
--  [Pursuit](https://pursuit.purescript.org/)
--  [Functional Programming Made Easier - Book. There is a free sample which is awesome](https://leanpub.com/fp-made-easier/)
+-  [Official Documentation](https://reactjs.org/docs/getting-started.html)
+-  [Finding Components](https://react.parts/)
