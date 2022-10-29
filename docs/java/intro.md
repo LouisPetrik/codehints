@@ -16,7 +16,7 @@ The object-oriented programming language was created by Oracle in 1995, and can 
 purposes. It might be the programming language that pushed the object-oriented style of programming the most, and is pretty
 infamous for its boilerplate-loaded way of printing hello world.
 
-# Hello World in Java
+## Hello World in Java
 
 ```java
 public class Main {
@@ -32,10 +32,10 @@ You can execute it with running
 javac Main.java && java Main
 ```
 
-# Author's Notes
+## Author's Notes
 
 I had to learn it for multiple courses in University and never really liked it. Especially not, because Java really forces object oriented programming onto the programmer. Yet, one must admit that Java is evolving and isn't too bad for beginners.
 
-# Sources
+## Sources
 
 As the source, the official documentation is used.

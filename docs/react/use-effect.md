@@ -9,7 +9,7 @@ sidebar_position: 3
 
 The useEffect hook is the most weird hook available in React.
 In times of class-based React components there was nothing like this hook - it turns out, useEffect combines
-a couple of things, we used seperated methods before:
+a couple of things, we used separated methods before:
 
 <ul>
     <li>componentDidMount</li>
@@ -20,7 +20,7 @@ a couple of things, we used seperated methods before:
 
 ## Running useEffect
 
-It is neccessary to import the hook from the core of React.
+It is necessary to import the hook from the core of React.
 Make sure to write the hook on top level of the components-function
 scope itself.
 
@@ -40,7 +40,7 @@ As you can see, this is the structure of useEffect:
 useEffect(function, optional array)
 ```
 
-In the following we'll keep it short with the code snippets, only portraing the hook itself.
+In the following we'll keep it short with the code snippets, only portraying the hook itself.
 
 :::caution
 

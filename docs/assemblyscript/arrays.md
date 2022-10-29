@@ -40,7 +40,7 @@ After importing the array from the file:
 console.log(numbers.value)
 ```
 
-# Static Arrays
+## Static Arrays
 
 ## Returning an Array
 
