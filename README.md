@@ -101,7 +101,7 @@ slug: /category/technology-name
 ```
 ````
 
-Each of the files has the h1 headings:
+Each of the files has the h2 headings:
 
 -  What is technology-name? (use cases, projects etc. )
 -  Hello World in technology-name
