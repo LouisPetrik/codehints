@@ -1,10 +1,11 @@
 ---
-title: Loops in Go 
+title: Loops in Go
 ---
 
 # For Loops
 
-For-Loops are the only loops which can be used in Go.
+For-Loops are the only loops which can be used in Go. There are no for-reach and not even while-loops in Go.
+At first, you might find this weird. Yet, for-loops are used for all cases.
 
 ```go
 func main() {
@@ -14,7 +15,7 @@ func main() {
 }
 ```
 
-Using an already existing variable: (I did not find a better way, scoping seems to be strange)
+Using an already existing variable:
 
 ```go
 i := 0
@@ -22,3 +23,5 @@ for i := i; i <= 3; i++ {
    fmt.Println(i)
 }
 ```
+
+This way, while-loops as we know them from other programming languages are replaced.
