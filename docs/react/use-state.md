@@ -25,7 +25,7 @@ export default function App() {
 }
 ```
 
-## Save state in input
+## Save input in state
 
 ## Using multiple states
 
