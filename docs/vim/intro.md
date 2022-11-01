@@ -25,9 +25,6 @@ Not needing to grab your mouse for writing code keeps your fingers on the keyboa
 
 ## Editing 
 
-
-
-
 # Author's Notes
 Vim is hard to learn, but very powerful when used regulary.
 To me, there are a couple benefits. 
@@ -38,7 +35,7 @@ are in fact different. Installing Vim, Neovim or an extension for your current e
 4. By forcing yourself to use the keyboard for almost everything, you get know your keyboard even better. 
   
 
-The best way to get started with Vim is installing a Vim-plugin for your current editor or IDE. This way you can use the benefits of your common enviroment, but have the benefits of Vim included. 
+The best way to get started with Vim is installing a Vim-plugin for your current editor or IDE. This way you can use the benefits of your common environment, but have the benefits of Vim included. 
 
 # Additional Ressources
 - [Vim on Wikipedia](https://en.wikipedia.org/wiki/Vim_(text_editor))

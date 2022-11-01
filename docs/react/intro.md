@@ -13,7 +13,7 @@ React is a JavaScript front-end library for creating user interfaces, developed 
 Compared to competitors like Vue and Anguar, React is a library - not a framework.
 Does it make React worse than the others mentioned? No, it only means, Vue and Angular for example are shipping
 their own, stacked environment with tools for fetching data, routing and state management.
-Meanwhile React primarly offers its key-feature: A way to build dynamic components for the web.
+Meanwhile React primarily offers its key-feature: A way to build dynamic components for the web.
 Everything else needs to be installed via third parties.
 
 This sounds bad, but actually makes React a library driven by the community, with great innovations every once in a while.
