@@ -1,6 +1,6 @@
 ---
 title: useState in React
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # React's useState hook
