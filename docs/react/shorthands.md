@@ -91,3 +91,27 @@ const app = () => {
 	)
 }
 ```
+
+## React.Fragment 
+
+Instead of using React.Fragment as the wrapper element for a component like this
+
+```jsx
+return (
+  <React.Fragment> 
+    <p>Hello</p>
+    <p>World</p>
+  </React.Fragment>
+)
+```
+
+There is a shorter way today: 
+
+```jsx
+return (
+  <>
+    <p>Hello</p>
+    <p>World</p>
+  </>
+)
+```
