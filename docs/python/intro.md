@@ -12,5 +12,5 @@ slug: /category/python
 
 Python is an interpreted programming language, created by Guido van Rossum in 1991. 
 What the language is most famous for is its simplicity and readability. 
-Also, Python programmers benefit from the many default functions and utilities, for working with <a href="/python">lists</a>, for example. 
+Also, Python programmers benefit from the many default functions and utilities, for working with <a href="/python-lists">lists</a>, for example. 
 
