@@ -115,7 +115,13 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: vsDark, // formerly: darkcodetheme
-        additionalLanguages: ['haskell', 'typescript', 'java', 'python'],
+        additionalLanguages: [
+          'haskell',
+          'typescript',
+          'java',
+          'python',
+          'rescript',
+        ],
       },
     }),
 
