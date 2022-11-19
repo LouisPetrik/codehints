@@ -1,7 +1,6 @@
 ---
 title: Lists in Python
 sidebar_position: 2
-slug: /python-lists
 ---
 
 
