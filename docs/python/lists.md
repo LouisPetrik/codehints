@@ -8,6 +8,9 @@ slug: /python-lists
 # Python Lists Cheat sheet
 
 Lists are data structures, capable of holding multiple elements, even of different types. Compared to arrays, lists are not fixed in size. 
+Lists are the go-to solution for storing sequences of values. A good practise is to keep all elements of the list of the same data type.  
+
+Here is everything you need to know about lists in Python. 
 
 ## Creating lists 
 There are multiple ways for initizalizing a list in Python, just as in other programming languages. Yet, there is one key difference: Variables in Python must be assigned a value by default. You can't create "empty" variables. 
@@ -72,6 +75,24 @@ print(numbers[0])
 # 1
 ```
 
+
+### Accessing a range of elements 
+
+With the : operator one can specifiy his selection of elements. 
+0:3 returns the first three elements, alternatively said, from the 0th index up until the 3rd (not inclusively). 
+
+```python 
+numbers = [1, 2, 3, 4, 5]
+numbers[0:3] # [1, 2, 3]
+```
+
+There are almost unlimited options for using this operator. We can also just return all elements, starting from the 3rd (inclusively): 
+
+```python
+numbers = [1, 2, 3, 4, 5]
+numbers[3:] # [4, 5]
+```
+
 ### Accessing with negative indicies 
 
 Instead of accessing the last element of a list via its length, Python offers a smarter way. 
@@ -127,7 +148,7 @@ numbers.pop() # 3
 numbers [1, 2]
 ```
 
-In case the element which is to be deleted appears multiple times, only the first occurence is deleted. 
+In case the element which is to be deleted appears multiple times, only the first occurrence is deleted. 
 
 ## Iterating over lists 
 
