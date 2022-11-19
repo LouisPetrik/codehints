@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const vsDark = require('prism-react-renderer/themes/vsDark')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -113,7 +114,7 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        darkTheme: vsDark, // formerly: darkcodetheme
         additionalLanguages: ['haskell', 'typescript', 'java', 'python'],
       },
     }),
