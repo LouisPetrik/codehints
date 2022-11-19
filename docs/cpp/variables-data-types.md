@@ -3,6 +3,10 @@ title: Variables and Data Types in C++
 ---
 
 # Variables & Data types
+The following section focuses on data types but also on different types of variables in C++. Yes, there is an important differences between both. 
+Data types describe and regulate the data we put into our variables. Variable types define how the variable, as the data container, should behave. 
+Let's start with the most basic data types in C++ 
+
 
 ## Strings
 

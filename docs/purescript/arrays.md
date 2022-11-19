@@ -2,7 +2,10 @@
 title: Arrays in PureScript 
 ---
 
-# Arrays 
+# Arrays
+Arrays hold a constant number of elements. These elements must be of the same type. Just like all other data in PureScript, Arrays are immutable. 
+When altering elements of an array, the original data remains untouched. Yet, the entire array with the altered-version of the data is returned. 
+
 
 ## Generating Array in Range:
 

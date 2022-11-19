@@ -3,6 +3,8 @@ title: Folds in PureScript
 ---
 
 # Folds
+Folds are a weird concept to grasp at first. Yet, it is not exclusive to PureScript but also present in other, functional programming languages. 
+What folds do is, what their name suggests - they fold data together. Indeed, there are some similarities to the reduce-function, for example. 
 
 Make sure to import:
 

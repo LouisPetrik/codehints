@@ -1,6 +1,6 @@
 ---
 title: Types in TypeScript
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 The one thing that makes TypeScript the most different from JavaScript is its syntax for providing types.

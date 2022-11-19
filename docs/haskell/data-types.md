@@ -2,7 +2,10 @@
 title: Data Types in Haskell 
 ---
 
-# Data types 
+# Data types
+As data types are constant in Haskell, they are especially important to be understood. What I mean with constant? 
+Once you assigned a type to a variable, it can't be changed. This is due to the concept of immutability.  
+Here are the most important data types in Haskell. 
 
 ## Int & Integer 
 

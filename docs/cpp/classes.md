@@ -3,6 +3,13 @@ title: Classes in C++
 ---
 
 # Classes
+Classes are an optional way of structuring data in C++. They are the integral part of object-oriented programming like we know it from Java. 
+Yet, with optional I mean you are free to use classes and not forced too (not like in Java). 
+
+A class can be seen as a blueprint for the structure of data. 
+When speaking of data in the context of classes, we can call it <i>heterogeneous</i> data. What this means is that a class can be build upon different data types. 
+Imagine a class for descriping a person - it might hold a string value for the person's name, but also an integer for their age. 
+
 By default, all properties of a class are kept private, therefore not visble outside of the scope. 
 
 ```cpp 

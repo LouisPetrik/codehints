@@ -5,6 +5,11 @@ slug: /category/typescript
 ---
 
 # What is TypeScript?
+TypeScript is a superset to JavaScript, developed and maintained by Microsoft. TypeScript, also known as TS, transpiles down to JavaScript, and enables the 
+developer to write almost JavaScript, but with some extensions. The main extension TS brings in, are types. As TypeScript is a superset, pure, vanilla JavaScript 
+can be written - you can bring in TypeScript-exclusive stuff in your code whenever you want. 
+
+TS found its way into Angular, Node.js, React and others. It even serves as the basis for the programming language <a href="/category/assemblyscript">AssemblyScript</a>. 
 
 ## Author's notes
 

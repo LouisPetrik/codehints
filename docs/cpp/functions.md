@@ -4,7 +4,11 @@ title: Functions in C++
 
 # Functions
 
-Terminology: 
+Functions (or methods, when bound to a class) are the modern equivalent of routines. Just like routines, they help us to write code which is reusable. 
+Functions in C++ work almost like in C or other programming languages. Just like in C, Java or other type-based languages, you need to provide your functions with types. 
+These types specifiy the parameters and the potential return value. Compared to JavaScript, Swift or Python for example, functions are not created via using a keyword. 
+
+To fully understand this concept in C++, one must understand declaration and definition. 
 The following is a function declaration, which is usually stored in a header file: 
 
 ```cpp 

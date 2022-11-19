@@ -3,6 +3,9 @@ title: Stack, Heap and Static Memory in C++
 ---
 
 # Stack, Heap and Static Memory
+For writing solid C++ code, there is no way around understanding memory. 
+As C++ is very powerful in terms of memory management, it comes with huge responsibility. Part of this responsibility is knowing where your data is created - and when it is removed, if at all. 
+Here is an overview of the stack, heap and the static memory works and how you can manage it. 
 
 ## Allocating variables in the memory
 

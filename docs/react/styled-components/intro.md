@@ -6,10 +6,11 @@ sidebar_position: 1
 
 <img alt="styled-components" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="100px"/>
 
-## What is styled-components?
+Styled components is a React.js for CSS within JSX. 
+This means we can write CSS directly in our components' files. But why should we do it?
+This concept enables us to make CSS more dynamic. For example, we can use state and props to define our CSS. 
+In the build process, styled-components doesn't bundle our CSS into a .css file. 
 
-Styled components is a React.js library for using CSS within JSX.
-But, what does this mean? Aren't we able to use CSS within our component natively?
 
 ## Hello world in styled components
 

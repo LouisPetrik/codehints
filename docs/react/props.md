@@ -7,7 +7,9 @@ sidebar_position: 3
 # Props in React.js
 
 Props stand for properties, which can be used to define the contents or behaviour of a component. 
-They can be imagined like parameters to a function. 
+They can be imagined like parameters to a function. Props helps us to write reusable components, as we can fill 
+them with specific data. Changing props leads the component to re-rendering.  
+Here is a complete overview of this easy but essential concept. 
 
 ## Passing a named prop
 

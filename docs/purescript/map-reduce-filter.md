@@ -3,6 +3,9 @@ title: Map, Reduce and Filter in PureScript
 ---
 
 # Map, Reduce and Filter
+Understanding the functions map, reduce and filter will benefit you a lot. 
+Why? Because they are essential concepts in functional programming. All three functions are present in other languages like JS or Python too.
+What they all have in common is transforming data, and returning the transformed state. 
 
 ## Map
 
