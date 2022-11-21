@@ -7,7 +7,7 @@ sidebar_position: 3
 
 The useState hook enables us to set state for our component.
 It serves as the replacement called just "state" in class-based components.
-As you might remember, state changes lead to a re-render of the neccessary parts in the DOM. This helps us 
+As you might remember, state changes lead to a re-render of the necessary parts in the DOM. This helps us 
 to build dynamic interfaces. Here is an overview of how to use useState and what might bring you into trouble. 
 
 The <a href="/react/use-ref" title="useRef hook in React">useRef</a> can be seen as the complement to useState. The big difference is updating on changes. 

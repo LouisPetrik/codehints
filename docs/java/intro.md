@@ -57,7 +57,7 @@ This example is taken from [w3schools](https://www.w3schools.com/java/tryjava.as
 To get started, you need to install the Java SE for your machine. You can download a version [here](https://www.oracle.com/de/java/technologies/downloads/).
 
 Once installed successfully, open your terminal or CMD and run <code>java</code>. 
-In case it prints a ton of text, Java is installed succesfully on your machine. 
+In case it prints a ton of text, Java is installed successfully on your machine. 
 
 
 ### Running Hello world 
