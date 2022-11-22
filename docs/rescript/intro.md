@@ -12,28 +12,21 @@ While TypeScript also is a programming language, that compiles to JavaScript, it
 TypeScript extends JS, but you can write and run vanilla JS within your TS files. 
 ReScript on the other hand, is a seperat programming language. It brings other syntax, other features and other opinions with it. You will see, what I mean in a second. 
 
+Important to mention is that ReScript is built in an agnostic way. You can write JS code for your Node.js backend and at the same time, React code with ReScript's JSX. 
+
 
 ## Code examples 
+Let's go over some examples of ReScript in action. Admittedly, hello world in ReScript isn't that spectacular. 
+To log something, the JS-package is used, which holds bindings for pure JavaScript functions. 
 
 ### Hello world 
 
 ```rescript
 Js.log("Hello world")
 ```
-## Hello world in ReScript 
+### ReScript + React
 
-
-```rescript
-type student = {name: string, age: int}
-let student1 = {name: "John", age: 10}
-let {name} = student1 // "John" assigned to `name`
-
-// Variant
-type result =
-  | Success(string)
-let myResult = Success("You did it!")
-let Success(message) = myResult
-```
+ReScript also brings its own implementation of JSX. Thus, you can write React apps while profiting from the programming language. 
 
 
 ## Installing ReScript 
