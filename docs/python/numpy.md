@@ -34,10 +34,22 @@ arr[0] # 1
 
 Also, lists can be transformed to Numpy arrays: 
 
-
+```python
+numbers = [1, 2, 3]
+arr = np.asarray(numbers)
+```
 
 
 
 ## Mathematical functions 
 
+### Sinus, cosinus, tangens 
+All of these functions work element-wise, we pass an array of values and receive the function results. 
 
+```python
+np.sin([1, 2, 3])
+# array([0.84147098, 0.90929743, 0.14112001])
+```
+
+For the cosinus and tangens, use <code>np.cos</code>, <code>np.tan</code>, <code>np.arcsin</code> and so on. 
+Instea
