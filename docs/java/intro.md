@@ -4,12 +4,15 @@ sidebar_position: 1
 slug: /category/java
 ---
 
+# Introduction to Java 
+
+
 <img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg" alt="Java" width="192"/>
 
 <br/>
 <br/>
 
-# What is Java?
+
 
 Java is one of the most popular programming languages of the 21th century.
 The object-oriented programming language was created by Oracle in 1995, and can be used for many different

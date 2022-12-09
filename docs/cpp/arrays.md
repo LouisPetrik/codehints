@@ -5,7 +5,7 @@ title: Arrays in C++
 # Arrays 
 
 An array is a collecting of data, of the same type and with a fixed length. The fixed-size property is what often sets them apart from lists. 
-Compared to arrays, <a href="cpp/vectors">vectors</a> can be seen as lists in C++, as their size is not fixed. But why should I use arrays over vectors then if vectors are less forcing? 
+Compared to arrays, <a href="/cpp/vectors">vectors</a> can be seen as lists in C++, as their size is not fixed. But why should I use arrays over vectors then if vectors are less forcing? 
 Good question. The reason is performance. Under the hood, vectors are arrays too. Yet, when adding or removing elements, it comes to a costly restructuring of the array. 
 Therefore, arrays have an edge over vectors performance-wise. 
 

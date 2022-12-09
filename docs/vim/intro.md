@@ -25,7 +25,7 @@ Not needing to grab your mouse for writing code keeps your fingers on the keyboa
 
 ## Editing 
 
-# Author's Notes
+## Author's Notes
 Vim is hard to learn, but very powerful when used regulary.
 To me, there are a couple benefits. 
 1. You get rid of using your mouse. This accelerates the speed of writing code 
@@ -37,7 +37,7 @@ are in fact different. Installing Vim, Neovim or an extension for your current e
 
 The best way to get started with Vim is installing a Vim-plugin for your current editor or IDE. This way you can use the benefits of your common environment, but have the benefits of Vim included. 
 
-# Additional Ressources
+## Additional Ressources
 - [Vim on Wikipedia](https://en.wikipedia.org/wiki/Vim_(text_editor))
 - [Installing Vim for VS Code](https://youtu.be/-txKSRn0qeA)
 - [nvim](https://neovim.io/)

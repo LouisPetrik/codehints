@@ -6,7 +6,7 @@ slug: /category/purescript
 
 <img src="https://raw.githubusercontent.com/purescript/purescript/master/logo.png" alt="PureScript" width="392"/>
 
-# What is PureScript?
+## What is PureScript?
 
 PureScript is a purely functional programming language created in 2013.
 The syntax is almost similar to Haskell, yet, it only compiles to pure JavaScript.

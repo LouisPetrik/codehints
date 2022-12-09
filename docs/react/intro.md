@@ -22,7 +22,7 @@ Such tools are Next.js, react-router, styled-components, react-query and so on. 
 
 React started a new way of thinking components, and gave birth to JSX, a format combining
 Since then, JSX and its TypeScript variant TSX are used even outside of the React world.
-Newer frameworks and libraries like Solid and Qwik are using it too as their way to build components.
+Newer frameworks and libraries like Solid and <a href="/qwik/qwik-vs-jsx/">Qwik</a> are using it too as their way to build components.
 
 ## Hello world in React.js
 

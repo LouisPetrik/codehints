@@ -24,7 +24,7 @@ Therefore, calling Numpy functions works with <i></i>np.function.
 
 ## Arrays 
 
-Arrays can be created and manipulated like the default lists in Python. 
+Arrays can be created and manipulated like the <a href="/python/lists">default lists</a> in Python. 
 
 ```python
 arr = np.array([1, 2, 3])

@@ -9,7 +9,6 @@ slug: /category/assemblyscript
 <br/>
 <br/>
 
-# What is AssemblyScript?
 
 AsssemblyScript, in short, ASM, is a programming language that compiles to WebAssembly - only to WebAssembly.
 The language is based on TypeScript, but with three huge differences:
@@ -18,7 +17,7 @@ The language is based on TypeScript, but with three huge differences:
 -  ASM brings in C-style types like 32 bit and 64 bit Integers
 -  ASM offers a standard library with low-level functions
 
-At the moment, it is a great choice when you are in the need for fast WASM code, yet want to write something like JavaScript.
+At the moment, it is a great choice when you are in the need for fast WASM code, yet want to write something like JavaScript. Compared to writing <a href="/webassembly/wat">WebAssembly Text Format</a> yourself (basically like Assembler), ASM is way friendlier for developers. 
 
 ## Author's Notes
 
