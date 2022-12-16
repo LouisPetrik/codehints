@@ -41,6 +41,24 @@ arr = np.asarray(numbers)
 
 
 
+### Creating filled arrays 
+
+Numpy holds different functions for creating arrays of a given shape, filled with the same value. 
+
+```python
+np.ones(5)
+# array([1., 1., 1., 1., 1.])
+```
+<code>np.ones</code> creates an array filled with ones, of size 5. The shape is by default one-dimensional. 
+For non-one-dimensional arrays, you need to pass one more pair of brackets like this: 
+
+```python
+np.ones((3, 3))
+```
+Which creates a 3 x 3 array, filled with ones. 
+
+instead of <code>.ones</code> , one can also use <code>.zeros</code> for filling the array with zeros. 
+
 ## Mathematical functions 
 
 ### Sinus, cosinus, tangens 
@@ -52,4 +70,14 @@ np.sin([1, 2, 3])
 ```
 
 For the cosinus and tangens, use <code>np.cos</code>, <code>np.tan</code>, <code>np.arcsin</code> and so on. 
-Instea
+
+
+### Sums 
+
+With <code>np.sum</code> one can sum up the values of an array-like structure. 
+
+```python
+numbers = [1, 2, 3]
+np.sum(numbers)
+# 6
+```
