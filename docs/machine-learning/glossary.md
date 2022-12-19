@@ -15,26 +15,110 @@ Often, code examples are provided, mostly in <a href="/category/python" target="
 
 ## A 
 
+### Accuracy 
+
+A measure for the accuracy of a classification model. In easy words, the amount of predictions the model got correctly. 
+
+<b>Code example:</b>
+
+```python
+from sklearn.metrics import accuracy_score
+
+y_pred = [0, 2, 1, 3]
+y_true = [0, 1, 2, 3]
+
+accuracy_score(y_true, y_pred)
+```
+
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html" target="_blank">Source</a>
 
 ## B 
 
+### Bias 
+
+### Beta 
+
+Often used variable of the single coefficients in a mathematical function.
 
 ## C 
 
 ### Choleksy
 
-## D
+### Classification
 
+Task for a machine learning model, which is about classifing data into given categories. The most famous example might be the iris dataset, containing information about 
+different types of a flower. Through classification, the model can predict to which type of the flower species the test data belongs. 
+
+### Convex 
+
+A function, that has only one global minimum. Only valid type for some regression models, as some are unable to deal with multiple minima. 
+
+### Cosine 
+
+Distance function. 
+
+```python
+from scipy.spatial import distance 
+
+distance.cosine([1, 2], [1, 2])
+# 0
+```
+Returns 0 as the vectors are identical. 
+
+Also check out the Cityblock distance and the Euclidean distance. 
+
+### Cityblock 
+Distance function. 
+
+```python
+from scipy.spatial import distance 
+
+distance.cityblock([1, 2], [1, 5])
+# 3
+```
+
+## D
 
 ### Derivate
 
+The derivate of a function is its rate of change. Therefore, we can use it to find the slope of a function at a certain point, or the minimum and maximum of it. 
+
+<b>Code example using SymPy:</b>
+
+```python
+from sympy import diff, Symbol
+
+x = Symbol("x")
+func = 2 * x + 2
+
+diff(func, x) # 2
+```
+
+Outputs $2$ as it is the derivate of $f\colon(x)={2x +2}$
+
+
+
 ### Determinant 
+
+```python
+import numpy as np
+
+A = np.array([[1,2], [2,3]])  
+
+np.linalg.det(A)
+# -1
+```
 
 ### Distance 
 
 Mostly the distance of two vectors / points in a two or three dimensional space (or higher).
+Often used for solving classification problems, as the nearest neigbours of a data point need to be found. 
 
 ## E 
+
+### Elastic net 
+
+Regularized regression model, which combines both L1 and L2 penalties. 
 
 ### Euclidean distance 
 
@@ -86,10 +170,21 @@ euclidean_distances([[0, 1], [1, 1]], [[0, 0]])
 ### Lasso 
 A algorithm for regularization
 
+### Linear discriminant analysis 
 
-### Lineare Regression 
+A model for regression. 
+
+### Linear Regression 
+
+
+### Loss function 
 
 ## M
+
+
+### Manhattan distance 
+
+Also known as Taxicab distance, is a metric which can be thought of like the route a taxi driver has to take. While he can't drive through a building, he has to take (the shortest) a path around it.  
 
 ### Matrix 
 
@@ -98,7 +193,11 @@ A algorithm for regularization
 ### Minimum 
 
 
+## I 
 
+### Iris
+
+Famous dataset for testing classifaction models. 
 
 ## N 
 
@@ -106,11 +205,28 @@ A algorithm for regularization
 
 ### Normalization
 
+The process of scaling data for training a model (sometimes even for testing). 
+
+<b>Code example with Numpy:</b>
+
+```python
+import numpy as np 
+
+X_train = (np.array(X_train) - np.mean(X_train, axis = 0).ravel())\
+/(np.std(X_train,axis = 0).ravel())
+
+X_test = (np.array(X_test) - np.mean(X_test, axis = 0).ravel())\
+/(np.std(X_test,axis = 0).ravel())
+```
+
 ### Numpy
 
 A Python library for scientific programming, known for high performance. 
+For more, checkout the <a href="/python/numpy">cheatsheet on Numpy</a>
 
 ## O 
+
+### Ordinal 
 
 ### One hot encoding
 
@@ -127,10 +243,18 @@ The most popular programming language for machine learning
 ### Regularization 
 
 
+### Root mean squared error 
+In short RMSE
+
 ### Ridge regression 
 
-
 ## S
+
+
+### Shrinkage 
+
+### Slope
+
 
 ### Splitting 
 
@@ -152,6 +276,13 @@ Keep in mind the data is not necessarily normalized yet.
 ### Stochastic gradient descent 
 
 ## T 
+
+
+### Taxicab distance 
+
+Another word for the <a href="#manhattan-distance">Manhattan distance</a>. 
+
+### Theta 
 
 ## U 
 
