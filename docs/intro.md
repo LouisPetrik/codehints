@@ -24,7 +24,7 @@ Not all cheat sheets are off the same quality. Some offer more content, as all o
 
 <ul>
   <li><a href="/category/purescript">PureScript</a></li>
-  <li><a href="/category/cpp">C++</a></li>
+  <li><a href="/category/c">C++</a></li>
   <li><a href="/machine-learning/glossary">ML glossary</a></li>
   <li><a href="/category/react">React.js</a></li>
   
@@ -72,7 +72,7 @@ break anything. Thank you.
 
 ## Future plans & todos 
 
-### Content bucket list 
+### Content bucket list .
 
 
 ## Legal stuff 
