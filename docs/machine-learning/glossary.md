@@ -30,6 +30,14 @@ y_true = [0, 1, 2, 3]
 accuracy_score(y_true, y_pred)
 ```
 
+
+### Activation function 
+
+A function that determines the degree of activeness of a single neuron in a neural network. 
+While biological neurons are inactive or active, artifical neurons are in a range between 0 and 1. 
+
+A commonly used activation function is the <a href="/machine-learning/glossary#relu">ReLU</a>. 
+
 <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html" target="_blank">Source</a>
 
 ## B 
@@ -78,6 +86,10 @@ distance.cityblock([1, 2], [1, 5])
 ```
 
 ## D
+
+### Deep learning 
+
+A subset of neural network applications in which 3 or more layers are used. 
 
 ### Derivate
 
@@ -170,14 +182,33 @@ euclidean_distances([[0, 1], [1, 1]], [[0, 0]])
 ### Lasso 
 A algorithm for regularization
 
+
+### Learning 
+
+Mostly the process of minizing the cost function of the model. This leads to the predictions being more precise - therefore, the model is learning. 
+
 ### Linear discriminant analysis 
 
 A model for regression. 
 
 ### Linear Regression 
 
+### Logit
+
+A function used to convert a real number to a probability score (between 0 and 1). 
+
+$logit(p)=\ln{(\frac{p}{1 - p})}$
+
+Alternatives to this function are: 
+- Softmax
+- Sigmoid
+- ReLU 
+
+
 
 ### Loss function 
+
+The function that describes the differences of the predictions to the actual data. The higher the difference, the less precise is our model. Therefore, the loss function is to be minimized. 
 
 ## M
 
@@ -202,6 +233,15 @@ Famous dataset for testing classifaction models.
 ## N 
 
 ### Neural network 
+
+
+### Neuron 
+
+Neurons are the building blocks of neural networks. Most neural networks consist of thousands of Neurons, sometimes even more. 
+One can imagine a neuron like a biological neuron - yet, the machine learning implemention is a function underneath. The neuron has a state of activeness, which can 
+lead to triggering other neurons. A single neuron or multiple ones can solve different sub tasks in an application.  
+
+In image recognition, there can be neurons focusing on the background, on the shape, on the color and so on. 
 
 ### Normalization
 
@@ -242,6 +282,13 @@ The most popular programming language for machine learning
 
 ### Regularization 
 
+### ReLU
+ReLU stands for rectifier linear unit. It is used as an activation function in neural networks, as it maps real numbers onto the range 0 to 1. 
+The definition is quite easy, it simply returns the maximum of (0, x), so x for any x > 0. 
+
+$RELU(x)={\max(0, x)}$ 
+
+As it maps onto 0 - 1, it does quite the same as Softmax, Logit and Sigmoid. 
 
 ### Root mean squared error 
 In short RMSE
@@ -250,11 +297,22 @@ In short RMSE
 
 ## S
 
-
 ### Shrinkage 
 
-### Slope
+### Sigmoid 
 
+A function, that renders the famous S-shaped curve, also known as sigmoid curve. 
+This function maps a real number onto the range 0 to 1, and is therefore often used as a wrapper to receive a probability score. 
+
+$S(x)=\frac{1}{1 + e^{-x}}$ 
+
+Or: $S(x)={1 - S(-x)}$ 
+
+
+Alternatively, functions like Softmax, Logit and ReLU can be used. 
+Especially ReLU is today more often used than Sigmoid. 
+
+### Slope
 
 ### Splitting 
 
@@ -270,6 +328,11 @@ X_train, X_test, y_train, y_test =
 ```
 
 Keep in mind the data is not necessarily normalized yet. 
+
+## Supervised learning 
+
+A subset of machine learning tasks in which the algorithm is provided with labeled data - the model knows the correct output.  
+Supervised learning is most classification and regression. 
 
 ### Stepsize backtracking 
 
@@ -287,6 +350,10 @@ Another word for the <a href="#manhattan-distance">Manhattan distance</a>.
 ## U 
 
 ### Underfitting 
+
+### Unsupervised learning
+
+A subset of machine learning tasks, which are not about predictions. Therefore, the algorithm is not provided with labels and human interaction isn't necessary. 
 
 ## V
 
