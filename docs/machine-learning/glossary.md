@@ -76,7 +76,7 @@ Returns 0 as the vectors are identical.
 Also check out the Cityblock distance and the Euclidean distance. 
 
 ### Cityblock 
-Distance function. 
+Another name for the Manhattan / Taxicab metric.  
 
 ```python
 from scipy.spatial import distance 
@@ -141,10 +141,15 @@ $d\colon(a,b)=\sqrt{(p_1-q_1)^2 + (p_2-q_2)^2 + ... + (p_i-q_i)^2 + ... + (p_n-q
 <b>Code example:</b> 
 
 ```python
-from sklearn.metrics.pairwise import euclidean_distances
+from scipy.spatial import distance 
 
-euclidean_distances([[0, 1], [1, 1]], [[0, 0]])
-# array([[1.],[1.41421356]])
+
+x = np.array([1, 3, 4])
+y = np.array([2, 4, 1])
+
+
+distance.euclidean(x, y)
+# 3.3166
 ```
 
 ## G 
@@ -215,8 +220,24 @@ The function that describes the differences of the predictions to the actual dat
 
 ### Manhattan distance 
 
-Also known as Taxicab distance, is a metric which can be thought of like the route a taxi driver has to take. While he can't drive through a building, he has to take (the shortest) a path around it.  
+Also known as Taxicab or Cityblock distance, is a metric which can be thought of like the route a taxi driver has to take. While he can't drive through a building, he has to take (the shortest) a path around it.  
 
+<b>Code example with SciPy:</b>
+
+```python 
+from scipy.spatial import distance 
+
+
+x = np.array([1, 3, 4])
+y = np.array([2, 4, 1])
+
+
+distance.cityblock(x, y) # 5
+```
+
+You can calculate the result for yourself like this: 
+|1 - 2| + |3 - 4| + |4 - 1| = 1 + 1 + 3 = 5 
+ 
 ### Matrix 
 
 ### Maximum 
@@ -273,6 +294,12 @@ For more, checkout the <a href="/python/numpy">cheatsheet on Numpy</a>
 
 ### Overfitting 
 
+A model that adapts to much to the data can be called overfitting. 
+A great example is image classification. Imagine you provide your model with many pictures of dogs. Yet, the overwhelming number of images
+are of a single dog breed. Therefore, the model adapts to this specific breed and its characteristics and is now likely unable to identify other breeds as dogs in general. 
+The model is overfitting. Of course, providing a strongly biased set of images must be avoided - but even slight biases can lead to overfitting. 
+
+
 ## P
 
 ### Python 
@@ -290,8 +317,14 @@ $RELU(x)={\max(0, x)}$
 
 As it maps onto 0 - 1, it does quite the same as Softmax, Logit and Sigmoid. 
 
+
+### Risidual sum of squares 
+
+A measure of the variance in a regression model. 
+
 ### Root mean squared error 
-In short RMSE
+In short RMSE, is the squared difference of predicted values and the actual values. The actual values mostly describe the test data, while we 
+provided the model for learning with the train dataset. The lower the RMSE, the more precise is our model. 
 
 ### Ridge regression 
 
