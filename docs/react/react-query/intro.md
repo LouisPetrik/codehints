@@ -4,6 +4,9 @@ sidebar_position: 1
 slug: /category/react-query
 ---
 
+import Container from "/src/components/Container.js" 
+import Code from "/src/components/Code.js"
+
 # What is react-query?
 
 React Query is a library for handling fetching data.
@@ -65,5 +68,12 @@ function Example() {
 ```
 
 ## Additional Resources
+
+
+
+
+
+
+
 
 -  [Official Documentation](https://tanstack.com/)
