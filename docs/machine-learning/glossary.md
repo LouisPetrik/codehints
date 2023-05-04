@@ -154,11 +154,6 @@ distance.euclidean(x, y)
 
 ## G 
 
-### Gradient 
-
-
-### Gradient descent 
-
 
 ### Gaussian 
 
@@ -166,7 +161,17 @@ distance.euclidean(x, y)
 ### Gated graph sequence neural network 
 
 
+### Gradient 
+
+
+### Gradient descent 
+
+
 ### Grid search 
+
+
+### Ground truth 
+The set of data, mostly used for testing our model, which is assumed to be correct. 
 
 ## H 
 
@@ -209,6 +214,11 @@ Alternatives to this function are:
 - Sigmoid
 - ReLU 
 
+
+### Logistic regression 
+
+Not to be confused with linear regression, as logistic regression is not an approach to solving regression problems. 
+Logistic regression is an algorithm for classification. 
 
 
 ### Loss function 
@@ -362,12 +372,19 @@ X_train, X_test, y_train, y_test =
 
 Keep in mind the data is not necessarily normalized yet. 
 
-## Supervised learning 
+### Supervised learning 
 
 A subset of machine learning tasks in which the algorithm is provided with labeled data - the model knows the correct output.  
 Supervised learning is most classification and regression. 
 
+
+### Support vector machine 
+
+In short, SVMs, are models for classifing data, based on computing support vectors for linearly and non-linearly separable data. 
+
 ### Stepsize backtracking 
+
+An algorithmic approach to control the stepsizes for the gradient descent algorithm. 
 
 ### Stochastic gradient descent 
 
