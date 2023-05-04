@@ -141,6 +141,7 @@ const config = {
           'java',
           'python',
           'rescript',
+          'rust',
         ],
       },
     }),
