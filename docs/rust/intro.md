@@ -1,5 +1,5 @@
 ---
-title: The Rust Programming Language 
+title: Introduction to Rust 
 slug: /category/rust
 sidebar_position: 1
 --- 
@@ -15,7 +15,7 @@ While Rust is still very young, it is already used in many production-level proj
 - Tokio: Tokio is an asychronous runtime, used in the JavaScript platform Deno 
   
 
-Ready to dive into Rust? Here is the [getting started guide](/getting-started). 
+Ready to dive into Rust? Here is the [getting started guide](/rust/getting-started). 
 
 
 ## Code examples 
