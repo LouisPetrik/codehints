@@ -1,6 +1,7 @@
-# Louis' Programming Cheatsheets - codehints.netlify.app
+# Louis' Programming Cheatsheets - [codehints.io](https://codehints.io/)
 
-The data source for [codehints.netlify.app](https://codehints.netlify.app)
+A repertoire of programming-related cheat sheets, created with Markdown. 
+The cheat sheets can be viewed on the website [codehints.io](https://codehints.io/) but also here on GitHub, in the file explorer. Contributions are welcome. 
 
 # Table of Contents
 
@@ -11,7 +12,7 @@ The data source for [codehints.netlify.app](https://codehints.netlify.app)
 
 # Cheatsheets Table of Contents
 
-The links do not work by now.
+Here is a list of the content on the website. The links refer to the corrosponding Markdown files. 
 
 ## C++
 
@@ -144,6 +145,8 @@ import React, { useState, useRef } from 'react'
 
 ## Content
 
+-  ChatGPT Cheatsheet
+-  GitHub Copilot Cheatsheet 
 -  Interfaces in C++
 -  Filling out AssemblyScript and TypeScript
 -  Basics of C
