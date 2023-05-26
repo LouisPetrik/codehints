@@ -4,6 +4,7 @@ slug: /category/rust
 sidebar_position: 1
 --- 
 
+<img src="http://rust-lang.org/logos/rust-logo-512x512.png" alt="Rust" width="192" />
 
 # Introduction to Rust
 

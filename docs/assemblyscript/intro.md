@@ -6,6 +6,7 @@ slug: /category/assemblyscript
 
 <img src="https://raw.githubusercontent.com/AssemblyScript/assemblyscript/78b2d1afef01995c476b6fcb1647258053a0b193/media/icon.svg" alt="PureScript" width="192"/>
 
+
 <br/>
 <br/>
 
