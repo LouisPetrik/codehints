@@ -19,6 +19,7 @@
     "@docusaurus/plugin-google-analytics": "^2.2.0",
     "@docusaurus/plugin-google-gtag": "^2.2.0",
     "@docusaurus/preset-classic": "^2.2.0",
+    "@docusaurus/theme-mermaid": "^2.4.1",
     "@easyops-cn/docusaurus-search-local": "^0.33.4",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",

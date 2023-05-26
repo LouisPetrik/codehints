@@ -16,6 +16,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
+  markdown: {
+    mermaid: true,
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -158,6 +161,8 @@ const config = {
         explicitSearchResultPath: true,
       },
     ],
+
+    '@docusaurus/theme-mermaid',
   ],
 }
 
