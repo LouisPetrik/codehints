@@ -248,3 +248,5 @@ In this example, `withExtraPropAdded` is a higher-order component that takes a c
 ## Conclusion
 
 React.js offers a robust solution for building user interfaces in JavaScript. Its component-based architecture allows developers to build complex UIs from isolated and reusable pieces of code. Features like state, props, context, and hooks enable us to manage data and side-effects in our application. Libraries like React Router aid in creating single-page applications with multiple views and linking. By understanding these core concepts, you can leverage the full potential of React.js in your projects and create efficient, scalable, and maintainable web applications.
+
+
