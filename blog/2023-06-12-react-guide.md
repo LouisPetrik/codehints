@@ -249,4 +249,43 @@ In this example, `withExtraPropAdded` is a higher-order component that takes a c
 
 React.js offers a robust solution for building user interfaces in JavaScript. Its component-based architecture allows developers to build complex UIs from isolated and reusable pieces of code. Features like state, props, context, and hooks enable us to manage data and side-effects in our application. Libraries like React Router aid in creating single-page applications with multiple views and linking. By understanding these core concepts, you can leverage the full potential of React.js in your projects and create efficient, scalable, and maintainable web applications.
 
+## FAQ 
+
+
+### What is React.js and what are its core concepts?
+
+React.js is a popular JavaScript library for building user interfaces, especially for single-page applications. It's used for handling the view layer in web and mobile apps. React allows you to design simple views for each state in your application, and it will efficiently update and render the components when your data changes. The core aspects of React that every developer should grasp include components, state and props, hooks, routing with React-Router, Context API, and higher order components.
+
+### What are the popular methods for styling in React.js?
+
+There are two popular methods for styling in React.js: CSS-in-JSX and Styled-Components. CSS-in-JS is a powerful tool in creating dynamic, visually appealing components by injecting your CSS right into your JSX. On the other hand, styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS.
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is React.js and what are its core concepts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "React.js is a popular JavaScript library for building user interfaces, especially for single-page applications. It's used for handling the view layer in web and mobile apps. React allows you to design simple views for each state in your application, and it will efficiently update and render the components when your data changes. The core aspects of React that every developer should grasp include components, state and props, hooks, routing with React-Router, Context API, and higher order components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the popular methods for styling in React.js?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are two popular methods for styling in React.js: CSS-in-JSX and Styled-Components. CSS-in-JS is a powerful tool in creating dynamic, visually appealing components by injecting your CSS right into your JSX. On the other hand, styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS."
+      }
+    }
+  ]
+}
+`}}></script>
+
+
 

@@ -109,3 +109,47 @@ You can learn more about PureScript from its official documentation, our guides 
 -  [Jordan's notes](https://jordanmartinez.github.io/purescript-jordans-reference-site/Preface.html/)
 -  [Pursuit](https://pursuit.purescript.org/)
 -  [Functional Programming Made Easier - Book. There is a free sample which is awesome](https://leanpub.com/fp-made-easier/)
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is PureScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PureScript is a statically-typed, purely functional programming language designed to interoperate with the JavaScript ecosystem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why use PureScript for web development?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PureScript's seamless interoperability with JavaScript and strong type safety make it an excellent choice for reliable and maintainable web development."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is functional programming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Functional programming is a programming paradigm that emphasizes immutability, first-class functions, and expressiveness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does PureScript compare to Haskell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PureScript and Haskell share similar syntax and features, but PureScript is designed for web development and JavaScript interop, whereas Haskell is a general-purpose language."
+      }
+    }
+  ]
+}
+
+`}}></script>

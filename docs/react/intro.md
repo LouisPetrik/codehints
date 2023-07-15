@@ -102,3 +102,32 @@ As sources, the official documentation is used.
 
 -  [Official Documentation](https://reactjs.org/docs/getting-started.html)
 -  [Finding Components](https://react.parts/)
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is React.js and how is it different from Vue and Angular?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "React is a JavaScript front-end library for creating user interfaces, developed by Facebook in 2013. Unlike Vue and Angular which are complete frameworks, React is a library and does not ship with an environment loaded with tools for data fetching, routing, and state management. Instead, it offers its core feature: building dynamic components for the web. All other functionalities can be added via third-party tools such as Next.js, react-router, styled-components, react-query, etc., all of which are free to use, open source, and backed by a robust community."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does coding in React.js look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Coding in React.js involves the use of JSX, a format that combines JavaScript and HTML, allowing you to build dynamic components. Here is a simple 'Hello world' program in React.js: import React from 'react' export default function App() { return <p>Hello world!</p> } In React, you can also build more complex applications like a counter, pass props, or fetch and render data using its syntax."
+      }
+    }
+  ]
+}
+
+
+`}}></script>

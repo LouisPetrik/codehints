@@ -73,3 +73,30 @@ For example, Qwik lazy-loads functionality of components like this:
 ```html
 <button on:click="./bundle.js#handler_symbol">Press me</button>
 ```
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Qwik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qwik is a novel front-end framework designed for creating and updating dynamic websites. The framework can be compared to other similar ones like React, Vue, Svelte, etc. However, Qwik introduces a unique approach for rendering and updating HTML on the site, which sets it apart. For example, it uses JSX/TSX syntax for writing components, similar to React. Qwik is also remarkably efficient, requiring only about 1 kB of JavaScript to start running in the browser. This is achieved by replacing the traditional hydration process used in many large frameworks with a concept known as resumability. This concept essentially allows Qwik components to pause and continue executing at the right time in their lifecycle, whether that's from the server to the client or vice versa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to get started with Qwik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get started with Qwik, you can use its CLI to create an app based on a few available templates. Run npm create qwik@latest and follow the prompts to set up your project. To view your Qwik app in development mode, run npm run dev. To build the app for production, run npm run build."
+      }
+    }
+  ]
+}
+
+`}}></script>
