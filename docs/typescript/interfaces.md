@@ -55,6 +55,8 @@ let obj: A & B = { x: 5, y: "hello" };
 
 Here, both `A` and `B` are custom types, but the way they're declared is different. We're using them together to type-check `obj`.
 
+Here is a more in-depth comparison of <a href="/blog/types-interfaces">interfaces vs. types in TypeScript</a>. 
+
 ## Optional properties
 
 Interfaces allow optional properties that might or might not be present in the object. These are denoted by a `?` following the property name.

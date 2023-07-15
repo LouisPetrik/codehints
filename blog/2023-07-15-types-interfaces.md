@@ -1,0 +1,81 @@
+---
+slug: types-interfaces
+title: Interfaces vs. Types in TypeScript
+authors: louis
+tags: [typescript, javascript, web]
+---
+
+# Interfaces vs. Types in TypeScript: Understanding the Key Differences
+
+## Introduction
+
+In the world of TypeScript, two essential concepts stand out: interfaces and types. Both play a crucial role in defining the structure and behavior of objects, but they differ in their implementation and intended usage. In this article, we will dive deep into the realm of interfaces and types, exploring their nuances and understanding when to use each.
+
+## Understanding Interfaces
+
+Interfaces in TypeScript provide a way to define the shape of an object. They act as a contract, ensuring that an object adheres to a specific structure. By defining properties, methods, and their respective types, interfaces allow developers to enforce consistency and facilitate collaboration within their codebases.
+
+### Advantages of Interfaces
+
+- **Structural typing:** Interfaces focus on the shape of an object rather than its origin. This means that if an object meets the requirements outlined by an interface, it is considered compatible, regardless of its explicit declaration of implementing that interface.
+- **Extensibility:** Interfaces can be extended, enabling developers to build upon existing contracts and create more specialized interfaces. This promotes code reuse and modularity, making it easier to manage complex projects.
+- **Better documentation:** Interfaces serve as a form of documentation for code. By defining the expected structure and behavior of objects, interfaces provide clarity and improve the readability of codebases.
+
+### Example: Creating an Interface
+
+Let's consider an example where we define an interface for a `Person` object:
+
+```typescript
+interface Person {
+  name: string;
+  age: number;
+  greet: () => void;
+}
+```
+
+In this case, the `Person` interface specifies that any object implementing it must have a `name` property of type `string`, an `age` property of type `number`, and a `greet` method that takes no arguments and returns nothing.
+
+## Understanding Types
+
+Types in TypeScript, on the other hand, are more versatile and can define not only the structure of an object but also aliases for other types. While interfaces are limited to describing the shape of an object, types allow developers to create complex unions, intersections, and mapped types.
+
+### Advantages of Types
+
+- **Flexible type definitions:** Types enable developers to create custom types that can be used in a variety of scenarios, including aliasing existing types, defining unions, intersections, and conditional types. This flexibility allows for greater expressiveness when working with complex data structures.
+- **Mapped types:** TypeScript provides mapped types, such as `Partial`, `Readonly`, and `Record`, which allow developers to transform existing types or create new ones based on the properties of another type. This feature can significantly reduce code duplication and enhance code maintainability.
+
+### Example: Creating a Type Alias
+
+Let's create a type alias that represents a `Circle` object:
+
+```typescript
+type Circle = {
+  radius: number;
+  area: number;
+};
+```
+
+In this example, the `Circle` type defines a `radius` property of type `number` and an `area` property of type `number`. This alias can be used throughout the codebase to represent circles consistently.
+
+## When to Use Interfaces or Types
+
+Choosing between interfaces and types depends on the specific use case and the desired outcome. While both serve similar purposes, they excel in different scenarios.
+
+### Use Interfaces When:
+
+- You want to enforce the shape and structure of an object explicitly.
+- You need to extend existing contracts and create specialized interfaces.
+- You want to provide clear documentation and improve code readability.
+
+### Use Types When:
+
+- You need to define unions, intersections, or conditional types.
+- You want to create aliases for existing types.
+- You require mapped types to transform or derive new types based on existing ones.
+
+## Conclusion
+
+In conclusion, interfaces and types in TypeScript are powerful tools for structuring and defining objects and their types. Interfaces focus on enforcing the shape of an object and promoting code consistency, while types provide more flexibility and versatility. Understanding the distinctions between interfaces and types empowers developers to write cleaner, more maintainable code.
+
+Remember, the choice between interfaces and types depends on the specific requirements of your project. By utilizing the appropriate tool, you can optimize your codebase and improve collaboration among developers.
+
