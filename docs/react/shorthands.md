@@ -92,6 +92,56 @@ const app = () => {
 }
 ```
 
+
+## Nullish Coalescing 
+
+Nullish coalescing (`??`) is a logical operator that returns its right-hand side operand when its left-hand side operand is `null` or `undefined`, and otherwise returns its left-hand side operand.
+
+```jsx
+const Component = ({ title }) => {
+  const displayTitle = title ?? 'Default Title';
+  
+  return (
+    <h1>{displayTitle}</h1>
+  );
+};
+```
+
+In this example, the display title defaults to 'Default Title' when the `title` prop is `null` or `undefined`. This provides a more concise and readable method of handling default values than traditional methods.
+
+## Conditional Rendering with Logical '&&'
+
+In React, you can create elements conditionally using logical '&&' operator. This is especially useful when you want to conditionally render components based on certain state or prop values.
+
+```jsx
+const Message = ({ user }) => (
+  <div>
+    {user && <p>Welcome, {user.name}</p>}
+  </div>
+);
+```
+
+In this code snippet, the message "Welcome, {user.name}" will only render if `user` is truthy. This removes the need for more verbose if-else conditions.
+
+
+## Short-circuit Evaluation
+
+Short-circuit evaluation in JavaScript allows for more concise and potentially performance-enhancing code, by ensuring that the second part of an AND (`&&`) operation is not evaluated if the first part is falsy.
+
+```jsx
+const UserProfile = ({ user }) => {
+  return user && (
+    <div>
+      <p>Name: {user.name}</p>
+      <p>Email: {user.email}</p>
+    </div>
+  );
+};
+```
+
+In this example, the <code>UserProfile</code> component will only attempt to access properties of `user` (like `user.name` and `user.email`) if `user` exists (i.e., if `user` is truthy). This technique prevents errors when trying to access properties of `null` or `undefined`, and can make your React.js code more robust and readable.
+
+
 ## React.Fragment 
 
 Instead of using React.Fragment as the wrapper element for a component like this
