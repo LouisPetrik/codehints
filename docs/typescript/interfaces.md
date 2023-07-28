@@ -221,3 +221,111 @@ c.interval = 5.0;
 In this example, `Counter` is a complex object with a function signature, a property, and a method. `getCounter` is a function that correctly creates a `Counter` object.
 
 Working with TypeScript interfaces allows you to write cleaner, more maintainable code that adheres to strict typing rules. By understanding and leveraging the power of interfaces, you can significantly improve your TypeScript coding skills.
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are interfaces in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In TypeScript, interfaces play a key role in defining complex types and assisting with type checking. They provide a contract for objects, ensuring they have specific properties with the defined types. An interface doesn't transpile into any JavaScript code, making them a purely TypeScript concept, used for static type-checking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are interfaces used as types in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can be used to type-check variables. Any variable declared with an interface type must adhere to the structure provided by the interface."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between interfaces and types in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While both interfaces and types can be used to define custom types, interfaces are more extensible because they can be merged and implemented in classes. However, type is more flexible and can represent primitive types, union types, intersection types, etc., which can't be done with interfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are optional properties in TypeScript interfaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces allow optional properties that might or might not be present in the object. These are denoted by a ? following the property name."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are read-only properties in TypeScript interfaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read-only properties in interfaces are properties that can only be modified when an object is first created. They can't be changed afterwards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can interfaces extend one another in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can extend one another, similar to how classes do. This allows us to create new interfaces based on existing ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can interfaces define a function type in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can also define a function type by describing the function's parameter list and return type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are interfaces used for array typing in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can be used to define the type of array elements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can a class implement an interface in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In TypeScript, a class can implement an interface to enforce particular contract (structure). It guarantees that a class has specific properties or methods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are indexable interfaces in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Indexable types have an index signature that describes the types we can use to index into the object, along with the corresponding return types when indexing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does interface inheritance work in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can inherit from multiple interfaces, creating a combination of all the interfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are hybrid types in TypeScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interfaces can define objects that work as a combination of several types."
+      }
+    }
+  ]
+}
+
+`}}></script>

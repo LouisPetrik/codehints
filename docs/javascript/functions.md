@@ -3,10 +3,9 @@ title: Functions
 --- 
 
 <head>
-<title>JavaScript Functions Cheatsheet</title>
+<title>JavaScript Functions Cheat sheet</title>
 </head>
 
-# JavaScript Functions Cheat Sheet
 
 JavaScript functions are the main building blocks in JavaScript programming. They are code snippets that are reusable, making your code more modular, maintainable, and testable.
 
@@ -195,3 +194,100 @@ checkThis(); // Outputs global object (window in a browser)
 ```
 
 In this example, `checkThis` is a free function (not a method of an object), so `this` refers to the global object. When `checkThis` is invoked, it logs the global object (the `window` object in a browser environment).
+
+
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is a function in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In JavaScript, a function is a block of code designed to perform a specific task. A function is executed when it's invoked (called)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How do you define a function in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A function in JavaScript is defined with the function keyword, followed by a name, followed by parentheses (). The code to be executed by the function is placed inside curly brackets {}."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is a function expression in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A JavaScript function can also be defined using an expression. It is a function without a name. The function is stored in a variable, and can be invoked (called) using the variable name."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are arrow functions in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Arrow functions are a more modern syntax for writing JavaScript functions. They are shorter and simpler. They are especially useful when you want to write shorter function expressions."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are function parameters and arguments in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When you define a function, you can specify its parameters. Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is invoked, you pass values to the function. These values are called arguments."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the return statement in JavaScript functions?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The return statement ends function execution and specifies a value to be returned to the function caller."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is function scope in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Scope determines the accessibility (visibility) of variables. In JavaScript, each function creates its own scope."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is a closure in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A closure is a function having access to the parent scope, even after the parent function has closed."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is function recursion in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In JavaScript, a function can call itself, and this is known as recursion."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are higher-order functions in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In JavaScript, functions are first-class objects. This means that functions can take functions as arguments, and they can return functions. A function that does either of these things is called a higher-order function."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is an IIFE in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the this keyword in the context of a JavaScript function?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In JavaScript, the this keyword refers to the object it belongs to. In the context of a function, this refers to the global object when the function is invoked as a free function, not as a method of an object."
+    }
+  }]
+}
+
+`}}></script>

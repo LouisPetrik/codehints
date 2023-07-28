@@ -214,3 +214,73 @@ book.ISBN = "1234567"; // This will be ignored
 ```
 
 After calling `Object.preventExtensions()` on the `book` object, we can modify or delete existing properties, but we can't add new ones.
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I create objects in JavaScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are several ways to create objects in JavaScript. You can use object literal notation, the Object constructor, or constructor functions with the 'new' keyword. Object literal notation involves defining an object and its properties inside curly braces {}. The Object constructor is used to create an empty object, and then you can add properties to it. Constructor functions allow you to define a template for creating objects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I access properties of a JavaScript object?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can access properties of a JavaScript object using dot notation or bracket notation. Dot notation involves using a dot followed by the property name. Bracket notation can be used when the property name is stored in a variable or when the property name is not a valid identifier. To access nested properties, chain the property names together using dot notation or bracket notation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I modify properties of a JavaScript object?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can modify properties of a JavaScript object by assigning a new value to the property using dot notation or bracket notation. If the property does not exist, it will be added to the object."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I delete properties from a JavaScript object?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can delete properties from a JavaScript object using the delete operator followed by the property name with dot notation or bracket notation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is serialization and deserialization in JavaScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Serialization is the process of converting an object into a string format that can be easily stored or transmitted, and then later reconstructed. In JavaScript, we use JSON.stringify() for serialization. Deserialization is the reverse process, converting the string back into an object. For this, we use JSON.parse()."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is object cloning or copying in JavaScript?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cloning or copying an object in JavaScript means creating a new object that is a copy of an existing object. You can create a shallow copy of an object using the spread operator .... This only creates a shallow copy, so nested objects will still be references."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I make a JavaScript object immutable or non-extensible?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Object.freeze() method can be used to make a JavaScript object immutable, meaning its properties cannot be added, deleted, or changed. The Object.seal() method prevents new properties from being added and marks all existing properties as non-configurable. The Object.preventExtensions() method prevents new properties from being added to an object, but allows existing properties to be deleted or changed."
+      }
+    }
+  ]
+}
+
+
+`}}></script>

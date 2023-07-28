@@ -219,3 +219,113 @@ new Promise((resolve, reject) => {
 In this example, "Promise ready" is logged to the console when the Promise is ready, whether it's resolved or rejected.
 
 This cheat sheet covers the fundamental aspects of Promises in JavaScript. With this guide, you should be equipped to handle asynchronous operations effectively in your JavaScript programs. Remember, practice is key when working with these concepts. Keep coding!
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is a JavaScript Promise?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Promise in JavaScript represents an operation that hasn't completed yet but is expected in the future. It's created using the Promise constructor, which takes an executor function with two parameters: resolve and reject."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the difference between synchronous and asynchronous execution in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In JavaScript, synchronous code executes sequentially, line by line. Asynchronous code, on the other hand, begins execution immediately but completes at a later time, allowing the program to continue running other operations in the meantime."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How do you write a Promise in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You create a Promise in JavaScript using the Promise constructor. This constructor takes an executor function with two parameters: resolve and reject. The Promise resolves successfully if a certain condition is met (represented by the resolve parameter), otherwise it is rejected (represented by the reject parameter)."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the purpose of the 'then()' method in JavaScript Promises?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The 'then()' method is used with a Promise to specify what should happen when the Promise resolves. It takes two functions: one for success and one for failure. If the Promise is resolved, the first function is executed. If it's rejected, the second function is executed."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are 'await' and 'async' in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The 'await' operator is used to pause asynchronous function execution until a Promise is settled, returning the result from the fulfilled promise or rejected value. The 'async' keyword is used to declare an asynchronous function that implicitly returns a Promise."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are Promise.reject() & Promise.resolve() methods in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Promise.reject() and Promise.resolve() methods return a Promise that is rejected or resolved respectively, without having to use the Promise constructor."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is Promise.all() method in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Promise.all() method takes an iterable of promises and returns a new Promise that only fulfills when all the promises in the iterable have been fulfilled."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the role of Promise.race() method in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Promise.race() method takes an iterable of promises and returns a Promise that fulfills or rejects as soon as one of the promises in the iterable fulfills or rejects."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the Promise.allSettled() method in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Promise.allSettled() method returns a Promise that fulfills when all of the promises in the iterable have settled, regardless of whether they were fulfilled or rejected."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is Promise.any() method in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Promise.any() method returns a Promise that fulfills as soon as one of the promises in the iterable fulfills."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are Asynchronous default functions in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Asynchronous default functions in JavaScript are functions that return Promises by default. An example is the fetch function which is used to fetch data from an API."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How do you handle errors in Promises in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "When working with Promises, it's crucial to handle potential errors. This is achieved by using the 'catch()' method, which is chained at the end of a Promise sequence and catches any errors that may occur during the execution of the Promise."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is Promise chaining in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Promise chaining is the ability to perform several operations sequentially using Promises. The 'then()' method returns a new Promise, allowing you to chain additional 'then()' calls."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is the use of the Promise.finally() method in JavaScript?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The 'finally()' method is used when you want to run some code regardless of the promise's resolution. The handler in 'finally()' doesn't receive any arguments and doesn't affect the promise chain's returned value."
+    }
+  }]
+}
+
+`}}></script>
+

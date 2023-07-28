@@ -285,3 +285,71 @@ document.body.appendChild(fragment);
 ```
 
 In this example, we use a DocumentFragment to create and append 1000 new paragraph elements. Appending the DocumentFragment to the DOM triggers a single reflow, rather than 1000, improving performance.
+
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+        "@type": "Question",
+        "name": "What is the DOM in JavaScript?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Document Object Model (DOM) is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript. It represents the document as nodes and objects, allowing programming languages to interact with the page."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How can you access elements in the DOM?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "JavaScript provides several methods to access DOM elements using their id, class name, tag name, etc. These methods include getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How to modify elements in the DOM?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To change the content of a DOM element, you can use the innerText or innerHTML property. Attributes of a DOM element can be accessed and modified using the getAttribute, setAttribute, removeAttribute, and hasAttribute methods. You can manipulate the CSS classes of a DOM element using the classList property."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How to create new elements in the DOM?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can create new elements in the DOM using the createElement method. The new element can be added to the DOM tree using the appendChild or insertBefore method."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How to handle events in the DOM?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "JavaScript allows you to define behaviors that should be performed when events occur. This can be done by selecting an element, defining an event handler function, and attaching the event handler to the element using the addEventListener method."
+        }
+    }, {
+        "@type": "Question",
+        "name": "How to style DOM nodes in JavaScript?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DOM nodes can be styled using JavaScript by manipulating their style property."
+        }
+    }, {
+        "@type": "Question",
+        "name": "What is DOM traversal?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DOM traversal involves navigating around the DOM tree using properties like parentNode, firstChild, lastChild, nextSibling, and previousSibling."
+        }
+    }, {
+        "@type": "Question",
+        "name": "What performance considerations are there when manipulating the DOM?",
+        "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manipulating the DOM can be slow and can lead to performance issues if not done wisely. Therefore, it is advisable to minimize direct DOM manipulation, and batch changes where possible. Using a DocumentFragment to batch changes can improve performance."
+        }
+    }]
+}
+
+`}}></script>

@@ -272,3 +272,120 @@ type T0 = ReturnType<() => string>;  // string
 ```
 
 In this example, `ReturnType<T>` is a conditional type that infers the return type of a function type `T`.
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What are generics?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generics are a tool that allows you to write functions, classes, and interfaces that work with a variety of types while maintaining type safety. Instead of committing to a single data type, generics allow you to work with any type."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why are generics important in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generics are important in TypeScript because they allow for reusable and scalable code. By using generics, a developer can create components that work over a variety of types rather than a single one."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the benefits of using generics in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generics offer several key benefits: Type Safety, Code Reusability, and Flexible Interfaces."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to declare generic types in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To declare a generic type, you use a type variable—a kind of placeholder for any type. When you call a function with a type variable, TypeScript will replace the type variable with the actual type you use."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is type inference with generics?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TypeScript can infer the type of a generic function based on the argument you pass to it. This feature is known as type inference."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to use type parameters and constraints in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Type parameters and constraints provide additional flexibility when working with generics. They allow you to specify characteristics the types used in generic functions, classes, and interfaces must have."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are generic functions in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A generic function is a function that can work with any type. It uses the type variable to allow it to work with any type."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do type inference and function overloads work together in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Type inference and function overloads work together in TypeScript to provide powerful and flexible type checking. Function overloads allow you to define multiple signatures for a function, and type inference lets TypeScript choose the appropriate one based on the types of the arguments you pass."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to use type parameters in function signatures in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can use type parameters in function signatures to allow your functions to handle a variety of types while maintaining type safety."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are generic classes in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generic classes work much like generic interfaces and functions. A generic class has a similar shape to a class, with a generic type list."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are Type Constraints and Bounds in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Type constraints and bounds provide additional control over the types you can use with generics. A constraint limits the types you can use with a generic type variable, while Type bounds are a kind of constraint that restricts what types a type variable can accept."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How to work with keyof and keyof typeof operators in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The keyof and keyof typeof operators in TypeScript allow you to use property names as types and provide type safety when accessing properties."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are some advanced generic techniques in TypeScript?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Advanced generic techniques include using mapped types and conditional types to create more flexible, reusable, and type-safe code."
+            }
+        }
+    ]
+}
+
+`}}></script>
+
