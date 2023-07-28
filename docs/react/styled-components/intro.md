@@ -304,3 +304,39 @@ const Box = styled.div`
 ```
 
 With this powerful CSS-in-JS library, developers can write more predictable CSS for their React applications, making the codebase easier to maintain and understand.
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{__html: 
+` 
+
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I use global styles with styled components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Styled-components offers a createGlobalStyle helper for defining global styles. These styles are applied to the entire document. Import it from 'styled-components' and then use it in your App component."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I nest styles in styled components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can nest your CSS selectors similar to Sass. Just keep in mind to keep your components small and avoid unnecessary nesting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use media queries in styled components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can use media queries directly in your styled components."
+      }
+    }
+  ]
+}
+
+`}}></script>
