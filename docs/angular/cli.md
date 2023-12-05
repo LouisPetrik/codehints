@@ -1,5 +1,5 @@
 --- 
-title: Angular CLI Cheat Sheet
+title: Angular CLI 
 sidebar_position: 2
 slug: /category/angular/cli
 --- 

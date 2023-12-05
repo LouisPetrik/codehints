@@ -1,5 +1,5 @@
 ---
-title: Angular Reactive Forms Cheat Sheet
+title: Angular Reactive Forms
 slug: /category/angular/reactive-forms
 ---
 

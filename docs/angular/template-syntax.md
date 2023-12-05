@@ -1,5 +1,5 @@
 --- 
-title: Angular Template Syntax Cheat Sheet
+title: Angular Template Syntax
 sidebar_position: 4
 slug: /category/angular/template-syntax
 ---
