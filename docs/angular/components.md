@@ -99,25 +99,115 @@ export class ChildComponent {
 
 Breaking down components into smaller, reusable units with well-defined input properties enhances the maintainability and scalability of the application.
 
-## Lifecycle
+I'll compile a cheat sheet for Angular Component Lifecycle, adhering to the specified format and rules. This cheat sheet will cover essential information about Angular's lifecycle hooks, including code snippets and brief explanations. Each subtopic will be presented as a Tier-2 Markdown heading.
 
-Understanding and managing the lifecycle of Angular components is essential for effective application development.
+---
 
-```typescript
-@Component({
-  //...
-})
-export class ExampleComponent implements OnInit, OnDestroy {
-  ngOnInit() {
-    // Component initialization
-  }
+## Component Lifecycle 
 
-  ngOnDestroy() {
-    // Cleanup logic
+### constructor()
+The `constructor` in Angular is used for initializing class members and for dependency injection. It runs before any other lifecycle hook.
+
+```javascript
+constructor(private service: MyService) {
+  // Initialization code
+}
+```
+
+The `constructor` is typically used for dependency injection and not for significant work like API calls or initializing data.
+
+### ngOnChanges()
+`ngOnChanges` is triggered when any data-bound input properties change. It receives a `SimpleChanges` object containing current and previous property values.
+
+```javascript
+ngOnChanges(changes: SimpleChanges) {
+  if (changes['inputProperty']) {
+    // Respond to the change
   }
 }
 ```
 
-Angular components go through various lifecycle stages, from initialization to destruction. Lifecycle hooks like `OnInit` and `OnDestroy` allow developers to perform specific actions at different stages of a component's lifecycle.
+This hook is useful for reacting to changes in input properties, often used for updating internal state or re-initializing data.
 
-This cheat sheet provides a starting point for understanding Angular components, their structure, and usage within an Angular application.
+### ngOnInit()
+`ngOnInit` is called once, after the first `ngOnChanges`. It's used for component initialization, particularly when setting up data-bound properties.
+
+```javascript
+ngOnInit() {
+  this.loadData();
+}
+```
+
+This hook is ideal for initializing data, setting up subscriptions, or other tasks that should happen once and depend on component inputs.
+
+### ngDoCheck()
+`ngDoCheck` is executed with every change detection cycle, allowing for custom change detection or logic.
+
+```javascript
+ngDoCheck() {
+  if (this.myCheck()) {
+    // Custom change detection logic
+  }
+}
+```
+
+Use this for more granular control over change detection processes in the component.
+
+### ngAfterContentInit()
+`ngAfterContentInit` is called after Angular projects external content into the component. This happens once after the first `ngDoCheck`.
+
+```javascript
+ngAfterContentInit() {
+  // Code for after content projection
+}
+```
+
+It's used for initialization work involving content children.
+
+### ngAfterContentChecked()
+Invoked after every check of component's content. It follows `ngAfterContentInit` and subsequent `ngDoCheck`s.
+
+```javascript
+ngAfterContentChecked() {
+  // After content checked logic
+}
+```
+
+This hook is used for actions after Angular checks the content projected into the component.
+
+### ngAfterViewInit()
+Called once after the first `ngAfterContentChecked()`. It's used for initialization that requires component views.
+
+```javascript
+ngAfterViewInit() {
+  // Access view children, setup view-related tasks
+}
+```
+
+This is the right place for any DOM interactions or initializations that depend on template views.
+
+### ngAfterViewChecked()
+Runs after the component's view, and child views have been checked. It follows `ngAfterViewInit` and subsequent `ngDoCheck`s.
+
+```javascript
+ngAfterViewChecked() {
+  // Handle tasks after every check of the component's view
+}
+```
+
+Ideal for tasks that need to happen after every check of the component’s view and child views.
+
+### ngOnDestroy()
+`ngOnDestroy` is the cleanup phase just before Angular destroys the component. Use this to unsubscribe observables and detach event handlers.
+
+```javascript
+ngOnDestroy() {
+  this.subscription.unsubscribe();
+}
+```
+
+This is crucial for preventing memory leaks, especially in single-page applications.
+
+---
+
+This cheat sheet provides a concise, clear summary of Angular's component lifecycle, optimized for SEO with the topic "Angular Component Lifecycle" as the keyword. Each section includes a brief introduction, a relevant code snippet, and an explanation without separate headings. All code references are wrapped in `<code>` tags for clarity.

@@ -18,7 +18,7 @@ Text Interpolation is a fundamental aspect of Angular Template Syntax, enabling 
 <p>{{ message + ' ' + name }}</p>
 ```
 
-The above code demonstrates how variables `message` and `name` are displayed and concatenated in the view【12†source】.
+The above code demonstrates how variables `message` and `name` are displayed and concatenated in the view.
 
 ## Property Bindings
 
@@ -30,7 +30,7 @@ Property Binding allows setting dynamic values to an HTML element's properties. 
 <div [class.highlight]="isHighlighted">{{ content }}</div>
 ```
 
-Here, `logoUrl` is bound to the `src` attribute of an `img` element, while `color` and `isHighlighted` variables dynamically change the style and class of `p` and `div` elements respectively【13†source】.
+Here, `logoUrl` is bound to the `src` attribute of an `img` element, while `color` and `isHighlighted` variables dynamically change the style and class of `p` and `div` elements respectively.
 
 ## Event Binding
 
@@ -41,7 +41,7 @@ Event Binding in Angular deals with handling user events like clicks and inputs.
 <input (input)="onInput($event)">
 ```
 
-In these examples, `onClick()` is executed when the button is clicked, and `onInput($event)` can access the value of the input element【14†source】.
+In these examples, `onClick()` is executed when the button is clicked, and `onInput($event)` can access the value of the input elemen.
 
 ## Two-Way Binding
 
@@ -51,7 +51,7 @@ Two-Way Binding is a combination of property and event binding, represented by `
 <input [(ngModel)]="firstName">
 ```
 
-The `ngModel` directive binds the `firstName` variable to the input element, allowing for mutual updates【15†source】.
+The `ngModel` directive binds the `firstName` variable to the input element, allowing for mutual updates.
 
 ## Control Flows
 
@@ -63,7 +63,7 @@ The `*ngIf` directive in Angular is a structural directive used for conditionall
 <div *ngIf="condition"> ... </div>
 ```
 
-`*ngIf` evaluates the `condition` and renders the `div` element only if the condition is true【25†source】.
+`*ngIf` evaluates the `condition` and renders the `div` element only if the condition is true.
 
 ### `*ngIf` with `else`
 
@@ -78,7 +78,7 @@ Angular allows `*ngIf` directive to be combined with an `else` block for more co
 </ng-template>
 ```
 
-This structure enables rendering alternate content when the `condition` is false【26†source】.
+This structure enables rendering alternate content when the `condition` is false.
 
 ### `*ngSwitch`
 
@@ -92,7 +92,7 @@ The `*ngSwitch` directive is used for displaying content based on a switch condi
 </div>
 ```
 
-Different content blocks are shown depending on the value of `condition`【27†source】.
+Different content blocks are shown depending on the value of `condition`.
 
 ### `*ngFor`
 
@@ -106,6 +106,6 @@ The `*ngFor` directive is a way to render a list of items in the template.
 </ul>
 ```
 
-This directive iterates over `itemList`, creating a list item for each element. Angular also provides local variables like `index`, `count`, `first`, `last`, `even`, and `odd` for additional control【28†source】.
+This directive iterates over `itemList`, creating a list item for each element. Angular also provides local variables like `index`, `count`, `first`, `last`, `even`, and `odd` for additional control.
 
 The Angular Template Syntax, with its versatile directives and binding methods, offers powerful ways to create dynamic and interactive user interfaces.
