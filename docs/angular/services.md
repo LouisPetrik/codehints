@@ -77,5 +77,3 @@ These hooks, `OnInit` and `OnDestroy`, handle initialization and cleanup tasks, 
 3. **Use Interfaces:** Define services with interfaces for modularity.
 4. **Size Management:** Keep services small and focused.
 5. **Avoid View Logic in Services:** Handle view-related logic in components.
-
-This cheat sheet provides a concise yet comprehensive overview of essential aspects of Angular Services, focusing on practical implementation and best practices.
