@@ -3,7 +3,7 @@ title: Go Pointers Cheat Sheet
 
 ---
 
-# Go Pointers Cheat Sheet 
+# Pointers in Go  
 
 Pointers in Go are powerful tools for working with memory addresses. They allow you to directly manipulate data, create dynamic data structures, and improve program performance. While they offer flexibility, understanding them is crucial to avoid potential pitfalls. Let's dive into the key aspects of pointers in Go:
 
