@@ -52,7 +52,7 @@ document.body.append(
 **Rendering:**
 
 * Uses `hyperscript`-like function calls: `h(tag, props, children)`
-* Simplified with `htm` tagged templates: `html`<template>`
+* Simplified tagged templates with `htm`
 * Compile-time transformation preferred for production (`sinuous/babel-plugin-htm`)
 
 **Example:**
