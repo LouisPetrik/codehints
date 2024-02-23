@@ -7,6 +7,17 @@ slug: /category/sinuous
 # Sinuous Cheat Sheet
 
 
+Sinuous is a JavaScript library designed to make building user interfaces easier and more enjoyable. It offers several key advantages:
+
+* **Lightweight:** Sinuous has a small footprint, making it ideal for web applications where performance is critical.
+* **Reactive:** Sinuous automatically updates the UI whenever the underlying data changes, eliminating the need for manual DOM manipulation.
+* **Declarative:** With Sinuous, you write UI code that describes what you want, and Sinuous takes care of making it happen. This leads to cleaner and more maintainable code.
+* **Choice of view syntax:** Sinuous supports both tagged templates and JSX, allowing you to choose the syntax that you are most comfortable with.
+* **Add-ons:** Sinuous has a number of add-ons that provide additional functionality, such as routing and hydration. These add-ons can make it easier to build complex web applications.
+
+If you're looking for a lightweight, reactive, and easy-to-use UI library, then Sinuous is definitely worth checking out!
+
+
 ## State 
 
 **State Management:**
