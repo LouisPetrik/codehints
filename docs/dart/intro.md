@@ -22,7 +22,7 @@ final age = 30; // Constant value, cannot be reassigned
 const PI = 3.14159; // Compile-time constant
 ```
 
-## Nullable variables
+### Nullable variables
 
 Dart allows variables to be null by default. Use the null-safety operator (`!`) to access properties or call methods on nullable variables:
 
@@ -43,7 +43,7 @@ multiline string.
 ''';
 ```
 
-## String interpolation
+### String interpolation
 
 Embed variables or expressions within strings using string interpolation:
 
@@ -52,7 +52,7 @@ String name = "Bob";
 String salutation = "Hello, $name!"; // Prints "Hello, Bob!"
 ```
 
-## String operations
+### String operations
 
 Strings support various operations like concatenation, comparison, and accessing characters:
 
@@ -77,7 +77,7 @@ int result = add(5, 3); // Calls the function with arguments
 print(result); // Prints 8
 ```
 
-## Returning values
+### Returning values
 
 Functions can return values using the `return` statement:
 
@@ -90,7 +90,7 @@ String message = greet("Alice");
 print(message); // Prints "Welcome, Alice!"
 ```
 
-## Named parameters
+### Named parameters
 
 Functions can have named parameters, allowing them to be called in any order:
 
@@ -103,7 +103,7 @@ printInfo(name: "Bob", age: 35); // Prints "Name: Bob, Age: 35"
 printInfo(age: 20, name: "Charlie"); // Prints "Name: Charlie, Age: 20"
 ```
 
-## Optional positional parameters
+### Optional positional parameters
 
 Functions can have optional positional parameters with default values:
 
@@ -119,7 +119,7 @@ greet("John"); // Prints "Hello, John!"
 greet("Mary", "Have a nice day!"); // Prints "Hello, Mary!\nHave a nice day!"
 ```
 
-## Async functions
+### Async functions
 
 Async functions handle asynchronous operations, allowing them to pause and wait for the operation to complete before continuing:
 
@@ -133,7 +133,7 @@ Future<String> fetchData() async {
 fetchData().then((data) => print(data)); // Prints "Data from server" after 2 seconds
 ```
 
-## Arrow syntax
+### Arrow syntax
 
 Arrow syntax provides a concise way to define functions:
 
@@ -178,7 +178,7 @@ User alice = User(name: "Alice", age: 30);
 alice.printInfo(); // Prints "Name: Alice, Age: 30"
 ```
 
-## Getters and setters
+### Getters and setters
 
 Getters and setters allow controlled access and modification of an object's properties:
 
@@ -202,7 +202,7 @@ john.name = "John Doe"; // Setter is called
 print(john.name); // Getter is called, prints "John Doe"
 ```
 
-## `this` keyword
+### `this` keyword
 
 The `this` keyword refers to the current object instance:
 
@@ -225,7 +225,7 @@ print(origin.x); // Prints 3
 print(origin.y); // Prints 5
 ```
 
-## Named constructors
+### Named constructors
 
 Named constructors provide alternative ways to create objects with different initialization options:
 
@@ -245,7 +245,7 @@ User user1 = User.fromNameAge("Alice", 30);
 User user2 = User.fromJson({"name": "Bob", "age": 25});
 ```
 
-## Factory constructors
+### Factory constructors
 
 Factory constructors offer more flexibility in object creation, potentially returning existing objects or creating new ones based on logic:
 
