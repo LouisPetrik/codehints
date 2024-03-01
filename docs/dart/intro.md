@@ -22,6 +22,16 @@ final age = 30; // Constant value, cannot be reassigned
 const PI = 3.14159; // Compile-time constant
 ```
 
+You can explicitly specify the type of a variable using the type annotation:
+
+```dart
+String name = "Alice";
+final int age = 30;
+const double pi = 3.14159;
+```
+
+
+
 ### Nullable variables
 
 Dart allows variables to be null by default. Use the null-safety operator (`!`) to access properties or call methods on nullable variables:
@@ -30,6 +40,45 @@ Dart allows variables to be null by default. Use the null-safety operator (`!`) 
 String? message; // Declares a nullable String
 print(message?.length); // Prints null if message is null, otherwise its length
 ```
+
+### Late variables
+
+Late variables are non-nullable variables that can be declared without an initial value. They must be assigned a value before being used, otherwise a runtime error occurs. This allows you to defer initialization until later in your code, potentially improving performance or readability in specific situations.
+
+```dart
+class User {
+  late String name; // Declares a late variable
+
+  void setName(String newName) {
+    name = newName; // Assigns value to the late variable
+  }
+
+  void printInfo() {
+    print("Name: $name"); // Can be used after name is set
+  }
+}
+
+User user = User();
+user.setName("Alice"); // Assigns value before using
+user.printInfo(); // Prints "Name: Alice"
+```
+
+**Use late variables cautiously, as forgetting to initialize them can lead to runtime errors. Consider using null-safety or regular variables with initial values for most cases.**
+
+### `const` and `final`
+
+Both `const` and `final` are used to declare read-only variables, but they differ in their mutability and compile-time behavior:
+
+* **`const`**:
+    * Declares a compile-time constant.
+    * The value must be known at compile time and cannot be changed.
+    * Useful for constant values like PI or application configurations.
+* **`final`**:
+    * Declares a constant variable that can be initialized at runtime (constructor, initializer list, etc.).
+    * The value cannot be changed after initialization.
+    * Used for variables whose value is determined later but should not change afterwards.
+
+**Choosing between `const` and `final` depends on when the value is known and whether it needs to be a compile-time constant.**
 
 ## Strings
 
@@ -145,6 +194,200 @@ int add(int x, int y) => x + y;
 print(greet("Alice")); // Prints "Hello, Alice!"
 print(add(5, 3)); // Prints 8
 ```
+
+## Control Flow in Dart
+
+Control flow statements allow your Dart code to change its execution path based on certain conditions. Here are some common control flow constructs:
+
+### If Statements
+
+Use `if` statements to execute code blocks conditionally:
+
+```dart
+int number = 10;
+if (number > 0) {
+  print("The number is positive.");
+} else {
+  print("The number is non-positive.");
+}
+```
+
+**If-else if:**
+
+```dart
+String grade = "A";
+if (grade == "A") {
+  print("Excellent!");
+} else if (grade == "B") {
+  print("Good job!");
+} else {
+  print("Keep practicing!");
+}
+```
+
+
+
+### Switch Statements
+
+Use `switch` statements to efficiently handle multiple conditions:
+
+```dart
+String day = "Monday";
+switch (day) {
+  case "Monday":
+    print("Start of the week.");
+    break;
+  case "Friday":
+    print("Almost weekend!");
+    break;
+  default:
+    print("Just another day in the week.");
+}
+```
+
+### Guards
+
+Guards are a concise way to express conditions and execute code blocks only if those conditions are true. They are often used within conditional expressions:
+
+```dart
+int age = 20;
+String message = age >= 18 ? "You are an adult." : "You are not an adult.";
+print(message); // Prints "You are an adult."
+```
+
+**Guards can improve code readability and maintainability, especially when dealing with simple conditions.**
+
+**Remember:** Control flow statements are essential for building complex logic in your Dart programs. Choose the appropriate construct based on the specific decisions you need to make within your code.
+
+
+## Loops in Dart
+
+Loops allow you to execute a block of code repeatedly until a certain condition is met. Here are the common loop types in Dart:
+
+### for loop
+
+* Used to iterate over a collection of elements (like lists or strings) or a specific number of times.
+* Syntax:
+
+```dart
+for (int i = 0; i < 5; i++) {
+  // Code to be executed for each iteration
+  print(i);
+}
+```
+
+* This loop iterates 5 times, printing the value of `i` in each iteration.
+
+### while and do-while loops
+
+* **while loop:** Executes the code block as long as a condition is true.
+* Syntax:
+
+```dart
+bool isRunning = true;
+while (isRunning) {
+  // Code to be executed as long as isRunning is true
+  print("Running...");
+  isRunning = false; // Update condition to stop the loop
+}
+```
+
+* **do-while loop:** Executes the code block at least once, then continues as long as a condition is true.
+* Syntax:
+
+```dart
+int count = 0;
+do {
+  // Code to be executed at least once
+  print(count);
+  count++;
+} while (count < 3);
+```
+
+This loop prints 0, 1, and 2, even though the condition `count < 3` becomes false after the first iteration.
+
+### break and continue
+
+* **break:** Exits the loop immediately, regardless of the condition.
+* **continue:** Skips the remaining code in the current iteration and jumps to the next iteration.
+
+```dart
+for (int i = 0; i < 5; i++) {
+  if (i == 3) {
+    break; // Exit after the third iteration
+  }
+  print(i);
+}
+
+for (int i = 0; i < 5; i++) {
+  if (i % 2 == 0) {
+    continue; // Skip even numbers
+  }
+  print(i);
+}
+```
+
+The first loop prints 0, 1, and 2, then exits because of the `break` statement. The second loop prints only odd numbers (1 and 3) due to the `continue` statement.
+
+Choosing the right loop type depends on the specific needs of your code.
+
+## Collections
+
+Collections are groups of elements that can be accessed and manipulated in various ways. Dart offers several built-in collection types:
+
+### Lists
+
+* Ordered collections of elements, allowing duplicates.
+* Use square brackets `[]` for creation and access.
+
+```dart
+List<String> colors = ["red", "green", "blue"];
+print(colors[1]); // Prints "green"
+colors.add("yellow"); // Add element to the end
+```
+
+### Sets
+
+* Unordered collections of unique elements.
+* Use curly braces `{}` for creation and check membership.
+
+```dart
+Set<int> numbers = {1, 2, 3, 2}; // Duplicates are removed
+print(numbers.contains(4)); // Prints false
+```
+
+### Maps
+
+* Unordered collections of key-value pairs.
+* Use curly braces `{}` with key-value pairs separated by colons.
+
+```dart
+Map<String, String> fruits = {"apple": "red", "banana": "yellow"};
+print(fruits["apple"]); // Prints "red"
+fruits["orange"] = "orange"; // Add key-value pair
+```
+
+### Operators
+
+Collections support various operators for common operations:
+
+* **`+`:** Concatenates lists.
+* **`in`:** Checks if an element exists in a collection.
+* **`length`:** Returns the number of elements in a collection.
+* **`isEmpty`:** Checks if a collection is empty.
+* **`forEach`:** Iterates over elements and executes a function for each.
+
+```dart
+List<String> days = ["Mon", "Tue"];
+List<String> weekend = ["Sat", "Sun"];
+List<String> allDays = days + weekend; // Concatenation
+
+for (String day in allDays) {
+  print(day); // Prints each day
+}
+```
+
+
 
 ## Cascades
 
@@ -319,3 +562,98 @@ The Dart CLI (`dart`) provides tools for various development tasks:
 
 * Use the `dart devtool isolate-inspect` command to launch a debugger and profile Dart applications to identify performance bottlenecks.
 
+
+## I/O in Dart
+
+The `dart:io` library provides functionalities for interacting with the operating system, including:
+
+### Printing
+
+Use `print` or `stdout.write` to print output to the console:
+
+```dart
+print("Hello, world!"); // Prints "Hello, world!" to the console
+stdout.write("This "); // Prints "This " without a newline
+stdout.writeln("is on a new line."); // Prints "is on a new line." with a newline
+```
+
+### Reading user input
+
+Use `stdin.readLineSync` to read a line of user input from the console:
+
+```dart
+String name = stdin.readLineSync()!; // Reads user input and stores it in "name"
+print("Hello, $name!"); // Prints "Hello, [user input]!"
+```
+
+**Note:** Using `!` after `stdin.readLineSync` is only recommended when you are sure the user will provide input, as it throws an exception otherwise. Consider alternative approaches for more robust error handling.
+
+### Writing and reading files
+
+Use the `File` class to interact with files:
+
+**Writing to a file:**
+
+```dart
+final file = File('output.txt');
+file.writeAsString('This is content written to the file.');
+```
+
+**Reading from a file:**
+
+```dart
+final file = File('data.txt');
+String contents = await file.readAsString();
+print(contents); // Prints the content of the file
+```
+
+**Remember:** The `dart:io` library can only be used in command-line applications and server-side code, not in web apps.
+
+## Futures
+
+Futures represent the eventual result of an asynchronous operation in Dart. They are used to handle operations that take some time to complete, allowing your code to continue execution without waiting.
+
+**Key points about Futures:**
+
+* **Creation:** Functions can return `Future<T>` objects, indicating they perform an asynchronous operation and will eventually return a value of type `T` (or an error).
+* **Waiting for completion:** Use `await` to wait for a future to complete and obtain its result:
+
+```dart
+Future<String> fetchData() async {
+  // Simulate network call
+  await Future.delayed(Duration(seconds: 2));
+  return "Data from server";
+}
+
+String data = await fetchData();
+print(data); // Prints "Data from server" after 2 seconds
+```
+
+* **Error handling:** Futures can complete with errors. Use `catchError` or `try...catch` blocks to handle them:
+
+```dart
+Future<String> readFile() async {
+  try {
+    final file = File('data.txt');
+    return await file.readAsString();
+  } catch (error) {
+    print("Error reading file: $error");
+    return "";
+  }
+}
+```
+
+* **Chaining operations:** Use `then` or `async/await` to chain operations that depend on the result of a previous future:
+
+```dart
+Future<void> processData(String data) async {
+  print("Processing data: $data");
+  // Simulate processing
+  await Future.delayed(Duration(seconds: 1));
+  print("Data processed successfully.");
+}
+
+fetchData().then(processData); // Calls processData with data from fetchData
+```
+
+Futures provide a powerful mechanism for handling asynchronous operations in Dart, making your code more responsive and efficient.
