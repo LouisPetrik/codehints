@@ -297,3 +297,25 @@ clark.fly(); // From Flyable
 clark.useSuperpower(); // From Superman
 ```
 
+## Dart Command-Line Interface (CLI)
+
+The Dart CLI (`dart`) provides tools for various development tasks:
+
+**Running:**
+
+* **Run Dart apps:** Use `dart run` followed by the entry point script (e.g., `dart run bin/my_app.dart`).
+* **Run Dart Pad code:** Paste code directly in the Dart Pad web interface ([https://dartpad.dev/](https://dartpad.dev/)).
+
+**Compiling:**
+
+* **AOT compile:** Use `dart compile` to compile Dart code to native machine code for faster execution at runtime.
+* **JIT compile:** By default, the Dart VM performs Just-In-Time (JIT) compilation, translating code to machine code as it's executed.
+
+**Transpiling to JavaScript:**
+
+* Use the `dart compile js` command to convert Dart code to equivalent JavaScript code that can run in web browsers.
+
+**Profiling:**
+
+* Use the `dart devtool isolate-inspect` command to launch a debugger and profile Dart applications to identify performance bottlenecks.
+
