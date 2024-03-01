@@ -151,6 +151,7 @@ const config = {
           'python',
           'rescript',
           'rust',
+          'dart',
         ],
       },
     }),
