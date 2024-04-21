@@ -83,4 +83,4 @@ http.HandleFunc("/data", func(w http.ResponseWriter, r *http.Request) {
 
 This example uses the request's context to handle timeouts or cancellations of HTTP requests effectively.
 
-By leveraging these features, developers can build robust and efficient web applications using Go's standard library. The enhancements in Go 1.22, such as method-based routing and improved path parameter handling, make the net/http package even more powerful【6†source】【7†source】【8†source】.
+By leveraging these features, developers can build robust and efficient web applications using Go's standard library. The enhancements in Go 1.22, such as method-based routing and improved path parameter handling, make the net/http package even more powerful.
