@@ -12,6 +12,8 @@ Go, fondly referred to as Golang, has steadily grown in popularity over the last
 Some famous projects, written in Go are: Docker, the Caddy Webserver and the Algorand blockchain. 
 Let's dive deeper into this language and see what makes it so popular.
 
+<a href="https://go-book.dev/"><i>Interested in an entire digital book on Go?</i></a>
+
 ## Hello world in Go 
 
 ```go 
