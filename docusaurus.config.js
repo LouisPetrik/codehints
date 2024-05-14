@@ -67,11 +67,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        // experimental:
-        gtag: {
-          trackingID: 'G-JX2QYMM688',
-          anonymizeIP: true,
-        },
       }),
     ],
   ],
@@ -170,6 +165,16 @@ const config = {
     ],
 
     '@docusaurus/theme-mermaid',
+  ],
+  plugins: [
+    [
+      '@dipakparmar/docusaurus-plugin-umami',
+      /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
+      ({
+        websiteID: '4554aeac-b332-4041-9954-25d1a194f8b8', // Required
+        analyticsDomain: 'analytics.eu.umami.is', // Required
+      }),
+    ],
   ],
 }
 
