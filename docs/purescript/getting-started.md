@@ -14,6 +14,12 @@ npm install -g purescript
 npm install -g spago
 ```
 
+For transpiling to JavaScript, we need esbuild locally: 
+  
+```bash
+npm install -g esbuild
+```
+
 Creating a new project:
 (Make sure to first create an empty directory, spago will set up in the current dir)
 

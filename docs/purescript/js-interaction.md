@@ -61,7 +61,7 @@ double n = n * 2
 Now, when running
 
 ```bash
-spago bundle-ap
+spago bundle-app 
 ```
 
 Our PS file will be transcompiled to JavaScript, and stored in /output/Main/index.js, from where we can import functions.
