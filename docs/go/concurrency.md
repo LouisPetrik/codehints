@@ -89,7 +89,7 @@ func countSheep(thing string) {
 }
 ```
 
-countFish is only executed 5 times. Since both function executions are go-routines, but we said that there is only one routine in the code, the wg.done() will decrease the waiting-counter. Therefore, after countFish is done, the main-functions ends, the programm is done - but Sheep is only printed 6 times till then, even though, we want to run it till i <= 10.
+countFish is only executed 5 times. Since both function executions are go-routines, but we said that there is only one routine in the code, the wg.done() will decrease the waiting-counter. Therefore, after countFish is done, the main-functions ends, the programm is done - but Sheep is only printed 6 times till then, even though, we want to run it till i `<=` 10.
 
 To avoid this, we can must count countSheep as a routine in the waiting ones too:
 
