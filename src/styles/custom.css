@@ -1,0 +1,33 @@
+/* CodeHints custom theme - green color scheme */
+:root {
+  --sl-color-accent-low: #1a8870;
+  --sl-color-accent: #2e8555;
+  --sl-color-accent-high: #3cad6e;
+  --sl-color-white: #fff;
+  --sl-color-gray-1: #eceef2;
+  --sl-color-gray-2: #c0c2c7;
+  --sl-color-gray-3: #888b96;
+  --sl-color-gray-4: #545861;
+  --sl-color-gray-5: #353841;
+  --sl-color-gray-6: #24272f;
+  --sl-color-black: #17181c;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #c7ede1;
+  --sl-color-accent: #2e8555;
+  --sl-color-accent-high: #205d3b;
+  --sl-color-white: #17181c;
+  --sl-color-gray-1: #24272f;
+  --sl-color-gray-2: #353841;
+  --sl-color-gray-3: #545861;
+  --sl-color-gray-4: #888b96;
+  --sl-color-gray-5: #c0c2c7;
+  --sl-color-gray-6: #eceef2;
+  --sl-color-black: #fff;
+}
+
+/* KaTeX styling */
+.katex {
+  font-size: 1.1em;
+}
