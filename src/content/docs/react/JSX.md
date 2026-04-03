@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# React JSX
+
 
 React JSX is a powerful syntax extension for JavaScript, used with the React library to write UI components. It may look like HTML in your JavaScript, but it's much more than that. JSX provides syntactic sugar for `React.createElement()` function calls, making it easier and cleaner to define your components.
 

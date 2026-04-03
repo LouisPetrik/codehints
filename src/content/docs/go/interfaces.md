@@ -2,7 +2,7 @@
 title: Interfaces in Go
 --- 
 
-# Interfaces in Go 
+
 
 Go interfaces offer a powerful tool for promoting abstraction, code reusability, and modularity. They define a set of method signatures that different types can implement, enabling you to treat objects with similar behaviors uniformly.
 

@@ -2,7 +2,7 @@
 title: Selectors
 ---
 
-# CSS Selectors Cheat Sheet
+
 
 CSS selectors are powerful tools in web development that allow developers to select and manipulate HTML elements. Each different type of CSS selector gives developers a different way to target and manipulate elements on a webpage.
 

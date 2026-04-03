@@ -2,7 +2,7 @@
 title: JavaScript Promises
 ---
 
-# JavaScript Promises Cheat Sheet
+
 
 JavaScript Promises are a robust way to handle asynchronous operations in your code. They help manage tasks that might not complete immediately, like fetching data from a server. Promises make it easier to reason about and write clean, maintainable code.
 

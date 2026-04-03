@@ -2,7 +2,7 @@
 title: CSS Units
 --- 
 
-# CSS Units
+
 
 CSS units are fundamental to any web design task. They allow designers and developers to specify the sizes of various elements on a webpage. They can be categorized into two broad types: absolute and relative units. Understanding the difference between these two is crucial for creating responsive designs that look good on any device. Here, we will delve into the specifics of CSS units and their application.
 

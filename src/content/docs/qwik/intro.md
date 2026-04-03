@@ -5,7 +5,7 @@ sidebar:
 slug: category/qwik
 ---
 
-# What is Qwik?
+
 
 Qwik is a all-new front-end framework, with an new approach for creating and updating dynamic sites.
 THe framework can indeed be compared to React, Vue, Svelte and others, but only regarding the possibilites.

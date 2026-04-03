@@ -2,7 +2,7 @@
 title: Lists in ReScript
 --- 
 
-# Lists in ReScript
+
 
 When speaking about "lists" in the context of ReScript, linked lists are meant.
 But how do they differ to arrays? First of all, linked lists consists of elements, linked to each other. 

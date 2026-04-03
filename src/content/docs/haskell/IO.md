@@ -2,7 +2,7 @@
 title: Input and Output in Haskell
 ---
 
-# In and output
+
 
 When initialising records for example, you might have noticed that you are unable to print
 them easily in GHCI. There is a simple solution to that. Derive Show so Haskell will know how to actually print your values:

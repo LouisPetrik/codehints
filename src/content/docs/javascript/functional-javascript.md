@@ -3,7 +3,7 @@ title: Functional JavaScript
 --- 
 
 
-# Functional JavaScript Cheat Sheet
+
 
 ## Pure Functions
 Pure functions are functions that always produce the same output for the same input and have no side effects. They rely only on their input parameters and return a value without modifying any external state.

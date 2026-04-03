@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# Getting started with Go
+
 
 ## Installing Go
 

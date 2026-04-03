@@ -4,7 +4,7 @@ sidebar:
   order: 3
 ---
 
-# React's useState hook
+
 
 The useState hook enables us to set state for our component.
 It serves as the replacement called just "state" in class-based components.

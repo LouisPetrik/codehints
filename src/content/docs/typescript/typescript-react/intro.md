@@ -3,7 +3,7 @@ title: Getting Started with TypeScript in React
 slug: category/typescript-react
 ---
 
-# Getting started with TypeScript in React
+
 
 TypeScript can be used with React.js, just like JavaScript can and is.
 As TS is a superset of JavaScript, there is, depending on compiler options,

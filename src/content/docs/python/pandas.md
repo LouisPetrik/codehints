@@ -4,7 +4,7 @@ sidebar:
   order: 30
 ---
 
-# Pandas cheat sheet 
+
 
 Pandas is a Python library for working with different data sources. It enables to select and manipulate data, 
 and is primarily used for working with CSV files. 

@@ -4,7 +4,7 @@ sidebar:
   order: 4
 ---
 
-# React's useEffect hook
+
 
 The useEffect hook is the most weird hook available in React. Basically, it is getting called on different type of changes in your DOM. What is driving developers crazy is useEffects 
 tendency to create infinite loops. Thankfully, here is what you need to know about it. But first, some historical context. 

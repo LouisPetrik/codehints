@@ -2,7 +2,7 @@
 title: Python Dictionaries
 ---
 
-# Python Dictionaries
+
 
 Python dictionaries are data structures which store data in key-value pairs. Dictionaries are mutable, meaning that we can add, change, and remove items after the dictionary has been created. Unlike other data structures like lists, dictionaries keep elements unordered. Let's delve deeper into Python dictionaries.
 

@@ -2,7 +2,7 @@
 title: JavaScript Arrays Cheat sheet
 --- 
 
-# JavaScript Arrays Cheat sheet 
+
 
 JavaScript arrays are a type of object used for storing multiple values in a single variable. Arrays are high-level, list-like objects with various built-in methods and properties that make it easy to manipulate and interact with stored data.
 

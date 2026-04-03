@@ -2,7 +2,7 @@
 title: Compiling to WebAssembly with Go
 --- 
 
-# WebAssembly with Go 
+
 
 
 First, create a new directory and navigate into it. Then, create a new file called `main.go` and add the following code to it. 

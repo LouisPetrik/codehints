@@ -6,7 +6,7 @@ slug: category/python
 ---
 
 
-# Introduction to Python
+
 <img src="/python.svg" alt="Python" width="592"/>
 
 

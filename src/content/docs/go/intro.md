@@ -7,7 +7,7 @@ slug: category/go
 
 
 
-# Introduction to Go
+
 
 Go, fondly referred to as Golang, has steadily grown in popularity over the last decade, securing its position among the top programming languages in the tech world today. 
 Some famous projects, written in Go are: Docker, the Caddy Webserver and the Algorand blockchain. 

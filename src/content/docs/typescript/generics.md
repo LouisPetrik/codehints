@@ -8,7 +8,7 @@ sidebar:
   <title>Understanding Generics in TypeScript</title>
 </head>
 
-# Generics in TypeScript
+
 
 Generics enable you to write flexible, reusable code while still maintaining strong typing. They are a foundational aspect of TypeScript and many modern programming languages. 
 

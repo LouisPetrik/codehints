@@ -2,7 +2,7 @@
 title: The useCallback hook in React
 --- 
 
-# React `useCallback` Hook
+
 
 ## Basic Usage
 

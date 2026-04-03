@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# GHCI
+
 GHCI stands for "Glasgow Haskell Compiler". This compiler is the go-to solution for compiling your Haskell code. 
 It can be seen as the pendant to GCC, actually compiling your code to C under the hood. Here is quick tour of running, testing and building your code with GHCI. 
 

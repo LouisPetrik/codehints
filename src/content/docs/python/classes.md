@@ -5,7 +5,7 @@ sidebar:
 ---
 
 
-# Classes in Python
+
 
 Python is an object-oriented programming language and classes are the fundamental building blocks for creating objects. This cheat sheet will walk you through all the basics of classes in Python.
 

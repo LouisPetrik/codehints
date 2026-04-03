@@ -3,7 +3,7 @@ title: Typeclasses in Haskell
 ---
 
 
-# Typeclasses 
+
 
 ```haskell 
 :t (+) 

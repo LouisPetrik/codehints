@@ -2,7 +2,7 @@
 title: Custom Types in PureScript
 ---
 
-# Custom Types
+
 
 Creating data types and re-naming types is powerful. To achieve both things, PureScript offers two keywords:
 Using "Type" we can alias existing types. Using "Data" we can define custom data types.

@@ -2,7 +2,7 @@
 title: Higher-Order Components in React.js
 ---
 
-# React Higher-Order Components (HOCs)
+
 
 React higher-order components, often abbreviated as HOCs, present a unique technique to reuse component logic in React applications. Similar to higher-order functions in JavaScript, these HOCs enable you to augment your existing components with additional properties or behavior.
 

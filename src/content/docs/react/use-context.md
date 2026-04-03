@@ -4,7 +4,7 @@ sidebar:
   order: 5
 ---
 
-# React's useContext hook
+
 
 While useState helps us create states in components, there is one thing left uncovered: Using the same state in multiple components.
 

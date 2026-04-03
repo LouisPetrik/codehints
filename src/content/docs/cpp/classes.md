@@ -2,7 +2,7 @@
 title: Classes in C++
 ---
 
-# Classes
+
 Classes are an optional way of structuring data in C++. They are the integral part of object-oriented programming like we know it from Java. 
 Yet, with optional I mean you are free to use classes and not forced too (not like in Java). 
 

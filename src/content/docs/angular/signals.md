@@ -4,7 +4,7 @@ slug: category/angular/signals
 --- 
 
 
-# Angular Signals Cheat Sheet
+
 
 Angular signals, an exciting feature introduced in Angular v16, offer a new way to make our code more reactive and improve performance by providing better change detection【8†source】.
 

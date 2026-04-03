@@ -5,7 +5,7 @@ sidebar:
 --- 
 
 
-# Forms in React.js
+
 
 Forms are a vital part of any web application and React.js provides powerful tools to handle form-related tasks. Whether it's a simple login form or a complex multi-step registration form, knowing how to create and manage forms in React is essential for any developer working with this library. Let's dive into the intricacies of forms in React.js, looking at how to create them, control them, and handle their submission.
 

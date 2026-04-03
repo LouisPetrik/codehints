@@ -5,7 +5,7 @@ sidebar:
 slug: category/dockerfile
 ---
 
-# Dockerfile Cheat Sheet
+
 
 The Dockerfile is a script that contains a collection of commands and instructions for building a Docker container image. This cheat sheet provides essential keys and commands to help programmers write efficient Dockerfiles.
 

@@ -2,7 +2,7 @@
 title: net/http in Go
 ---
 
-# Go net/http Module
+
 
 The Go net/http module offers a rich set of features for handling HTTP requests and responses in Go applications. Below, I detail key aspects of working with this module in Go version 1.22, providing insights into various functionalities like path parameters, method-based routing, middleware, subrouting, and context handling.
 

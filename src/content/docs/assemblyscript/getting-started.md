@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# Getting started with AssemblyScript
+
 
 AssemblyScript runs completely on the Node.js environment, so make sure you have Node installed (ideally on of the latest version, as it has to support WebAssembly).
 Once you have Node available on your machine, you can get started.

@@ -2,7 +2,7 @@
 title: Arrays and Slices in Go
 ---
 
-# Arrays and Slices in Go
+
 
 Arrays and slices are fundamental data structures in Go used for storing and manipulating ordered sequences of elements. While they share similarities, they have key differences in size and flexibility.
 

@@ -6,7 +6,7 @@ slug: category/rescript
 --- 
 
 
-# Introduction to ReScript
+
 
 ReScript is a programming language, that compiles to JavaScript. The goal is to receive clean and performant JavaScript code, while working with an intuitive language. So, where is the difference to TypeScript? 
 While TypeScript also is a programming language, that compiles to JavaScript, it serves as a superset to it. This means, 

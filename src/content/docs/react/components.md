@@ -4,7 +4,7 @@ sidebar:
   order: 2
 --- 
 
-# Components in React.js
+
 
 React.js is all about components. They are dynamic and reusable and makeup almost all of your UI. But what do dynamic and reusable mean in this context? 
 

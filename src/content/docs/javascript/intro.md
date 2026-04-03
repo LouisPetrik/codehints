@@ -5,7 +5,7 @@ sidebar:
 slug: category/javascript
 ---
 
-# Introduction to JavaScript
+
 
  JavaScript  is a fundamental skill to acquire if you're interested in becoming a web developer. Whether you're a beginner or already have some experience in other languages, this guide will help you get started with JavaScript.
 

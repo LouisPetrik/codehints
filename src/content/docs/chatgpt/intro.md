@@ -5,7 +5,7 @@ sidebar:
 slug: category/chatgpt
 ---
 
-# Introduction to ChatGPT: The Pinnacle of Language Models
+
 
 ## The Core of ChatGPT
 

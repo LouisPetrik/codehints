@@ -5,7 +5,7 @@ sidebar:
 slug: category/webassembly
 ---
 
-# What is WebAssembly?
+
 
 WebAssembly is a binary instruction format like Assembler, running as a stack-based virtual machine in the world of JavaScript.
 WebAssembly enables us to generate extremely fast code based on programming languages like C, C++, Go or Rust for the browser

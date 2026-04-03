@@ -3,7 +3,7 @@ title: Angular Reactive Forms
 slug: category/angular/reactive-forms
 ---
 
-# Angular Reactive Forms Cheat Sheet
+
 
 ## FormControl
 

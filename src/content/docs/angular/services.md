@@ -3,7 +3,7 @@ title: Angular Services
 slug: category/angular/services
 ---
 
-# Angular Services Cheat Sheet
+
 
 ## What are Services?
 Services in Angular are pieces of reusable code with a focused purpose, typically used in many components across an application. They efficiently manage data access, separating it from components, which should focus on presenting data to the user.

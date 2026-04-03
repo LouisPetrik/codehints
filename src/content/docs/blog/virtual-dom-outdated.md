@@ -9,7 +9,7 @@ tags:
   - web
 ---
 
-# Why Virtual DOMs Might be Outdated
+
 
 ## What is a Virtual DOM?
 

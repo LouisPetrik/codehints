@@ -2,7 +2,7 @@
 title: Lists in PureScript
 ---
 
-# Lists 
+
 
 In PureScript it is important to differentiate Lists and Arrays. 
 While Arrays are compiled into JavaScript Arrays when building, Lists are more like our 

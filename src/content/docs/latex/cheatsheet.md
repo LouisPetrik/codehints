@@ -6,7 +6,7 @@ slug: latex/cheat-sheet
 ---
 
 
-# LaTeX Cheat Sheet
+
 
 LaTeX is a typeset used for mathematical writing.
 

@@ -2,7 +2,7 @@
 title: Variables in Rust
 ---
 
-# Variables in Rust 
+
 
 There are different types of variables in Rust and it is important to understand them. 
 Here are the relevant keywords, related to variable declaration (without regarding data types). 

@@ -5,7 +5,7 @@ sidebar:
 ---
 
 
-# Functions in Python 
+
 
 A function in Python is a reusable block of code that performs a specific task. It allows you to break your program into smaller, manageable parts, promoting code reuse and modular programming.
 

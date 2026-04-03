@@ -2,7 +2,7 @@
 title: Loops in Go
 ---
 
-# For Loops
+
 
 For-Loops are the only loops which can be used in Go. There are no for-reach and not even while-loops in Go.
 At first, you might find this weird. Yet, for-loops are used for all cases.

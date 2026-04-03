@@ -2,7 +2,7 @@
 title: Qwik vs. Svelte
 --- 
 
-# **Qwik.js vs. Svelte: A Comprehensive Comparison**
+
 
 In the evolving world of JavaScript, choosing the right framework or library can be a complex task. Two of the prominent names today are **Qwik.js and Svelte**. But how do they differ? And which one might suit your specific needs? Let's dive into a detailed comparison.
 

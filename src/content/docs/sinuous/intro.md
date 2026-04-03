@@ -5,7 +5,7 @@ sidebar:
 slug: category/sinuous
 ---
 
-# Sinuous Cheat Sheet
+
 
 
 Sinuous is a JavaScript library designed to make building user interfaces easier and more enjoyable. It offers several key advantages:

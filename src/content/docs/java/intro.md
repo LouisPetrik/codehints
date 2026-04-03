@@ -11,7 +11,7 @@ slug: category/java
 <br/>
 
 
-# Introduction to Java: A Comprehensive Journey
+
 
 Embark on an introduction to Java - a comprehensive exploration of this versatile language, from the basics and "Hello World" to its use cases, performance, comparisons with other languages like C#, C++, and Kotlin, along with a rich collection of resources. 
 

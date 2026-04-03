@@ -3,7 +3,7 @@ title: Qwik Store
 --- 
 
 
-# Qwik Store
+
 
 Qwik store is an essential feature in the Qwik JavaScript framework that's designed to manage state in an efficient, reactive manner. In this cheat sheet, we'll explore `useStore()`, `useStore()` vs `useSignal()`, and the depth of `useStore()`.
 

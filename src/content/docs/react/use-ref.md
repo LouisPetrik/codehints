@@ -4,7 +4,7 @@ sidebar:
   order: 4
 ---
 
-# React's useRef hook
+
 
 Originally, useRef was used to reference elements in the DOM and it still can be used for it.
 Yet, it also offers a great alternative to useState, as we will see.

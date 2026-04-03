@@ -4,7 +4,7 @@ sidebar:
   order: 3
 ---
 
-# TypeScript Interfaces Cheat Sheet 
+
 
 Programming in TypeScript involves defining and working with different types of data structures and constructs. One such powerful construct in TypeScript is interfaces, which provide a way to define custom types in your code. This cheat sheet will guide you through the essentials of using TypeScript interfaces, ensuring a seamless programming experience.
 

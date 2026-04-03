@@ -2,7 +2,7 @@
 title: Structures in C++
 ---
 
-# Structures 
+
 
 Through structures, multiple values can be grouped together. 
 When providing the name after the curly braces, we have a local structure, which behaves like an instance of an object and cannot be used as a type. 

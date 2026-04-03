@@ -2,7 +2,7 @@
 title: useReducer hook in React
 --- 
 
-# React.js useReducer Hook Cheat Sheet
+
 
 The `useReducer` Hook in React.js is an efficient way to manage complex state logic in your components, especially when the state logic is too intricate for `useState`.
 

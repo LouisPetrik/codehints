@@ -5,7 +5,7 @@ sidebar:
 ---
 
 
-# Python Lists Cheat sheet
+
 
 Lists are data structures, capable of holding multiple elements, even of different types. Compared to arrays, lists are not fixed in size. 
 Lists are the go-to solution for storing sequences of values. A good practise is to keep all elements of the list of the same data type.  

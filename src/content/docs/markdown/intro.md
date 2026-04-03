@@ -6,7 +6,7 @@ slug: category/markdown
 ---
 
 
-# Markdown Cheat Sheet
+
 
 ## Headers
 - `# H1`

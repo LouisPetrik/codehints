@@ -7,7 +7,7 @@ slug: category/styled-components
 
 <img alt="styled-components" src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" height="100px"/>
 
-# React styled-components
+
 
 Styled-components is a library for React that enables you to style your components directly within your JavaScript code. By adopting the best parts of CSS, this approach makes it possible to maintain the separation of concerns and ensures that your styles are scoped to the component, reducing the risk of unwanted side effects.
 

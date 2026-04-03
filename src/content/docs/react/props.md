@@ -5,7 +5,7 @@ sidebar:
 --- 
 
 
-# Props in React.js
+
 
 Props stand for properties, which can be used to define the contents or behaviour of a component. 
 They can be imagined like parameters to a function. Props helps us to write reusable components, as we can fill 

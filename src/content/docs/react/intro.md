@@ -5,7 +5,7 @@ sidebar:
 slug: category/react
 ---
 
-# What is React.js?
+
 
 React is a JavaScript front-end library for creating user interfaces, developed by Facebook in 2013.
 

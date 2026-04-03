@@ -2,7 +2,7 @@
 title: Bindings in Haskell
 ---
 
-# Bindings
+
 
 Bindings can be seen as a replacement for constants in the scope of functions. They don't enable us to do something completely new, but help to make things more clearly, as we can store the result of some expression through a binding.
 

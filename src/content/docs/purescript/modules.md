@@ -2,7 +2,7 @@
 title: Modules in PureScript
 ---
 
-# Modules
+
 
 Modules are the way to split up our code into multiple files. Here is an example of writing a function in
 a file, and importing it in our main-module (Main.purs)

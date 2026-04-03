@@ -2,7 +2,7 @@
 title: Display Attribute in CSS
 --- 
 
-# Display Attributes in CSS
+
 
 Display attributes in CSS provide control over how an element should be presented on the page. In this guide, we will delve into several of these attributes, their definitions, and code examples.
 

@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# Svelte 5 Runes 
+
 
 Svelte 5 introduces a new concept called "runes," which are compiler instructions used to manage reactivity in Svelte applications. These runes are functions that start with a dollar sign and help define reactive states, effects, properties, and more.
 

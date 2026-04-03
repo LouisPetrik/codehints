@@ -3,7 +3,7 @@ title: Vim Cheat Sheet
 slug: category/vim
 --- 
 
-# Vim Cheat Sheet 
+
 
 Vim is a originally terminal-based text editor, created back in the old days. 
 In the old days, folks had one huge problem: The mouse for hovering around on your screen wasn't invented yet. Therefore programmers had to 

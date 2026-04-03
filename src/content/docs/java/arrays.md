@@ -4,7 +4,7 @@ sidebar:
   order: 3
 ---
 
-# Arrays in Java
+
 
 Arrays in Java work very similar to the "original" arrays we know from system-near programming languages like C and C++.
 Therefore, arrays are fixed in size and the size must be defined during declaration.

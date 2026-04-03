@@ -6,7 +6,7 @@ sidebar:
 slug: /
 ---
 
-# Louis' Programming Cheat Sheets 
+
 
 ## Welcome! 
 

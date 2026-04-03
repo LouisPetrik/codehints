@@ -6,7 +6,7 @@ slug: category/angular/template-syntax
 ---
 
 
-# Angular Template Syntax
+
 
 Angular Template Syntax is a powerful tool that allows developers to render dynamic content in their applications. It encompasses various methods to bind data, handle events, and manipulate the DOM in an Angular application.
 

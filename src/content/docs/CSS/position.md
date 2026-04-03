@@ -2,7 +2,7 @@
 title: Position attribute in CSS
 --- 
 
-# Position in CSS
+
 
 The `position` property in CSS is a fundamental aspect of website layout design. It defines how an element is positioned in a layout, allowing the developer to control where and how elements will be displayed on the screen. Five key types of positioning exist: `static`, `relative`, `fixed`, `absolute`, and `sticky`. Each type of positioning offers distinct behaviors that are essential for creating responsive and attractive web designs. Let's examine each in detail.
 

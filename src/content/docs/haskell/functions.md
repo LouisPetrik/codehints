@@ -2,7 +2,7 @@
 title: Functions in Haskell
 ---
 
-# Functions
+
 
 Chapter will be more complete soon. For now, check out the [Functions cheatsheet of PureScript](https://github.com/LouisPetrik/cheatsheet/blob/master/purescript.md#functions-1) as functions work the same way in Haskell.
 

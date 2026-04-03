@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# Types in TypeScript
+
 
 TypeScript is a statically typed superset of JavaScript that enhances the language by adding types. By incorporating types, TypeScript helps catch bugs early, enhances code readability, and makes the development process more predictable. Understanding types in TypeScript is key for any programmer wanting to leverage its power.
 

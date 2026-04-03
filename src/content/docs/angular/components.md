@@ -5,7 +5,7 @@ sidebar:
 slug: category/angular/components
 ---
 
-# Angular Components Cheat Sheet
+
 
 Components are the building blocks of Angular applications. They are responsible for rendering the view and handling user interactions. Let's dive into the essential aspects of Angular components for programmers.
 

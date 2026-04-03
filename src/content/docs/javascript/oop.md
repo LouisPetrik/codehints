@@ -2,7 +2,7 @@
 title: Object-oriented JavaScript
 --- 
 
-# Object-oriented JavaScript
+
 
 JavaScript is a powerful, flexible language that allows for multiple programming paradigms, including procedural, <a href="/javascript/functional-javascript">functional</a> and Object-oriented Programming (OOP). OOP is a style of coding that allows you to create and interact with objects in a structured way. In this cheat sheet, we'll cover key concepts of Object-oriented JavaScript to guide you in applying these techniques to your programming tasks.
 

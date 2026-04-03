@@ -5,7 +5,7 @@ sidebar:
 ---
 
 
-# Numpy cheat sheet 
+
 
 
 Numpy is a Python library for working with arrays and matrices. Selling point of the library is its high performance, as Numpy is based on C. 

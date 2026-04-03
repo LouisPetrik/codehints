@@ -2,7 +2,7 @@
 title: Functions in Go
 ---
 
-# Functions in Go 
+
 
 Since Go is a compiled language, we can write the function that should be executed, after the calling function. No problem. Functions are not forced to return anything. The function you will see the most is the <code>main</code> function. Its name is a reserved keyword and it can therefore only exist once in your project. 
 

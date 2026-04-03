@@ -9,7 +9,7 @@ tags:
   - web
 ---
 
-# The Ultimate Guide To Learning React.js  
+
 
 > This article serves as a broad overview of React.js. For more details, check out the linked pages. 
 

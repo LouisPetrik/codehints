@@ -2,7 +2,7 @@
 title: Datatypes in Java
 --- 
 
-# Java Datatypes
+
 
 In Java, data types are essential as they define the kind of data a variable can hold. There are two types of data types in Java: primitive and non-primitive. This cheat sheet will provide a succinct overview of these types, their usage, casting, operators, operator shorthand, and their memory consumption.
 

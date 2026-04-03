@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-# Getting started
+
 Giving PureScript a try isn't too much of an afford. As PureScript completely runs on top of Node.js, all we need to do is installing the 
 related NPM packages. Once it is installed, we can bootstrap a new project. Finally, we can compile to code to JavaScript. All of this happens on the basis of Node.js. 
 

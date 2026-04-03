@@ -5,7 +5,7 @@ sidebar:
 slug: category/react-query
 ---
 
-# What is react-query?
+
 
 React Query is a library for handling fetching data.
 What sounds so easy, can often be a struggle when doing it with plain React.

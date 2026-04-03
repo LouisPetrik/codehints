@@ -1,7 +1,23 @@
-/node_modules
-/build
-/.docusaurus
-.DS_Store 
-package-lock.json 
-yarn.lock 
-bun.lockb 
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.vscode/
+scripts/
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store

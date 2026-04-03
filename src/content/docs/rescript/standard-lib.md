@@ -2,7 +2,7 @@
 title: Belt, the ReScript Standard Library
 --- 
 
-# Belt, the ReScript Standard Library 
+
 
 ReScript's standard library is named Belt. All the entities are of course available by default, 
 but you can import it, to shorten calling the objects. The library mostly resolves around ReScript's types and all of their functions. 

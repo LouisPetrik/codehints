@@ -2,7 +2,7 @@
 title: Objects in JavaScript
 --- 
 
-# Objects in JavaScript
+
 
 JavaScript objects are containers that store related data and functionality. They contain keys, also known as properties, that are associated with values. Here, we'll cover different ways of creating objects, accessing and modifying their properties, making them immutable or extensible, and more.
 

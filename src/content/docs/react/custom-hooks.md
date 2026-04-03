@@ -2,7 +2,7 @@
 title: Custom Hooks
 ---
 
-# React Custom Hooks
+
 
 React custom hooks are a way to extract, share, and reuse logic that is stateful between different components in your React application. They provide the power to reuse stateful logic without changing your component hierarchy.
 

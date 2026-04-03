@@ -4,7 +4,7 @@ sidebar:
   order: 4
 ---
 
-# Functions in AssemblyScript
+
 
 Functions in AssemblyScript work just like in TypeScript.
 There are only two differences:

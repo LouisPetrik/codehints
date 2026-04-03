@@ -5,7 +5,7 @@ sidebar:
 slug: category/docker-compose
 ---
 
-# Docker Compose Cheat Sheet
+
 
 Docker Compose is a tool for defining and running multi-container Docker applications. It uses a configuration file to provide all the necessary details about the services, networks, and volumes. Let's dive into the essential aspects of Docker Compose for programmers.
 

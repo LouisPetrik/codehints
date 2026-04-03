@@ -2,7 +2,7 @@
 title: Qwik vs. React's JSX
 ---
 
-# Qwik vs. React's JSX
+
 
 While Qwik is based on TSX files, there are a couple differences between
 React syntax and Qwik.

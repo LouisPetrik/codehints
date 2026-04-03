@@ -2,7 +2,7 @@
 title: Input and Output in PureScript
 ---
 
-# IO 
+
 
 To log something in the console, make sure to import the proper package.
 Then, in the main function, we can log like this:

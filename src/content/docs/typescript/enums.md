@@ -6,7 +6,7 @@ title: Enums
  <title>Understanding Enums in TypeScript</title>
 </head>
 
-# Enums in TypeScript
+
 
 Enums or enumerations in TypeScript are a feature not traditionally available in JavaScript. They offer a convenient way to work with sets of related constants, improving readability and reducing errors stemming from typing or misspelling strings or numeric literals.
 

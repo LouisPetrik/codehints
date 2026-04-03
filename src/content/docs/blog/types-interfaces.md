@@ -11,7 +11,7 @@ tags:
 
 
 
-# Interfaces vs. Types in TypeScript: Understanding the Key Differences
+
 
 ## Introduction
 

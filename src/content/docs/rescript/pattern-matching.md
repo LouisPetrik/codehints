@@ -3,7 +3,7 @@ title: Pattern Matching in ReScript
 ---
 
 
-# Pattern Matching in ReScript
+
 
 Pattern matching is an alternative to if-else. It is predominantly used in functional programming languages. 
 In the case of ReScript, pattern matching tries to achieve even more. The official documentation states, that pattern matching

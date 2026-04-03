@@ -2,7 +2,7 @@
 title: Next.js
 --- 
 
-# Next.js Basics
+
 
 Next.js is a popular React framework built by Vercel that offers features like server-side rendering and static site generation. In this cheat sheet, we'll explore key topics to help you get started with Next.js, including setting up a project, routing, styling, server actions, and more. Let's dive in!
 

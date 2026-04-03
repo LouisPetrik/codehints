@@ -5,7 +5,7 @@ sidebar:
 slug: category/haskell
 ---
 
-# Introduction to Haskell
+
 
 Haskell is a purely functional programming language created in 1990.
 The language offers C-like performance, but as it is purely functional, also a completely different experience to work with.

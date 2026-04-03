@@ -5,7 +5,7 @@ sidebar:
 slug: category/angular/cli
 --- 
 
-# Angular CLI Cheat Sheet
+
 
 Angular CLI (ng) is a command-line interface for Angular. It allows you to create, build, test, and run Angular applications from the command line. Let's dive into the essential aspects of Angular CLI for programmers.
 

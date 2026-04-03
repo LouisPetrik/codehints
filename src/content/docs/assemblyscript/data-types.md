@@ -10,7 +10,7 @@ Understanding Data Types in AssemblyScript
 </title>
 </head>
 
-# Understanding Data Types in AssemblyScript
+
 
 When learning a new programming language, understanding variables and data types is crucial. AssemblyScript, heavily inspired by TypeScript, presents some unique differences, particularly in its data types. This article will delve into the data types in AssemblyScript, providing a comprehensive guide for both beginners and advanced users.
 

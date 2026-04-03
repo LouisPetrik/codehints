@@ -5,7 +5,7 @@ sidebar:
   order: 4
 ---
 
-# ArrayList in Java
+
 
 Array lists are an alternative to arrays in Java.
 The main difference is that array lists are not fixed in size and do not receive a number of elements to hold.

@@ -5,7 +5,7 @@ sidebar:
 slug: category/c
 ---
 
-# What is C++?
+
 
 C++ is a multiparadigm programming language known for its performance, popularity, and difficulty. 
 Bjarne Stroustrup developed the language in 1979 as an extension of the already famous programming language C. 

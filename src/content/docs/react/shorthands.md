@@ -4,7 +4,7 @@ sidebar:
   order: 6
 ---
 
-# Shorthands in React.js' JSX
+
 
 As shorthands, developers consider a quicker and concise way to write syntax, that solves the same problem.
 A lot of the shorthands we know from pure JavaScript can be used within React's JSX to make our code more readable.
