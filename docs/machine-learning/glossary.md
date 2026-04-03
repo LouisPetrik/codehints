@@ -106,7 +106,7 @@ func = 2 * x + 2
 diff(func, x) # 2
 ```
 
-Outputs $2$ as it is the derivate of $f\colon(x)={2x +2}$
+Outputs $2$ as it is the derivate of `$f\colon(x)={2x +2}$`
 
 
 
@@ -136,7 +136,7 @@ Regularized regression model, which combines both L1 and L2 penalties.
 
 A distance measure for vectors of n dimensions. Often used for the k-nearest neighbour algorithm. 
 
-$d\colon(a,b)=\sqrt{(p_1-q_1)^2 + (p_2-q_2)^2 + ... + (p_i-q_i)^2 + ... + (p_n-q_n)^2}$ 
+`$d\colon(a,b)=\sqrt{(p_1-q_1)^2 + (p_2-q_2)^2 + ... + (p_i-q_i)^2 + ... + (p_n-q_n)^2}$` 
 
 <b>Code example:</b> 
 
@@ -207,7 +207,7 @@ A model for regression.
 
 A function used to convert a real number to a probability score (between 0 and 1). 
 
-$logit(p)=\ln{(\frac{p}{1 - p})}$
+`$logit(p)=\ln{(\frac{p}{1 - p})}$`
 
 Alternatives to this function are: 
 - Softmax
@@ -323,7 +323,7 @@ The most popular programming language for machine learning
 ReLU stands for rectifier linear unit. It is used as an activation function in neural networks, as it maps real numbers onto the range 0 to 1. 
 The definition is quite easy, it simply returns the maximum of (0, x), so x for any x > 0. 
 
-$RELU(x)={\max(0, x)}$ 
+`$RELU(x)={\max(0, x)}$` 
 
 As it maps onto 0 - 1, it does quite the same as Softmax, Logit and Sigmoid. 
 
@@ -347,9 +347,9 @@ provided the model for learning with the train dataset. The lower the RMSE, the 
 A function, that renders the famous S-shaped curve, also known as sigmoid curve. 
 This function maps a real number onto the range 0 to 1, and is therefore often used as a wrapper to receive a probability score. 
 
-$S(x)=\frac{1}{1 + e^{-x}}$ 
+`$S(x)=\frac{1}{1 + e^{-x}}$`
 
-Or: $S(x)={1 - S(-x)}$ 
+Or: `$S(x)={1 - S(-x)}$` 
 
 
 Alternatively, functions like Softmax, Logit and ReLU can be used. 

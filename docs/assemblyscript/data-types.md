@@ -5,7 +5,7 @@ sidebar_position: 3
 
 <head>
 <title>
-Understanding Data Types in AssemblyScript
+        {`Understanding Data Types in AssemblyScript`} 
 </title>
 </head>
 

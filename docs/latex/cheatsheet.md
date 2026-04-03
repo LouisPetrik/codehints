@@ -19,10 +19,10 @@ LaTeX is a typeset used for mathematical writing.
 
 ## Sets 
 
-- Natural numbers $\mathbb{N}$: <code>\mathbb{N}</code>
-- Integers $\mathbb{Z}$: <code>\mathbb{Z}</code>
-- Real numbers $\mathbb{R}$: <code>\mathbb{R}</code>
-- Rational numbers $\mathbb{Q}$: <code>\mathbb{Q}</code>
+- Natural numbers `$\mathbb{N}$`: <code>`\mathbb{N}`</code>
+- Integers `$\mathbb{Z}$`: <code>`\mathbb{Z}`</code>
+- Real numbers `$\mathbb{R}$`: <code>`\mathbb{R}`</code>
+- Rational numbers `$\mathbb{Q}$`: <code>`\mathbb{Q}`</code>
 
 ## Vectors 
 

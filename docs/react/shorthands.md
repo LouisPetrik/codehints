@@ -116,13 +116,10 @@ In React, you can create elements conditionally using logical '&&' operator. Thi
 ```jsx
 const Message = ({ user }) => (
   <div>
-    {user && <p>Welcome, {user.name}</p>}
+    {'{'} user && <p>Welcome, {'{'} user.name {'}'}</p> {'}'}
   </div>
 );
 ```
-
-In this code snippet, the message "Welcome, {user.name}" will only render if `user` is truthy. This removes the need for more verbose if-else conditions.
-
 
 ## Short-circuit Evaluation
 
@@ -132,8 +129,8 @@ Short-circuit evaluation in JavaScript allows for more concise and potentially p
 const UserProfile = ({ user }) => {
   return user && (
     <div>
-      <p>Name: {user.name}</p>
-      <p>Email: {user.email}</p>
+      <p>Name: {'{'} user.name {'}'}</p>
+      <p>Email: {'{'} user.email {'}'}</p>
     </div>
   );
 };
